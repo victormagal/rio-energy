@@ -1,5 +1,5 @@
 import './App.css';
-
+import Footer from './components/Footer';
 import BtnGroup from './components/Button';
 
 function App() {
@@ -9,8 +9,9 @@ function App() {
   }
 
   return (
+
     <div className="App">
-      <BtnGroup
+      {/* <BtnGroup
         btnButtons={[
           "Ver Nosso Impacto",
           // "Saiba mais",
@@ -22,8 +23,11 @@ function App() {
           // "Vamos conversar"
         ]}
         btnClick={printBtnLabel}
-      />
+      /> */}
+      <Footer/>
+
     </div>
+    
   );
 }
 
