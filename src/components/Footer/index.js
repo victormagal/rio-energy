@@ -3,26 +3,33 @@ import React from 'react';
 const Footer = () => {
   return (
     <>
-      <footer className="footer">
-        <div img="" alt="Logo Rio Energy Footer"></div>
-        <h3>Vamos conversar?</h3>
-
-        <div className="footer__social">
-          <a href="http://">LinkedIn</a>
-          <a href="http://">Facebook</a>
+      <footer class="w-full bg-gray-900 text-white">
+        <div class="text-center">
+          <img class="box-border h-20 w-20 border-2 inline-block" img="" alt="Logo Rio Energy Footer"/>
+          <h3  class="text-center text-green-light p-6">Vamos conversar?</h3>
+          <div class="box-border h-30 w-60 p-4 border-4 mx-8  inline-block"></div>
         </div>
 
-        <p className="footer__copyright">Rio Energy® Todos os direitos reservados</p>
-        <p className="footer__infor">Desenvolvido pela AC</p>
+        <div class="flex justify-between">
+          <ul class="flex justify-around">
+            <li><a href="http://">LinkedIn</a></li>
+            <li><a href="http://">Facebook</a></li>
+          </ul>
+          <ul class="flex justify-between">
+            <li class="pl-2"><a href="http://">Quem somos</a></li>
+            <li class="pl-2"><a href="http://">Início</a></li>
+            <li class="pl-2"><a href="http://">Nossa energia</a></li>
+            <li class="pl-2"><a href="http://">Nosso impacto</a></li>
+            <li class="pl-2"><a href="http://">Carreira</a></li>
+            <li class="pl-2"><a href="http://">Investidores</a></li>
+            <li class="pl-2"><a href="http://">Contato</a></li>
+          </ul>
+        </div>
 
-        <div className="footer__links">
-          <a href="http://">Início</a>
-          <a href="http://">Quem somos</a>
-          <a href="http://">Nossa energia</a>
-          <a href="http://">Nosso impacto</a>
-          <a href="http://">Carreira</a>
-          <a href="http://">Investidores</a>
-          <a href="http://">Contato</a>
+
+        <div class="h-auto border-1 border flex justify-between">
+          <p class="">Rio Energy® Todos os direitos reservados</p>
+          <p class="">Desenvolvido pela AC</p>
         </div>
 
       </footer>
