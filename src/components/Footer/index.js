@@ -1,35 +1,38 @@
 import React from 'react';
+import Button from '../Button';
 
 const Footer = () => {
   return (
     <>
-      <footer class="w-full bg-gray-900 text-white">
-        <div class="text-center">
-          <img class="box-border h-20 w-20 border-2 inline-block" img="" alt="Logo Rio Energy Footer"/>
-          <h3  class="text-center text-green-light p-6">Vamos conversar?</h3>
-          <div class="box-border h-30 w-60 p-4 border-4 mx-8  inline-block"></div>
+      <footer className="w-full bg-dark text-white">
+
+        <div className="xl:container mx-auto text-center border-2 border-green-light">
+          <img className="box-border h-20 w-20 border-2 inline-block" img="" alt="Logo Rio Energy Footer"/>
+          <h3  className="text-center text-green-light p-6 font-sans text-4xl md:text-5xl">Vamos conversar?</h3>
+          <div className="box-border h-30 w-60 p-4 border-4 mx-8  inline-block"></div>
         </div>
 
-        <div class="flex justify-between">
-          <ul class="flex justify-around">
-            <li><a href="http://">LinkedIn</a></li>
-            <li><a href="http://">Facebook</a></li>
+        <nav className="xl:container mx-auto flex flex-col-reverse md:flex-row md:justify-between border-1 md:px-6 sm:py-2">
+          <ul className="justify-center flex pb-6 md:pb-0 text-sm md:text-base">
+            <li className="pr-6"><a href="http://">LinkedIn</a></li>
+            <li className="pr-6 "><a href="http://">Facebook</a></li>
           </ul>
-          <ul class="flex justify-between">
-            <li class="pl-2"><a href="http://">Quem somos</a></li>
-            <li class="pl-2"><a href="http://">Início</a></li>
-            <li class="pl-2"><a href="http://">Nossa energia</a></li>
-            <li class="pl-2"><a href="http://">Nosso impacto</a></li>
-            <li class="pl-2"><a href="http://">Carreira</a></li>
-            <li class="pl-2"><a href="http://">Investidores</a></li>
-            <li class="pl-2"><a href="http://">Contato</a></li>
+          <ul className="flex-wrap md:flex-nowrap flex justify-center justify-self-center mx-auto md:mx-0 text-base max-w-sm md:max-w-full py-10 md:py-0 text-sm md:text-base">
+            <li className="font-black pr-6"><a href="http://">Quem somos</a></li>
+            <li className="pr-6"><a href="http://">Início</a></li>
+            <li className="pr-6"><a href="http://">Nossa energia</a></li>
+            <li className="pr-6"><a href="http://">Nosso impacto</a></li>
+            <li className="pr-6"><a href="http://">Carreira</a></li>
+            <li className="pr-6"><a href="http://">Investidores</a></li>
+            <li className=""><a href="http://">Contato</a></li>
           </ul>
-        </div>
+        </nav>
 
-
-        <div class="h-auto border-1 border flex justify-between">
-          <p class="">Rio Energy® Todos os direitos reservados</p>
-          <p class="">Desenvolvido pela AC</p>
+        <div className="bg-gray">
+          <div className="xl:container h-auto mx-auto flex justify-between text-gray-mid md:px-6 py-0.5">
+            <p className=""><span className="p">Rio Energy®</span> Todos os direitos reservados</p>
+            <p className="font-black">Desenvolvido pela AC</p>
+          </div>
         </div>
 
       </footer>
