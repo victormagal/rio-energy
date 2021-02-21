@@ -15,7 +15,6 @@ export default function Footer() {
           <img className="box-border h-20 w-20 border-2 inline-block" img="" alt="Logo Rio Energy Footer" />
           <h3 className="text-center text-green-light p-6 font-sans text-4xl md:text-5xl">Vamos conversar?</h3>
           <div className="box-border h-30 w-60 p-4 border-4 mx-8  inline-block">
-
             <Button
               btnButtons={[
                 "Ver Nosso Impacto",
@@ -28,10 +27,7 @@ export default function Footer() {
                 // "Vamos conversar"
               ]}
               btnClick={printBtnLabel} />
-
           </div>
-
-
         </div>
 
         <nav className="xl:container mx-auto flex flex-col-reverse md:flex-row md:justify-between border-1 md:px-6 sm:py-2">

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-const BtnGroup = ({ btnButtons, btnClick }) => {
+export default function BtnGroup ({ btnButtons, btnClick })  {
   const [btnId, setBtnId] = useState()
 
   const handlerClick = (e, id) => {
@@ -25,4 +25,4 @@ const BtnGroup = ({ btnButtons, btnClick }) => {
   );
 };
 
-export default BtnGroup;
+
