@@ -1,4 +1,3 @@
-import { Route } from 'react-router-dom';
 import './App.css';
 
 import Routes from './routes';
@@ -10,7 +9,7 @@ function App() {
     <div className="App">
       <Routes />
     </div>
-    
+
   );
 }
 
