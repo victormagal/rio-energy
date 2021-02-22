@@ -8,6 +8,7 @@ import Impacto from './containers/Impacto';
 import Carreira from './containers/Carreira';
 import Investidores from './containers/Investidores';
 import Complexo from './containers/Complexo';
+import Contato from './containers/Contato';
 
 export default function Routes() {
   return (
@@ -20,6 +21,7 @@ export default function Routes() {
         <Route exact path="/carreira" component={Carreira} />
         <Route exact path="/investidores" component={Investidores} />
         <Route exact path="/complexo" component={Complexo} />
+        <Route exact path="/contato" component={Contato} />
       </Switch>
     </BrowserRouter>
   )
