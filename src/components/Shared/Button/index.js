@@ -16,7 +16,7 @@ export default function BtnGroup ({ btnButtons, btnClick })  {
           key={i}
           name={btnLabel}
           onClick={(e) => handlerClick(e, i)}
-          className={i === btnId ? "customiza btn tela selecionada" : "customiza btn"}
+          className={"h-30 w-60 border-2 rounded-3xl mb-7 border-green-light p-3 inline-block focus:text-green-light"}
         >
           {btnLabel}
         </button>
