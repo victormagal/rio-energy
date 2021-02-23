@@ -51,20 +51,20 @@ export default function Footer() {
             <li className="pr-6"><a href="http://">LinkedIn</a></li>
             <li className="pr-6 "><a href="http://">Facebook</a></li>
           </ul>
-          <ul className="flex-wrap md:flex-nowrap flex justify-center justify-self-center mx-auto md:mx-0 text-base max-w-sm md:max-w-full py-10 md:py-0 text-sm md:text-base">
-            <li className="font-black pr-6"><a href="http://">Quem somos</a></li>
-            <li className="pr-6"><a href="http://">Início</a></li>
-            <li className="pr-6"><a href="http://">Nossa energia</a></li>
-            <li className="pr-6"><a href="http://">Nosso impacto</a></li>
-            <li className="pr-6"><a href="http://">Carreira</a></li>
-            <li className="pr-6"><a href="http://">Investidores</a></li>
+          <ul className="flex-wrap md:flex-nowrap flex justify-center justify-self-center mx-auto md:mx-0 max-w-sm md:max-w-full py-10 md:py-0 text-sm md:text-base">
+            <li className="mr-6 hover:border-b-2 hover:border-green-light"><a href="http://">Quem somos</a></li>
+            <li className="mr-6 "><a href="http://">Início</a></li>
+            <li className="mr-6"><a href="http://">Nossa energia</a></li>
+            <li className="mr-6"><a href="http://">Nosso impacto</a></li>
+            <li className="mr-6"><a href="http://">Carreira</a></li>
+            <li className="mr-6"><a href="http://">Investidores</a></li>
             <li className=""><a href="http://">Contato</a></li>
           </ul>
         </nav>
 
-        <div className="blend-screen bg-dark">
+        <div className="blend-screen bg-dark py-3 md:py-0">
           <div className="xl:container h-auto mx-auto flex justify-between text-gray-mid md:px-6 py-0.5">
-            <p className=""><span className="p">Rio Energy®</span> Todos os direitos reservados</p>
+            <p className=""><span className="">Rio Energy®</span> Todos os direitos reservados</p>
             <p className="font-black">Desenvolvido pela AC</p>
           </div>
         </div>
