@@ -10,9 +10,9 @@
       /* font-weight: 400; */
       src: url('assets/fonts/source-sans-pro-regular.woff') format("woff");
     }
-    /* @font-face {
-      font-family: Degular;
-      font-weight: 500;
-      src: url(/assets/fonts/degular.woff) format("woff");
-    } */
+    @font-face {
+      font-family: 'Degular';
+      /* font-weight: 500; */
+      src: url('assets/fonts/degular-bold.woff') format("woff");
+    }
 }
