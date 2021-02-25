@@ -1,5 +1,8 @@
 import React from 'react'
 
+import Title from './title'
+import info from './info'
+
 export default function Header() {
   return (
     <div>
@@ -7,7 +10,10 @@ export default function Header() {
         <div className="logo">
           <img src="logo_header.svg" alt="" className="inline-block fill-current text-green-light mt-7 logo w-auto h-auto"/>
     x     <div>
-            <h3>Rio Energy.Por um futuro mais limpo</h3>
+            <h3><Title
+          titulo={info[0].titulo}
+          subtitulo={info[0].subtitulo}
+        /></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
