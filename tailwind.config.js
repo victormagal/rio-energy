@@ -28,8 +28,8 @@ module.exports = {
     // fill: theme => theme('colors'),
 
     fontFamily: {
-      sans: ['Source Sans Pro'],
-      // serif: ['Degular', 'serif'],
+      sans: ['Source Sans Pro','sans'],
+      serif: ['Degular', 'serif'],
     },
 
   },
@@ -53,6 +53,7 @@ module.exports = {
     'lg': '.5rem',
     'full': '9999px',
   },
-
-
+  corePlugins: {
+    ringColor: false,
+   },
 }
