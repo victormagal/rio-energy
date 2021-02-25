@@ -14,9 +14,9 @@ export default function Header() {
       </div>
 
       <div className="menu">
-      <button className="menu">X</button>
+        <button className="menu">X</button>
 
-      <button className="fale-conosco">...</button>
+        <button className="fale-conosco">...</button>
 
     </div>
     </div>
