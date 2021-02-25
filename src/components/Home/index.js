@@ -3,10 +3,12 @@ import React from 'react'
 import Footer from '../Shared/Footer'
 import Header from '../Shared/Header'
 import CardImage from '../Shared/CardImage'
+import CardList from '../Shared/CardList'
 
 export default function Home() {
   return (
     <div>
+      <CardList />
       <Header />
       <CardImage />
       <div className="card-duplo xl:container mx-auto border-2 border-green-light grid grid-rows-1 md:grid-cols-2">
