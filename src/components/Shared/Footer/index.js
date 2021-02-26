@@ -33,6 +33,7 @@ export default function Footer() {
             <path d="M51.6336 39.7504L46.3422 37.3616C46.1549 37.2835 46.0769 37.0493 46.1549 36.862C46.592 35.8472 46.9198 34.7855 47.1539 33.7082C47.2007 33.5052 47.388 33.3803 47.5909 33.4116L52.9135 34.442C53.1165 34.4888 53.3194 34.3483 53.3662 34.1454C53.5067 33.3335 53.6159 32.5216 53.6784 31.6942C53.694 31.4912 53.8657 31.3351 54.0842 31.3351L59.5941 31.6473C59.797 31.6629 59.9687 31.8347 59.9531 32.0532C59.8126 34.1141 59.4536 36.1438 58.8917 38.1422C58.8293 38.3452 58.6264 38.4545 58.4234 38.4077L53.4911 36.9557C53.2881 36.8932 53.0852 37.0025 53.0228 37.2055C52.7731 38.0017 52.4765 38.798 52.1487 39.563C52.0551 39.7504 51.8209 39.844 51.6336 39.7504Z" />
           </svg>
 
+<<<<<<< HEAD
           <h3 className="text-center text-green-light p-6 font-sans text-4xl md:text-5xl">Vamos conversar?</h3>
           <Button className=""
             btnButtons={[
@@ -46,13 +47,29 @@ export default function Footer() {
               // "Vamos conversar"
             ]}
             btnClick={printBtnLabel} />
+=======
+          <h3 className="text-center text-green-light p-6 font-serif text-4xl md:text-5xl">Vamos conversar?</h3>
+            <Button className=""
+              btnButtons={[
+                // "Ver Nosso Impacto",
+                // "Saiba mais",
+                "Fale conosco",
+                // "Ver Nosso Impacto",
+                // "Ver Nossa Energia",
+                // "Ver oportunidades",
+                // "Ver RI",
+                // "Vamos conversar"
+              ]}
+              btnClick={printBtnLabel} />
+>>>>>>> 01a3e1beb6ed18785ab7f2f15d2f3791537bb205
         </div>
 
         <nav className="xl:container mx-auto flex flex-col-reverse md:flex-row md:justify-between border-1 md:px-6 sm:py-2">
-          <ul className="justify-center flex pb-6 md:pb-0 text-sm md:text-base">
+          <ul className="justify-center flex pb-6 md:pb-0 text-sm md:text-base font-serif">
             <li className="pr-6"><a href="http://">LinkedIn</a></li>
             <li className="pr-6 "><a href="http://">Facebook</a></li>
           </ul>
+<<<<<<< HEAD
           <ul className="flex-wrap md:flex-nowrap flex justify-center justify-self-center mx-auto md:mx-0 max-w-sm md:max-w-full py-10 md:py-0 text-sm md:text-base">
             <Link to="/quemsomos" className="mr-6 hover:border-b-2 hover:border-green-light"><a href="http://">Quem somos</a></Link>
             <Link to="/" className="mr-6 "><a href="http://">Início</a></Link>
@@ -61,10 +78,20 @@ export default function Footer() {
             <Link to="/carreira" className="mr-6"><a href="http://">Carreira</a></Link>
             <Link to="/investidores" className="mr-6"><a href="http://">Investidores</a></Link>
             <Link to="/contato" className=""><a href="http://">Contato</a></Link>
+=======
+          <ul className="flex-wrap md:flex-nowrap flex justify-center justify-self-center mx-auto md:mx-0 max-w-sm md:max-w-full py-10 md:py-0 text-sm md:text-base font-serif font-light">
+            <li className="mr-6 hover:border-b-2 hover:border-green-light"><a href="http://">Quem somos</a></li>
+            <li className="mr-6 "><a href="http://">Início</a></li>
+            <li className="mr-6"><a href="http://">Nossa energia</a></li>
+            <li className="mr-6"><a href="http://">Nosso impacto</a></li>
+            <li className="mr-6"><a href="http://">Carreira</a></li>
+            <li className="mr-6"><a href="http://">Investidores</a></li>
+            <li className=""><a href="http://">Contato</a></li>
+>>>>>>> 01a3e1beb6ed18785ab7f2f15d2f3791537bb205
           </ul>
         </nav>
 
-        <div className="blend-screen bg-dark py-3 md:py-0">
+        <div className="blend-screen bg-dark py-3 md:py-0 font-sans">
           <div className="xl:container h-auto mx-auto flex justify-between text-gray-mid md:px-6 py-0.5">
             <p className=""><span className="">Rio Energy®</span> Todos os direitos reservados</p>
             <p className="font-black">Desenvolvido pela AC</p>
