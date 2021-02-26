@@ -1,16 +1,12 @@
 import React from 'react'
 
 import Footer from '../Shared/Footer'
-import Header from '../Shared/Header'
-import CardImage from '../Shared/CardImage'
-import CardList from '../Shared/CardList'
+import Projetos from '../Shared/Projetos'
 
 export default function Home() {
   return (
     <div>
-      <CardList />
-      <Header />
-      <CardImage />
+      <Projetos />
       <div className="card-duplo xl:container mx-auto border-2 border-green-light grid grid-rows-1 md:grid-cols-2">
         <div className="card">
           <h3>Nossa Energia</h3>
