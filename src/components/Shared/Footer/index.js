@@ -32,7 +32,7 @@ export default function Footer() {
         </svg>
 
           <h3 className="text-center text-green-light p-6 font-serif text-4xl md:text-5xl">Vamos conversar?</h3>
-            <Button className=""
+            <Button className="h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3 inline-block hover:text-white"
               btnButtons={[
                 // "Ver Nosso Impacto",
                 // "Saiba mais",

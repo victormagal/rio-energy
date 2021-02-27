@@ -16,7 +16,7 @@ export default function BtnGroup ({ btnButtons, btnClick })  {
           key={i}
           name={btnLabel}
           onClick={(e) => handlerClick(e, i)}
-          className={"h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3 inline-block hover:text-white"}
+          className={""}
         >
           {btnLabel}
         </button>
