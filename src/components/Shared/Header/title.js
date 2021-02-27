@@ -5,6 +5,10 @@ export default function Title(props) {
     <div>
       <h2 className="titulo"> {props.titulo} </h2>
       <p className="sub-titulo"> {props.subtitulo} </p>
+      <button className="botao-header">
+      {props.botao}
+      </button>
+
     </div>
   )
 }

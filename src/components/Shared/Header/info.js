@@ -1,13 +1,14 @@
 const info = [
   {
     id: 1,
-    titulo: "Rio Energy.Por um futuro mais limpo",
-    subtitulo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    titulo: "Rio Energy.Por um futuro mais limpo"
   },
   {
     id: 2,
     titulo: "Desde 2012 construindo um futuro mais limpo",
-    subtitulo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mauris augue, pulvinar eget cursus in, viverra ac massa. In ut hendrerit mi, a finibus dolor. Pellentesque porttitor cursus nisl elementum sodales. Morbi ultrices nunc ut neque congue dapibus. Nulla condimentum nulla quis tortor dapibus, id lobortis dolor laoreet."
+    subtitulo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mauris augue, pulvinar eget cursus in, viverra ac massa. In ut hendrerit mi, a finibus dolor. Pellentesque porttitor cursus nisl elementum sodales. Morbi ultrices nunc ut neque congue dapibus. Nulla condimentum nulla quis tortor dapibus, id lobortis dolor laoreet.",
+    botao: "Ver nosso impacto"
+
   },
   {
     id: 3,
@@ -16,19 +17,22 @@ const info = [
   },
   {
     id: 4,
-    titulo: "Energia para um futuro sustentável",
+    titulo: "Energia para um futuro sustentável"
   },
   {
     id: 5,
     titulo: "Você também está empenhado em construir um futuro mais limpo? Então, vem!",
+    botao: "Ver oportunidedes"
   },
   {
     id: 6,
     titulo: "Investir na Rio Energy é investir na nossa melhor versão de futuro",
+    botao: "Ver RI"
   },
   {
     id: 7,
     titulo: "Vamos juntos tornar sua operação mais limpa?",
+    botao: "Vamos convesar"
   },
   {
     id: 8,
