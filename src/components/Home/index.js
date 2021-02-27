@@ -1,9 +1,7 @@
 import React from 'react'
 
 import Footer from '../Shared/Footer'
-import Header from '../Shared/Header'
-import CardImage from '../Shared/CardImage'
-import CardList from '../Shared/CardList'
+import Projetos from '../Shared/Projetos'
 
 import Button from '../Shared/Button'
 
@@ -31,7 +29,7 @@ export default function Home() {
         </div>
       </div>
       <div className="quem-somos">
-        
+
       </div>
       <div className="card-duplo xl:container mx-auto grid grid-rows-1 md:grid-cols-2 relative">
       <svg className="absolute" width="1280" height="2169" viewBox="0 0 1280 2169" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ top: '-1500px' }} >
