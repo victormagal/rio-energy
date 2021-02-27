@@ -6,7 +6,7 @@ import info from './info'
 export default function Header() {
   return (
     <div>
-      <div className="header bg-blue-sky-night">
+      <div className="header">
         <div className="logo bg-green-light">
           <img src="logo_header.svg" alt="" className="inline-block fill-current text-green-light mt-7 logo w-auto h-auto"/>
         </div>
