@@ -1,59 +1,50 @@
 import React from 'react'
 
 import Header from '../Shared/Header'
+import Subheader from '../Home/Subheader'
+import Player from '../Home/Player'
 import Button from '../Shared/Button'
 import Subfooter from '../Shared/Subfooter'
 import Footer from '../Shared/Footer'
 
 import impacto from '../../assets/images/nosso_impacto.png'
 import energia from '../../assets/images/nossa_energia.png'
+import quemsomos from '../../assets/images/bg_quemsomos.png'
 
 export default function Home() {
   const printBtnLabel = (e) => {
     console.log(e.target.name);
   }
   return (
-    <div>
+    <>
       <Header />
-      <div className="subheader w-full bg-blue-sky-night">
-        <div className="xl:container mx-auto py-5 px-10 md:py-10 md:px-20  ">
-          <h4 className="text-green-light font-serif text-md md:text-2xl">Atuamos no desenvolvimento,<br/> implantação e operação da energia.</h4>
+      <Subheader />
+      <Player />
 
-          <div className="text-white font-serif text-2xl md:text-6xl	">
-            <h5 className="mb-3 md:mb-5">Desenvolvimento</h5>
-            <h5 className="mb-3 md:mb-5">Implantação</h5>
-            <h5 className="mb-3 md:mb-5">Operação</h5>
-            <h5 className="mb-3 md:mb-5">Comercialização</h5>
+      <div className="quem-somos xl:container mx-auto border  border-green-power ">
+        <div className=" flex">
+          <div className="h-400 flex-shrink-0 object-cover bg-no-repeat w-1/2 bg-center py-40" style={{ backgroundImage: `url('${quemsomos}')` }} >
+          </div>
+          <div className="">
+            <h5 className=" text-green-light font-sans text-md">Quem somos</h5>
+            <h1  className=" text-blue-sky-night font-serif text-6xl py-6">A gente respira energia.</h1>
+            <p  className="font-sans text-xl">Com expertise em projetos renováveis, nosso time é reconhecido pelas entregas de qualidade dentro do orçamento. Somos experientes, engajados, com ampla capacidade de execução e sempre alinhados às melhores práticas ambientais, sociais e de governança.</p>
+            <Button className=" h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3 block hover:text-white"
+                btnButtons={[
+                  // "Ver Nosso Impacto",
+                  "Saiba mais",
+                  // "Fale conosco",
+                  // "Ver Nosso Impacto",
+                  // "Ver Nossa Energia",
+                  // "Ver oportunidades",
+                  // "Ver RI",
+                  // "Vamos conversar"
+                ]}
+                btnClick={printBtnLabel} />
+
           </div>
         </div>
-      </div>
-      <div className="player xl:container mx-auto p-10">
-        <div className="video border rounded-3xl block" style={{ height: '622px'}} >
 
-        </div>
-      </div>
-      <div className="quem-somos xl:container mx-auto grid grid-rows-1 md:grid-cols-12">
-        <div className="col-span-7">
-          imagem
-        </div>
-        <div className="col-span-4">
-          <h5>Qem somos</h5>
-          <h1>Energia que inspira</h1>
-          <p>Com expertise em projetos renováveis, nosso time é reconhecido pelas entregas de qualidade dentro do orçamento. Somos experientes, engajados, com ampla capacidade de execução e sempre alinhados às melhores práticas ambientais, sociais e de governança.</p>
-          <Button className=" h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3 block hover:text-white"
-              btnButtons={[
-                // "Ver Nosso Impacto",
-                "Saiba mais",
-                // "Fale conosco",
-                // "Ver Nosso Impacto",
-                // "Ver Nossa Energia",
-                // "Ver oportunidades",
-                // "Ver RI",
-                // "Vamos conversar"
-              ]}
-              btnClick={printBtnLabel} />
-
-        </div>
       </div>
       <div className="card-duplo xl:container bg-gray-mid mx-auto grid grid-rows-1 md:grid-cols-2 relative">
       {/* <svg className="absolute" width="1280" height="2169" viewBox="0 0 1280 2169" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ top: '-1500px' }} >
@@ -64,7 +55,7 @@ export default function Home() {
           <div className="z-40 w-full h-full px-24 py-32 relative">
             <h3 className=" p-6 pb-0 font-serif text-4xl md:text-5xl">Nossa Energia</h3>
             <span className=" block mb-8"> Conheça nossas soluções e diferenciais para você</span>
-            <Button className=" block h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3  hover:text-white"
+            <Button className="block h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3  hover:text-white"
                 btnButtons={[
                   // "Ver Nosso Impacto",
                   "Saiba mais",
@@ -104,6 +95,6 @@ export default function Home() {
       </div>
       <Subfooter />
       <Footer />
-    </div>
+    </>
   )
 }
