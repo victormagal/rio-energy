@@ -22,13 +22,14 @@ export default function Home() {
       <div className="">
 
       </div>
-      <div className="subheader xl:container mx-auto bg-blue-sky-night py-10 px-20">
-        <div className="text-white font-serif text-6xl		">
-        <h4 className="text-green-light font-serif text-2xl">Atuamos no desenvolvimento,<br/> implantação e operação da energia.</h4>
-          <h5 className="mb-5">Desenvolvimento</h5>
-          <h5 className="mb-5">Implantação</h5>
-          <h5 className="mb-5">Operação</h5>
-          <h5 className="mb-5">Comercialização</h5>
+      <div className="subheader xl:container mx-auto bg-blue-sky-night py-5 px-10 md:py-10 md:px-20">
+      <h4 className="text-green-light font-serif text-md md:text-2xl">Atuamos no desenvolvimento,<br/> implantação e operação da energia.</h4>
+
+        <div className="text-white font-serif text-2xl md:text-6xl	">
+          <h5 className="mb-3 md:mb-5">Desenvolvimento</h5>
+          <h5 className="mb-3 md:mb-5">Implantação</h5>
+          <h5 className="mb-3 md:mb-5">Operação</h5>
+          <h5 className="mb-3 md:mb-5">Comercialização</h5>
         </div>
       </div>
       <div className="player xl:container mx-auto p-10">
