@@ -20,6 +20,6 @@ export default function Header() {
         <button className="menu">X</button>
         <button className="fale-conosco">...</button>
       </div>
-    </div>
+  </div>
   )
 }

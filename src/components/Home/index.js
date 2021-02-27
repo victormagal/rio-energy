@@ -1,7 +1,9 @@
 import React from 'react'
 
 import Footer from '../Shared/Footer'
-import Projetos from '../Shared/Projetos'
+// import Projetos from '../Shared/Projetos'
+import Header from '../Shared/Header'
+
 
 import Button from '../Shared/Button'
 
