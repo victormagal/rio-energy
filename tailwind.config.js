@@ -31,7 +31,6 @@ module.exports = {
       sans: ['Source Sans Pro','sans'],
       serif: ['Degular', 'serif'],
     },
-
   },
   variants: {
     extend: {},
@@ -44,15 +43,6 @@ module.exports = {
     require('tailwindcss-blend-mode')(), // no options to configure
 
   ],
-  spacing: {
-  },
-  borderRadius: {
-    'none': '0',
-    'sm': '.125rem',
-    DEFAULT: '.25rem',
-    'lg': '.5rem',
-    'full': '9999px',
-  },
   corePlugins: {
     ringColor: false,
    },
