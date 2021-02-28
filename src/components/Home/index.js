@@ -1,9 +1,5 @@
 import React from 'react'
 
-<<<<<<< HEAD
-import Footer from '../Shared/Footer'
-=======
->>>>>>> a7548c8a31e6902f23a14a0b81e28e3ffcde47db
 import Header from '../Shared/Header'
 import Subheader from '../Home/Subheader'
 import Player from '../Home/Player'
