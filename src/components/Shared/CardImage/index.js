@@ -12,14 +12,14 @@ export default function Index() {
   }
 
   return (
-    <div>
+    <>
       <div className="carrossel" 
         value={value}
         onChange={onChange}
       />
       <Lideres />
       <Colaboradores />
-    </div>
+    </>
   )
 }
 
