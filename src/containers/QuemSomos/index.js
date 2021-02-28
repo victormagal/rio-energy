@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { default as HomeComponent } from '../../components/Home'
+import { default as HQuemSomosComponent } from '../../components/QuemSomos'
 
 export default function QuemSomos() {
   return (
     <div>
-      <HomeComponent />
+      <HQuemSomosComponent/>
     </div>
   )
 }
