@@ -1,14 +1,11 @@
 import React from 'react'
 
-export default function Title(props) {
+export default function Title({ classes, titulo, subtitulo, botao = null }) {
   return (
     <div>
-      <h2 className="titulo"> {props.titulo} </h2>
-      <p className="sub-titulo"> {props.subtitulo} </p>
-      <button className="botao-header">
-      {props.botao}
-      </button>
-
+      <h2 className="titulo"> {titulo} </h2>
+      {subtitulo && <p className="sub-titulo"> {subtitulo} </p>}
+      {botao && <button className="botao-header">{botao}</button>}
     </div>
   )
 }

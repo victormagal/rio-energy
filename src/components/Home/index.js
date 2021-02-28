@@ -10,6 +10,7 @@ import Footer from '../Shared/Footer'
 import impacto from '../../assets/images/nosso_impacto.png'
 import energia from '../../assets/images/nossa_energia.png'
 import quemsomos from '../../assets/images/bg_quemsomos.png'
+import Title from '../Shared/Header/title'
 
 export default function Home() {
   const printBtnLabel = (e) => {
@@ -17,7 +18,9 @@ export default function Home() {
   }
   return (
     <>
-      <Header />
+      <Header>
+        <Title className="hello" titulo="Rio Energy.Por um futuro mais limpo" />
+      </Header>
       <Subheader />
       <Player />
 

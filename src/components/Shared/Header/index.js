@@ -1,10 +1,8 @@
 import React from 'react'
 
-import Title from './title'
-import info from './info'
 import logo from '../../../assets/images/logo_header.svg'
 
-export default function Header() {
+export default function Header({ children }) {
   return (
     <>
       <div className="header bg-green-light border-4 border-blue-sky-night h-{90}">
@@ -13,7 +11,7 @@ export default function Header() {
             <img src={logo} alt="" className="inline-block fill-current text-white mt-7 logo w-auto h-auto"/>
           </div>
           <div>
-            <Title className="hello" titulo={info[0].titulo} subtitulo={info[0].subtitulo} />
+            {children}
           </div>
         </div>
 
