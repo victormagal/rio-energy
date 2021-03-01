@@ -1,9 +1,30 @@
 import React from 'react'
 
-import Footer from '../Shared/Footer';
-import CardList from '../Shared/CardList';
-import CardImage from '../Shared/CardImage';
-import america from '../../assets/images/america.png';
+import Footer from '../Shared/Footer'
+import CardList from '../Shared/CardList'
+import ListImageProfile from '../Shared/ListImageProfile'
+import america from '../../assets/images/america.png'
+
+const profileImages = [
+  {
+    name: 'Ramon',
+    role: 'Fullstack',
+    linkedin: 'ramonornela',
+    image: 'http://localhost:3000/ceo.png',
+  },
+  {
+    name: 'Antonio Junior',
+    role: 'Full Stack',
+    linkedin: 'antoniojunior',
+    image: 'http://localhost:3000/ceo.png',
+  },
+  {
+    name: 'Zimmi',
+    role: 'Fullstack',
+    linkedin: 'irmaodojore',
+    image: 'http://localhost:3000/ceo.png',
+  },
+];
 
 export default function QuemSomos() {
 
@@ -11,8 +32,8 @@ export default function QuemSomos() {
 
   return (
     <div>
-      
-      <CardImage />
+      <div className="title">Nossos líderes em energia</div>
+      <ListImageProfile list={profileImages} />
       <CardList />
       <div className="subfooter w-auto xl:container font-sans mx-auto my-4 text-center">
         <h3 className="text-4xl	text-blue-sky-night font-bold my-6 break-words">Quem joga limpo com a gente</h3>
