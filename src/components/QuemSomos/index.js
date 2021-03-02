@@ -7,21 +7,21 @@ import america from '../../assets/images/america.png'
 
 const profileImages = [
   {
-    name: 'Ramon',
-    role: 'Fullstack',
-    linkedin: 'ramonornela',
+    name: 'Marcos Meireles',
+    role: 'CEO',
+    linkedin: 'example',
     image: 'http://localhost:3000/ceo.png',
   },
   {
-    name: 'Antonio Junior',
-    role: 'Full Stack',
-    linkedin: 'antoniojunior',
+    name: 'Alexandre Nogueira',
+    role: 'DIRETOR CORPORATIVO',
+    linkedin: 'example',
     image: 'http://localhost:3000/ceo.png',
   },
   {
-    name: 'Zimmi',
-    role: 'Fullstack',
-    linkedin: 'irmaodojore',
+    name: 'Roberto Colindres',
+    role: 'CFO, RI e M&A',
+    linkedin: 'example',
     image: 'http://localhost:3000/ceo.png',
   },
 ];
