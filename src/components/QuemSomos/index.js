@@ -4,7 +4,9 @@ import Footer from '../Shared/Footer'
 import CardList from '../Shared/CardList'
 import ListImageProfile from '../Shared/ListImageProfile'
 import ClientsPartners from '../Shared/ClientsPartners'
+import Button from '../Shared/Button'
 import america from '../../assets/images/america.png'
+import subestacao from '../../assets/images/subestacao.png'
 
 const profileImages = [
   {
@@ -30,8 +32,36 @@ const profileImages = [
 const imgs = [america, america];
 
 export default function QuemSomos() {
+  const printBtnLabel = (e) => {
+    console.log(e.target.name);
+  }
+
   return (
     <div>
+      <div className="w-full bg-gradient-to-r bg-green-power from-green-400 to-green-500">
+        <div className="xl:container mx-auto py-5 md:py-10 md:px-80 " >
+
+          <h4 className="text-clear font-serif text-md md:text-2xl">Atuamos na entrega de excêlencia,<br /> com energia para inovar e ir além.</h4>
+          <div className="text-white text-center font-serif mt-12 ">
+            <p className="font-sans text-base">Apaixonados pelo que fazemos, entendemos o tamanho da<br /> responsabilidade. Por isso somos comprometidos e transparentes,<br /> sempre buscando gerar valor para todos à nossa volta.</p>
+            <p className="font-sans text-base mt-4 pb-5">Desenvolvemos soluções em conjunto, instigando todos a pensarem além<br /> e fora da caixa. Prezamos pelos altos padrões de eficiência e estamos<br /> atentos ao mercado para desenvolver novas e melhores soluções.</p>
+            <Button color="blue-sky-night"
+              btnButtons={[
+                // "Ver Nosso Impacto",
+                // "Saiba mais",
+                // "Fale conosco",
+                // "Ver Nosso Impacto",
+                "Nossa Energia",
+                // "Ver oportunidades",
+                // "Ver RI",
+                // "Vamos conversar"
+              ]}
+              btnClick={printBtnLabel} />
+          </div>
+        </div>
+      </div>
+      <div className="bg-cover bg-center py-80" style={{ backgroundImage: `url('${subestacao}')` }}></div>
+
       <h2 className="title text-xl font-bold pb-7 text-blue-sky-night text-center">Nossos líderes em energia</h2>
       <ListImageProfile list={profileImages} />
       <CardList />
