@@ -45,18 +45,18 @@ export default function QuemSomos() {
           <div className="text-white text-center font-serif mt-12 ">
             <p className="font-sans text-base">Apaixonados pelo que fazemos, entendemos o tamanho da<br /> responsabilidade. Por isso somos comprometidos e transparentes,<br /> sempre buscando gerar valor para todos à nossa volta.</p>
             <p className="font-sans text-base mt-4 pb-5">Desenvolvemos soluções em conjunto, instigando todos a pensarem além<br /> e fora da caixa. Prezamos pelos altos padrões de eficiência e estamos<br /> atentos ao mercado para desenvolver novas e melhores soluções.</p>
-            <Button className="h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3 block hover:text-white"
-                btnButtons={[
-                  // "Ver Nosso Impacto",
-                  // "Saiba mais",
-                  // "Fale conosco",
-                  // "Ver Nosso Impacto",
-                  "Nossa Energia",
-                  // "Ver oportunidades",
-                  // "Ver RI",
-                  // "Vamos conversar"
-                ]}
-                btnClick={printBtnLabel} />
+            <Button color="blue-sky-night"
+              btnButtons={[
+                // "Ver Nosso Impacto",
+                // "Saiba mais",
+                // "Fale conosco",
+                // "Ver Nosso Impacto",
+                "Nossa Energia",
+                // "Ver oportunidades",
+                // "Ver RI",
+                // "Vamos conversar"
+              ]}
+              btnClick={printBtnLabel} />
           </div>
         </div>
       </div>
