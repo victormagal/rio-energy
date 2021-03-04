@@ -1,7 +1,6 @@
 image: nikolaik/python-nodejs:python3.5-nodejs10
 
 before_script:
-  - npm install -g yarn
   - yarn
 
 stages:
