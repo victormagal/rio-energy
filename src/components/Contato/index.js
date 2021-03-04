@@ -1,8 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 export default function Contato() {
-
-
   return (
     <>
     <main className="w-full bg-green-light text-white h-auto pt-96 flex justify-center relative overflow-hidden">
