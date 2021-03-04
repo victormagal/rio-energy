@@ -1,6 +1,5 @@
 import React from 'react'
-
-import logo from '../../../assets/images/logo_header.svg'
+import SvgLogo from '../Logo'
 
 export default function Header({ children }) {
   return (
@@ -8,7 +7,7 @@ export default function Header({ children }) {
       <div className="header bg-green-light border-4 border-blue-sky-night h-{90}">
         <div className="md:container mx-auto md:pl-10 h-48 min-h-full">
           <div className="logo">
-            <img src={logo} alt="" className="inline-block fill-current text-white mt-7 logo w-auto h-auto"/>
+            <SvgLogo withText={true} className="inline-block fill-current mt-7 w-auto h-auto" />
           </div>
           <div>
             {children}
