@@ -4,37 +4,37 @@ export default function Menu() {
   return (
     <div className=" h-screen w-screen bg-green-power px-32 py-32">
       <div className="logo-container">
-        {/* <a href="">
+        {/* <a href="#">
           logo
         </a> */}
       </div>
       <div className="icon-close">
-        {/* <a href="">
+        {/* <a href="#">
           icon
         </a> */}
       </div>
       <nav className="grid grid-cols-1 md:grid-cols-2 justify-items-center">
         <ul className=" text-5xl mb-20 text-blue-sky-night font-serif">
           <li className="mb-10">
-            <a href="">Início</a>
+            <a href="/">Início</a>
           </li>
           <li className="mb-10">
-            <a href="">Quem somos</a>
+            <a href="/quemsomos">Quem somos</a>
           </li>
           <li className="mb-10">
-            <a href="">Nossa energia</a>
+            <a href="/energia">Nossa energia</a>
           </li>
           <li className="mb-10">
-            <a href="">Nosso impacto</a>
+            <a href="/impacto">Nosso impacto</a>
           </li>
           <li className="mb-10">
-            <a href="">Carreira</a>
+            <a href="/carreira">Carreira</a>
           </li>
           <li className="mb-10">
-            <a href="">Investidores</a>
+            <a href="/investidores">Investidores</a>
           </li>
           <li className="mb-10">
-            <a href="">Contato</a>
+            <a href="/contato">Contato</a>
           </li>
         </ul>
         <div className="grid grid-cols-1 md:grid-cols-2 self-end justify-self-end text-white">
