@@ -18,8 +18,10 @@
     "react-scripts": "4.0.2"
   },
   "scripts": {
+    "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
     "prepare": "husky install",
     "start": "craco start",
+    "prebuild": "npm run build:style",
     "build": "craco build",
     "test": "craco test",
     "lint": "eslint src/",
