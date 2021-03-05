@@ -12,49 +12,49 @@ export default function SubFooter() {
           <div className="w- border border-green-light rounded-2xl px-6 py-6 mx-auto">
             <h4 className="text-blue-sky-night">Há 1 dia</h4>
             <p className="text-gray-mid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt ex vel massa consequat, eget dapibus risus sollicitudin volutpat.</p>
-            <a className="text-blue-sky-night" href="">Linkedin</a>
+            <a className="text-blue-sky-night" href="#">Linkedin</a>
             <span className="text-blue-sky-night">@rioenergy</span>
           </div>
           <div className="w-4/5 border border-green-light rounded-2xl px-6 py-6 mx-auto">
             <h4 className="text-blue-sky-night">Há 1 dia</h4>
             <p className="text-gray-mid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt ex vel massa consequat, eget dapibus risus sollicitudin volutpat.</p>
-            <a className="text-blue-sky-night" href="">Linkedin</a>
+            <a className="text-blue-sky-night" href="#">Linkedin</a>
             <span className="text-blue-sky-night">@rioenergy</span>
           </div>
           <div className="w-4/5 border border-green-light rounded-2xl px-6 py-6 mx-auto">
             <h4 className="text-blue-sky-night">Há 1 dia</h4>
             <p className="text-gray-mid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt ex vel massa consequat, eget dapibus risus sollicitudin volutpat.</p>
-            <a className="text-blue-sky-night" href="">Linkedin</a>
+            <a className="text-blue-sky-night" href="#">Linkedin</a>
             <span className="text-blue-sky-night">@rioenergy</span>
           </div>
           <div className="w-4/5 border border-green-light rounded-2xl px-6 py-6 mx-auto">
             <h4 className="text-blue-sky-night">Há 1 dia</h4>
             <p className="text-gray-mid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt ex vel massa consequat, eget dapibus risus sollicitudin volutpat.</p>
-            <a className="text-blue-sky-night" href="">Linkedin</a>
+            <a className="text-blue-sky-night" href="#">Linkedin</a>
             <span className="text-blue-sky-night">@rioenergy</span>
           </div>
           <div className="w-4/5 border border-green-light rounded-2xl px-6 py-6 mx-auto">
             <h4 className="text-blue-sky-night">Há 1 dia</h4>
             <p className="text-gray-mid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt ex vel massa consequat, eget dapibus risus sollicitudin volutpat.</p>
-            <a className="text-blue-sky-night" href="">Linkedin</a>
+            <a className="text-blue-sky-night" href="#">Linkedin</a>
             <span className="text-blue-sky-night">@rioenergy</span>
           </div>
           <div className="w-4/5 border border-green-light rounded-2xl px-6 py-6 mx-auto">
             <h4 className="text-blue-sky-night">Há 1 dia</h4>
             <p className="text-gray-mid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt ex vel massa consequat, eget dapibus risus sollicitudin volutpat.</p>
-            <a className="text-blue-sky-night" href="">Linkedin</a>
+            <a className="text-blue-sky-night" href="#">Linkedin</a>
             <span className="text-blue-sky-night">@rioenergy</span>
           </div>
           <div className="w-4/5 border border-green-light rounded-2xl px-6 py-6 mx-auto">
             <h4 className="text-blue-sky-night">Há 1 dia</h4>
             <p className="text-gray-mid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt ex vel massa consequat, eget dapibus risus sollicitudin volutpat.</p>
-            <a className="text-blue-sky-night" href="">Linkedin</a>
+            <a className="text-blue-sky-night" href="#">Linkedin</a>
             <span className="text-blue-sky-night">@rioenergy</span>
           </div>
           <div className="w-4/5 border border-green-light rounded-2xl px-6 py-6 mx-auto">
             <h4 className="text-blue-sky-night">Há 1 dia</h4>
             <p className="text-gray-mid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt ex vel massa consequat, eget dapibus risus sollicitudin volutpat.</p>
-            <a className="text-blue-sky-night" href="">Linkedin</a>
+            <a className="text-blue-sky-night" href="#">Linkedin</a>
             <span className="text-blue-sky-night">@rioenergy</span>
           </div>
         </Scroll>

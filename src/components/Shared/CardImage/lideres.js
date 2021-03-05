@@ -14,7 +14,7 @@ export default function Lideres() {
             <div className="inf">
               <h3 className="nome">Nome</h3>
               <p className="cargo">Cargo</p>
-              <link href="" />
+              <link href="#" />
             </div>
           </>)
         )}

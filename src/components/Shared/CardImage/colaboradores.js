@@ -8,7 +8,7 @@ export default function Colaboradores() {
         <div className="inf">
           <h3 className="Comentario">Comentario</h3>
           <p className="nome">Nome</p>
-          <link rel="stylesheet" href=""/>
+          <link rel="stylesheet" href="#"/>
         </div>
       </div>
     </div>

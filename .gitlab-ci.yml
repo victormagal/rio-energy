@@ -1,0 +1,45 @@
+image: nikolaik/python-nodejs:python3.8-nodejs12
+
+before_script:
+  - yarn
+
+stages:
+  - deploy
+
+dev:
+  stage: deploy
+  script:
+    - npm run build
+    - pip install awscli --upgrade --user
+    - export PATH=~/.local/bin:$PATH
+    - aws configure set region us-east-1 --profile default
+    - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID --profile default
+    - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY --profile default
+    - aws s3 sync build s3://$AWS_S3_BUCKET --delete
+    - echo "DEPLOYED SUCCESSFULLY"
+  environment: dev
+  artifacts:
+    paths:
+      - build
+  only:
+    - dev
+
+prod:
+  stage: deploy
+  script:
+    - npm run deploy
+    - pip install awscli --upgrade --user
+    - export PATH=~/.local/bin:$PATH
+    - aws configure set region us-east-1 --profile default
+    - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID --profile default
+    - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY --profile default
+    - aws s3 sync dist s3://$AWS_S3_BUCKET --delete
+    - aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_DISTRIBUTION_ID --paths '/*'
+    - echo "DEPLOYED SUCCESSFULLY"
+  environment: prod
+  artifacts:
+    paths:
+      - build
+  only:
+    - master
+ 
