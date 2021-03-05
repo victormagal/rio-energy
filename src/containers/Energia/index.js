@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { default as HomeComponent } from '../../components/Home'
+import { default as EnergiaComponent } from '../../components/Energia'
 
 export default function Energia() {
   return (
     <div>
-      <HomeComponent />
+      <EnergiaComponent />
     </div>
   )
 }
