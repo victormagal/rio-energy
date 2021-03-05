@@ -24,6 +24,7 @@
     "test": "craco test",
     "lint": "eslint src/",
     "eject": "react-scripts eject",
+    "lint-staged": "lint-staged",
     "commit": "cz"
   },
   "eslintConfig": {
@@ -31,13 +32,10 @@
       "react-app"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-stage": {
-    "*.js": ["eslint"]
+  "lint-staged": {
+    "*.js": [
+      "eslint"
+    ]
   },
   "browserslist": {
     "production": [

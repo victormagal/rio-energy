@@ -27,22 +27,23 @@ export default function Contato() {
             <div className="w-64 md:w-auto">
               <h4 className="text-4xl font-black font-serif">Lorem ipsum</h4>
               <p className="py-2">Delectus voluptatem ipsam quibusdam nostrum ab cupiditate officiis quia, deleniti sunt nihil</p>
-              <a href="#" className="text-green-power underline">emporibus dolorum</a>
+              <a href="/" className="text-green-power underline">emporibus dolorum</a>
             </div>
             <div className="w-64 md:w-auto">
               <h4 className="text-4xl font-black font-serif">Lorem ipsum</h4>
               <p className="py-2">Delectus voluptatem ipsam quibusdam nostrum ab cupiditate officiis quia, deleniti sunt nihil</p>
-              <a href="#" className="text-green-power underline">emporibus dolorum</a>
+              <a href="/" className="text-green-power underline">emporibus dolorum</a>
             </div>
             <div className="w-64 md:w-auto">
               <h4 className="text-4xl font-black font-serif">Lorem ipsum</h4>
               <p className="py-2">Delectus voluptatem ipsam quibusdam nostrum ab cupiditate officiis quia, deleniti sunt nihil</p>
-              <a href="#" className="text-green-power underline">emporibus dolorum</a>
+              <a href="/" className="text-green-power underline">emporibus dolorum</a>
             </div>
 
           </div>
           <div className="grid grid-rows-1 md:grid-cols-2 py-14">
             <div className=" text-left">
+
               <svg className="inline" width="135" height="135" viewBox="0 0 135 135" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M46.3339 101.038L32.2172 123.811C31.9726 124.196 31.4484 124.337 31.0291 124.091C27.1505 121.604 23.5165 118.696 20.2319 115.473C19.8825 115.157 19.8825 114.597 20.2319 114.246L39.1707 95.3274C39.4852 95.0121 40.0443 95.0121 40.3588 95.3274C42.1059 97.0091 44.0277 98.5506 46.0893 99.882C46.4388 100.127 46.5785 100.618 46.3339 101.038Z" fill="white"/>
                 <path d="M17.507 86.182L29.667 81.5573C30.0863 81.3821 30.5755 81.6274 30.7502 82.0478C31.6937 84.3601 32.8118 86.5673 34.1746 88.6695C34.4192 89.0549 34.3143 89.5804 33.93 89.8256L23.8665 96.6225C23.4822 96.9028 23.3773 97.4283 23.6569 97.8137C24.7052 99.3202 25.8583 100.792 27.0463 102.193C27.3608 102.543 27.3258 103.069 26.9764 103.384L17.7516 111.618C17.4022 111.933 16.8431 111.898 16.5286 111.548C13.4886 108.044 10.833 104.26 8.56175 100.231C8.31715 99.8107 8.49186 99.2852 8.91117 99.075L19.0445 93.5744C19.4638 93.3642 19.6036 92.8387 19.3939 92.4182C18.5203 90.7366 17.7516 89.0549 17.0528 87.3031C16.8431 86.8476 17.0877 86.3571 17.507 86.182Z" fill="white"/>

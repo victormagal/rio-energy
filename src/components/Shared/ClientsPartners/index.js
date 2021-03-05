@@ -9,7 +9,7 @@ export default function ClientsPartners({ imgs }) {
           <div className="flex flex-row">
             {imgs.map((value, i) => (
               <div className="ml-20">
-                <img src={value} className="w-32" key={i} />
+                <img src={value} alt={value} className="w-32" key={i} />
               </div>
             ))}
           </div>

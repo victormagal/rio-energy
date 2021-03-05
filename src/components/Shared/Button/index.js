@@ -1,10 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 export default function BtnGroup ({ btnButtons, btnClick, color, newClasses = [], classes })  {
-  const [btnId, setBtnId] = useState()
-
   const handlerClick = (e, id) => {
-    setBtnId(id)
     btnClick(e)
   }
 
