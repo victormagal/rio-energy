@@ -10,8 +10,6 @@ import Footer from '../Shared/Footer'
 import impacto from '../../assets/images/nosso_impacto.png'
 import energia from '../../assets/images/nossa_energia.png'
 import quemsomos from '../../assets/images/bg_quemsomos.png'
-import svgGeometry from '../../assets/images/home/header-geometry.svg'
-import svgPerson from '../../assets/images/home/header-person.svg'
 import './style.css'
 
 export default function Home() {
@@ -20,15 +18,14 @@ export default function Home() {
   }
   return (
     <>
-      <Header className="bg-green-power" colorLogo="white" middle={
-        <div className="absolute geometry-center">
-          <img src={svgGeometry} />
-        </div>
-      }>
+      <Header
+        className="bg-green-power"
+        colorLogo="white"
+        image={'http://localhost:3000/bg_header_home.png'}
+      >
         <div className="absolute text-header">
           <h2 className="text-blue-sky-night text-5xl font-bold">Rio Energy. <br />Por um futuro <br /> mais limpo</h2>
         </div>
-        <img src={svgPerson} className="absolute inset-0 mx-auto" />
       </Header>
       <Subheader />
       <Player />

@@ -1,22 +1,20 @@
 import React from 'react'
 import SvgLogo from '../Logo'
 
-export default function Header({ image, className, children, colorLogo, middle }) {
-  const style = {
-    height: '35.67rem'
-  };
+export default function Header({ image, className, children, colorLogo }) {
+  const style = {};
 
   if (image) {
     style.backgroundImage = `url('${image}')`
+    style.backgroundPosition = 'center center'
     style.backgroundRepeat = 'no-repeat'
-    style.backgroundSize = 'cover'
   }
 
   return (
     <>
-      <div style={style} className={`header ${className || ''}`}>
-        <div className="md:container mx-auto md:pl-10 h-48 min-h-full">
-          <div className="flex">
+      <div style={{ height: '695px' }} className={`header ${className || ''}`}>
+        <div style={style} className="cover md:container mx-auto md:pl-10 h-48 min-h-full">
+          <div>
             <SvgLogo
               withText={true}
               color={colorLogo}
@@ -25,7 +23,6 @@ export default function Header({ image, className, children, colorLogo, middle }
               viewBox="0 0 500 500"
               className="inline-block fill-current"
             />
-            {middle}
           </div>
           <div>
             {children}
