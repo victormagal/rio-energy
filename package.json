@@ -20,6 +20,7 @@
   "scripts": {
     "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
     "prepare": "husky install",
+    "prestart": "npm run build:style",
     "start": "craco start",
     "prebuild": "npm run build:style",
     "build": "craco build",
