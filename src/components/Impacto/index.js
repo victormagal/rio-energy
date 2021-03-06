@@ -7,7 +7,6 @@ import Button from '../Shared/Button'
 // import Menu from '../Shared/Menu'
 import Subfooter from '../Shared/Subfooter'
 import Footer from '../Shared/Footer'
-import Title from '../Shared/Header/title'
 
 export default function Home() {
   const printBtnLabel = (e) => {
@@ -18,7 +17,7 @@ export default function Home() {
     {/* <Menu>
     </Menu> */}
       <Header>
-        <Title className="hello" titulo="Energia para um futuro sustentável" />
+        { /* <Title className="hello" titulo="Energia para um futuro sustentável" /> */ }
 
       </Header>
       <main className="w-full bg-green-power relative ">
