@@ -1,7 +1,7 @@
 import React from 'react'
 import SvgLogo from '../Logo'
 
-export default function Header({ image, className, classNameChildren, children, colorLogo, middle }) {
+export default function Header({ image, className, children, colorLogo, middle }) {
   const style = {
     height: '35.67rem'
   };
@@ -20,7 +20,10 @@ export default function Header({ image, className, classNameChildren, children, 
             <SvgLogo
               withText={true}
               color={colorLogo}
-              className="inline-block fill-current mt-7 w-auto h-auto"
+              width={120}
+              height={120}
+              viewBox="0 0 500 500"
+              className="inline-block fill-current"
             />
             {middle}
           </div>

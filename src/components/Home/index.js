@@ -20,7 +20,7 @@ export default function Home() {
   }
   return (
     <>
-      <Header className="bg-green-power" middle={
+      <Header className="bg-green-power" colorLogo="white" middle={
         <div className="absolute geometry-center">
           <img src={svgGeometry} />
         </div>
