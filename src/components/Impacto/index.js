@@ -3,10 +3,10 @@ import React from 'react'
 import Header from '../Shared/Header'
 import Button from '../Shared/Button'
 // import Menu from '../Shared/Menu'
+import SmallNumbersInfo from '../Shared/SmallNumbersInfo'
 import Subfooter from '../Shared/Subfooter'
 import Footer from '../Shared/Footer'
 import bg_sub from '../../assets/images/bg_sub_impacto.jpeg'
-// import bg_header from '../../assets/images/bg_header_impacto.jpeg'
 
 export default function Home() {
   const printBtnLabel = (e) => {
@@ -14,11 +14,12 @@ export default function Home() {
   }
   return (
     <>
-    {/* <Menu>
-    </Menu> */}
-      <Header className="">
-      {/* style={{ backgroundImage: `url('${bg_header}')` }} */}
-          <h1 className="text-white font-serif text-6xl text-center">Energia para um futuro sustentável</h1>
+      <Header className="  "
+      colorLogo="white"
+      image='bg_header_impacto.jpeg'
+>
+  <h1 className="text-white font-serif text-3xl md:text-6xl text-center absolute -inset-x-6 -bottom-6 h-16">Energia para um futuro sustentável</h1>
+
       </Header>
       <main className="w-full  relative ">
         <div className="xl:container mx-auto relative grid bg-green-power">
@@ -50,8 +51,19 @@ export default function Home() {
         <h2 className="text-blue-sky-night font-serif text-4xl w-80 m-6 md:ml-24 md:mt-12">Chamada para ODS e Resultados Limpos</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="component flex flex-wrap content-center mx-auto">
-            component numerico
+          <div className="component flex flex-wrap content-center mx-auto ">
+            <SmallNumbersInfo
+            dollar='R$'
+            value='3,1'
+            rest='bi'
+            desc='lorem ipsum dolor color'
+            />
+            <SmallNumbersInfo
+            value='391'
+            rest='MW'
+            desc='lorem ipsum dolor color'
+            />
+
           </div>
           <div className="px-6 md:px-auto">
             <p>
@@ -61,23 +73,33 @@ export default function Home() {
               Veja como alguns de nossos projetos contribuem para o alcance dos ODSs
             </p>
             <div className="tqb border h-44 my-12">
-              componet tab
+              fazer component
             </div>
             <p>
               Para garantir essa “pegada” ESG, a Rio Energy conta com um Sistema de Gestão Integrado onde são publicadas e atualizadas as Políticas de Meio Ambiente e Responsabilidade Social, Saúde e Segurança Ocupacional, Investimentos Sociais, além de planos de gestão e procedimentos operacionais específicos. Esses documentos de gestão auxiliam não apenas nossos funcionários, mas também são incluídos nas condições de contratação de terceiros de forma a replicar nossas diretrizes para toda a cadeia de fornecedores.
             </p>
-            <h3 className="">Por isso, também, implementamos o ciclo PDCA, onde é verificada a performance das empresas contratadas por meio de auditorias.</h3>
+            <h3 className="text-green-power font-serif text-2xl mt-6">Por isso, também, implementamos o ciclo PDCA, onde é verificada a performance das empresas contratadas por meio de auditorias.</h3>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 px-6 md:px-auto">
           <div className=" ">
-            <h6>A performance ESG é avaliada ainda por meio de um conjunto de indicadores específicos (KPIs) definidos pelo nosso time de especialistas e monitorados frequentemente.</h6>
+            <h5 className="font-serif text-xl mb-6">A performance ESG é avaliada ainda por meio de um conjunto de indicadores específicos (KPIs) definidos pelo nosso time de especialistas e monitorados frequentemente.</h5>
             <p>
               Além de tudo, por sermos uma empresa de geração de energia renovável, nossas operações contribuem para a redução da emissão de carbono para a atmosfera, auxiliando o nosso país a cumprir as metas de redução globais definidas pela ONU
             </p>
           </div>
           <div className="component flex flex-wrap content-center mx-auto">
-            component numerico
+          <SmallNumbersInfo
+            dollar='R$'
+            value='3,1'
+            rest='desc'
+            desc='lorem ipsum dolor color'
+            />
+           <SmallNumbersInfo
+            value='391'
+            rest='MW'
+            desc='lorem ipsum dolor color'
+            />
           </div>
         </div>
       </div>
