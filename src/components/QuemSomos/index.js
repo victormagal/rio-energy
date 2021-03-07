@@ -105,10 +105,13 @@ export default function QuemSomos() {
       </div>
 
       <h2 className="title text-xl font-bold pt-16 pb-7 text-blue-sky-night text-center">Nossos líderes em energia</h2>
-      <ListImageProfile list={profileImages} />
 
-      <div className="pt-12 xl:container flex justify-center">
-        <div>
+      <div className="xl:container mx-auto">
+        <ListImageProfile list={profileImages} />
+      </div>
+
+      <div className="pt-12 grid grid-cols-2">
+        <div className="mx-auto">
           <h2 className="text-blue-sky-night text-3xl w-44 text-center">Jeito <span className="text-green-power">Rio Energy</span> de ser</h2>
         </div>
         <div className="pl-10">
