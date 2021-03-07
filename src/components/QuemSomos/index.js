@@ -52,7 +52,7 @@ export default function QuemSomos() {
             <div className="w-96 absolute ml-60 mt-40">
               <h2 className="text-white text-2xl font-bold">Incansáveis na entrega de excelência, com energia para inovar e ir além.</h2>
             </div>
-            <img src={circuloFogo} className="mx-auto" />
+            <img src={circuloFogo} alt="logo" className="mx-auto" />
           </div>
         </div>
         <div className="w-full bg-gradient-to-b from-green-power to-transparent absolute">

@@ -19,9 +19,8 @@ export default function BtnGroup ({ children, colorSvg = 'green-light', href, on
   classes = classes || [...defaultClasses, ...newClasses];
 
   for (const class$ of removeClass) {
-    let index
-    if (index = classes.indexOf(class$) != -1) {
-      classes.splice(index, 1)
+    if (classes.indexOf(class$) !== -1) {
+      classes.splice(classes.indexOf(class$), 1)
     }
   }
 
