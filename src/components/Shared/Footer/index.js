@@ -25,18 +25,7 @@ export default function Footer() {
           />
 
           <h3 className="text-center text-green-light p-6 font-serif text-4xl md:text-5xl">Vamos conversar?</h3>
-            <Button color="green-light"
-              btnButtons={[
-                // "Ver Nosso Impacto",
-                // "Saiba mais",
-                "Fale conosco",
-                // "Ver Nosso Impacto",
-                // "Ver Nossa Energia",
-                // "Ver oportunidades",
-                // "Ver RI",
-                // "Vamos conversar"
-              ]}
-              btnClick={printBtnLabel} />
+          <Button color="green-light">Fale conosco</Button>
         </div>
 
         <nav className="xl:container mx-auto flex flex-col-reverse md:flex-row md:justify-between border-1 md:px-6 sm:py-2">
