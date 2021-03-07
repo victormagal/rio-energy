@@ -6,9 +6,12 @@ import Button from '../Shared/Button'
 import SmallNumbersInfo from '../Shared/SmallNumbersInfo'
 import Subfooter from '../Shared/Subfooter'
 import Footer from '../Shared/Footer'
-import bg_sub from '../../assets/images/bg_sub_impacto.jpeg'
 
 import TabComponent from './TabComponent'
+
+import bg_sub from '../../assets/images/bg_sub_impacto.jpeg'
+
+
 export default function Home() {
   return (
     <>
