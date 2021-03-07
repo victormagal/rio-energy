@@ -6,7 +6,7 @@ import Button from '../Shared/Button'
 import Subfooter from '../Shared/Subfooter'
 import Footer from '../Shared/Footer'
 import bg_sub from '../../assets/images/bg_sub_impacto.jpeg'
-import bg_header from '../../assets/images/bg_header_impacto.jpeg'
+// import bg_header from '../../assets/images/bg_header_impacto.jpeg'
 
 export default function Home() {
   const printBtnLabel = (e) => {
