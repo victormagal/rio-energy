@@ -1,8 +1,6 @@
 import React from 'react'
 
 import Header from '../Shared/Header'
-import Subheader from '../Home/Subheader'
-import Player from '../Home/Player'
 import Button from '../Shared/Button'
 // import Menu from '../Shared/Menu'
 import Subfooter from '../Shared/Subfooter'
