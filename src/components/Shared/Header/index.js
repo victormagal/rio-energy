@@ -1,5 +1,6 @@
 import React from 'react'
 import SvgLogo from '../Logo'
+import Menu from './Menu'
 
 export default function Header({ image, className, children, colorLogo }) {
   const style = {};
@@ -14,7 +15,7 @@ export default function Header({ image, className, children, colorLogo }) {
     <>
       <div style={{ height: '695px' }} className={`header ${className || ''}`}>
         <div style={style} className="cover md:container mx-auto md:pl-10 h-48 min-h-full">
-          <div>
+          <div className="relative">
             <SvgLogo
               withText={true}
               color={colorLogo}
@@ -23,6 +24,7 @@ export default function Header({ image, className, children, colorLogo }) {
               viewBox="0 0 500 500"
               className="inline-block fill-current"
             />
+            <Menu />
           </div>
           <div>
             {children}
