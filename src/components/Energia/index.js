@@ -1,7 +1,7 @@
 import React from 'react'
 
 // import Header from '../Shared/Header'
-import SmallNumbersInfo from '../Shared/SmallNumbersInfo'
+// import SmallNumbersInfo from '../Shared/SmallNumbersInfo'
 import america from '../../assets/images/america.png'
 import ClientsPartners from '../Shared/ClientsPartners'
 import Footer from '../Shared/Footer'
