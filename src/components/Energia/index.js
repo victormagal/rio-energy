@@ -1,7 +1,7 @@
 import React from 'react'
 
 // import Header from '../Shared/Header'
-// import SmallNumbersInfo from '../Shared/SmallNumbersInfo'
+import SmallNumbersInfo from '../Shared/SmallNumbersInfo'
 import america from '../../assets/images/america.png'
 import ClientsPartners from '../Shared/ClientsPartners'
 import Footer from '../Shared/Footer'
@@ -14,6 +14,21 @@ export default function Energia() {
       <div className="xl:container mx-auto pt-40">
 
         <h2 className="text-green-power font-serif text-4xl">Track Record de<br />sucesso nos<br />números e no<br />impacto </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 ">
+          <SmallNumbersInfo
+            type="h1"
+            value="822"
+            rest="MW total"
+            desc="em implantação ou em operação"
+          />
+          <SmallNumbersInfo
+            type="h1"
+            value="2.2"
+            rest="GW total"
+            desc="em desenvolvimento"
+          />
+        </div>
 
       </div>
       <div className="xl:container mx-auto">
