@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function BtnGroup ({ children, href, onClick, color, newClasses = [], classes })  {
+export default function BtnGroup ({ children, colorSvg = 'green-light', href, onClick, color, newClasses = [], classes, removeClass = [] })  {
   const defaultClasses = [
     'h-30',
     'w-60',
@@ -18,6 +18,12 @@ export default function BtnGroup ({ children, href, onClick, color, newClasses =
 
   classes = classes || [...defaultClasses, ...newClasses];
 
+  for (const class$ of removeClass) {
+    if (classes.indexOf(class$) !== -1) {
+      classes.splice(classes.indexOf(class$), 1)
+    }
+  }
+
   let element = React.createElement('button')
   const props = {
     className: classes.join(' '),
@@ -34,7 +40,7 @@ export default function BtnGroup ({ children, href, onClick, color, newClasses =
       {children}
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="inline ml-3 h-5 text-green-light"
+        className={`inline ml-3 h-5 text-${colorSvg}`}
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
