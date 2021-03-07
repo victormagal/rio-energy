@@ -2,7 +2,6 @@ import React from 'react'
 
 import Header from '../Shared/Header'
 import Button from '../Shared/Button'
-// import Menu from '../Shared/Menu'
 import SmallNumbersInfo from '../Shared/SmallNumbersInfo'
 import Subfooter from '../Shared/Subfooter'
 import Footer from '../Shared/Footer'
