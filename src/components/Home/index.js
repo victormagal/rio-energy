@@ -10,8 +10,6 @@ import Footer from '../Shared/Footer'
 import impacto from '../../assets/images/nosso_impacto.png'
 import energia from '../../assets/images/nossa_energia.png'
 import quemsomos from '../../assets/images/bg_quemsomos.png'
-import svgGeometry from '../../assets/images/home/header-geometry.svg'
-import svgPerson from '../../assets/images/home/header-person.svg'
 import './style.css'
 
 export default function Home() {
@@ -20,15 +18,12 @@ export default function Home() {
   }
   return (
     <>
-      <Header className="bg-green-power" colorLogo="white" middle={
-        <div className="absolute geometry-center">
-          <img src={svgGeometry} />
-        </div>
-      }>
-        <div className="absolute text-header">
-          <h2 className="text-blue-sky-night text-5xl font-bold">Rio Energy. <br />Por um futuro <br /> mais limpo</h2>
-        </div>
-        <img src={svgPerson} className="absolute inset-0 mx-auto" />
+      <Header
+        className="bg-green-power"
+        colorLogo="white"
+        image='bg_header_home.png'
+      >
+        <h2 className="text-blue-sky-night pt-36 pl-16 text-5xl font-bold">Rio Energy. <br />Por um futuro <br /> mais limpo</h2>
       </Header>
       <Subheader />
       <Player />
@@ -40,7 +35,7 @@ export default function Home() {
           <div className="">
             <h5 className=" text-green-light font-sans text-md">Quem somos</h5>
             <h1  className=" text-blue-sky-night font-serif text-6xl py-6">A gente respira energia.</h1>
-            <p  className="font-sans text-xl">Com expertise em projetos renováveis, nosso time é reconhecido pelas entregas de qualidade dentro do orçamento. Somos experientes, engajados, com ampla capacidade de execução e sempre alinhados às melhores práticas ambientais, sociais e de governança.</p>
+            <p  className="font-sans text-large">Com expertise em projetos renováveis, nosso time é reconhecido pelas entregas de qualidade dentro do orçamento. Somos experientes, engajados, com ampla capacidade de execução e sempre alinhados às melhores práticas ambientais, sociais e de governança.</p>
             <Button className=" h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3 block hover:text-white"
                 btnButtons={[
                   // "Ver Nosso Impacto",
