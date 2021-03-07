@@ -5,17 +5,19 @@ import Button from '../Shared/Button'
 import SmallNumbersInfo from '../Shared/SmallNumbersInfo'
 import Subfooter from '../Shared/Subfooter'
 import Footer from '../Shared/Footer'
+
+import TabComponent from './TabComponent'
+
 import bg_sub from '../../assets/images/bg_sub_impacto.jpeg'
+
 
 export default function Home() {
   return (
     <>
-      <Header className="  "
-      colorLogo="white"
-      image='bg_header_impacto.jpeg'
->
-  <h1 className="text-white font-serif text-3xl md:text-6xl text-center absolute -inset-x-6 -bottom-6 h-16">Energia para um futuro sustentável</h1>
-
+      <Header className=""
+      colorLogo="#191B87"
+      image='bg_header_impacto.jpeg'>
+        <h1 className="text-white font-serif text-3xl md:text-6xl text-center absolute -inset-x-6 -bottom-6 h-16">Energia para um futuro sustentável</h1>
       </Header>
       <main className="w-full  relative ">
         <div className="xl:container mx-auto relative grid bg-green-power">
@@ -69,7 +71,7 @@ export default function Home() {
               Veja como alguns de nossos projetos contribuem para o alcance dos ODSs
             </p>
             <div className="tqb border h-44 my-12">
-              fazer component
+              <TabComponent />
             </div>
             <p>
               Para garantir essa “pegada” ESG, a Rio Energy conta com um Sistema de Gestão Integrado onde são publicadas e atualizadas as Políticas de Meio Ambiente e Responsabilidade Social, Saúde e Segurança Ocupacional, Investimentos Sociais, além de planos de gestão e procedimentos operacionais específicos. Esses documentos de gestão auxiliam não apenas nossos funcionários, mas também são incluídos nas condições de contratação de terceiros de forma a replicar nossas diretrizes para toda a cadeia de fornecedores.
