@@ -13,9 +13,6 @@ import quemsomos from '../../assets/images/bg_quemsomos.png'
 import './style.css'
 
 export default function Home() {
-  const printBtnLabel = (e) => {
-    console.log(e.target.name);
-  }
   return (
     <>
       <Header

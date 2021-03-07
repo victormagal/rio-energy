@@ -7,6 +7,7 @@ import ClientsPartners from '../Shared/ClientsPartners'
 import Button from '../Shared/Button'
 import america from '../../assets/images/america.png'
 import subestacao from '../../assets/images/subestacao.png'
+import Header from '../Shared/Header'
 
 const profileImages = [
   {
@@ -32,12 +33,14 @@ const profileImages = [
 const imgs = [america, america];
 
 export default function QuemSomos() {
-  const printBtnLabel = (e) => {
-    console.log(e.target.name);
-  }
-
   return (
-    <div>
+    <>
+      <Header
+        className='white'
+        colorLogo='#00D35C'
+      >
+        <h2 className="text-green-power text-5xl font-bold">Desde 2012<br />Construindo um<br />futuro mais limpo</h2>
+      </Header>
       <div className="w-full bg-gradient-to-r bg-green-power from-green-400 to-green-500">
         <div className="xl:container mx-auto py-5 md:py-10 md:px-80 " >
 
@@ -45,7 +48,7 @@ export default function QuemSomos() {
           <div className="text-white text-center font-serif mt-12 ">
             <p className="font-sans text-base">Apaixonados pelo que fazemos, entendemos o tamanho da<br /> responsabilidade. Por isso somos comprometidos e transparentes,<br /> sempre buscando gerar valor para todos à nossa volta.</p>
             <p className="font-sans text-base mt-4 pb-5">Desenvolvemos soluções em conjunto, instigando todos a pensarem além<br /> e fora da caixa. Prezamos pelos altos padrões de eficiência e estamos<br /> atentos ao mercado para desenvolver novas e melhores soluções.</p>
-            <Button color="blue-sky-night">Nossa Energia</Button>
+            <Button href="/energis" color="blue-sky-night">Nossa Energia</Button>
           </div>
         </div>
       </div>
@@ -56,6 +59,6 @@ export default function QuemSomos() {
       <CardList />
       <ClientsPartners imgs={imgs} />
       <Footer />
-    </div>
+    </>
   )
 }

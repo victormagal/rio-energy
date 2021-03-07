@@ -9,9 +9,6 @@ import Footer from '../Shared/Footer'
 import bg_sub from '../../assets/images/bg_sub_impacto.jpeg'
 
 export default function Home() {
-  const printBtnLabel = (e) => {
-    console.log(e.target.name);
-  }
   return (
     <>
       <Header className="  "

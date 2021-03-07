@@ -5,11 +5,6 @@ import Logo from '../Logo'
 import { Link } from 'react-router-dom'
 
 export default function Footer() {
-
-  const printBtnLabel = (e) => {
-    console.log(e.target.name);
-  }
-
   return (
     <>
       <footer className="w-full bg-dark text-white">
