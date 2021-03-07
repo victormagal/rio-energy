@@ -53,7 +53,7 @@ export default function Home() {
           <div className="z-40 w-full h-full px-24 py-32 relative">
             <h3 className=" p-6 pb-0 font-serif text-4xl md:text-5xl">Nossa Energia</h3>
             <span className=" block mb-8">Conheça nossas soluções e diferenciais para você</span>
-            <Button className="block h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3  hover:text-white">
+            <Button href="/energia" className="block h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3  hover:text-white">
               Saiba mais
             </Button>
           </div>
@@ -64,7 +64,7 @@ export default function Home() {
           <div className="z-40 w-full h-full  px-24 py-32 relative">
             <h3 className="p-6 pb-0 font-serif text-4xl md:text-5xl">Nosso impacto</h3>
               <span className="block mb-8"> Saiba como podemos construir o futuro que queremos</span>
-              <Button className="h-30 w-60 border-2 rounded-3xl mb-32 ring-transparent ring-current font-sans border-green-light p-3 block hover:text-white">
+              <Button href="/impacto" className="h-30 w-60 border-2 rounded-3xl mb-32 ring-transparent ring-current font-sans border-green-light p-3 block hover:text-white">
                 Saiba mais
               </Button>
           </div>

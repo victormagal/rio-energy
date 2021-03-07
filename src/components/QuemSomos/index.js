@@ -45,18 +45,7 @@ export default function QuemSomos() {
           <div className="text-white text-center font-serif mt-12 ">
             <p className="font-sans text-base">Apaixonados pelo que fazemos, entendemos o tamanho da<br /> responsabilidade. Por isso somos comprometidos e transparentes,<br /> sempre buscando gerar valor para todos à nossa volta.</p>
             <p className="font-sans text-base mt-4 pb-5">Desenvolvemos soluções em conjunto, instigando todos a pensarem além<br /> e fora da caixa. Prezamos pelos altos padrões de eficiência e estamos<br /> atentos ao mercado para desenvolver novas e melhores soluções.</p>
-            <Button color="blue-sky-night"
-              btnButtons={[
-                // "Ver Nosso Impacto",
-                // "Saiba mais",
-                // "Fale conosco",
-                // "Ver Nosso Impacto",
-                "Nossa Energia",
-                // "Ver oportunidades",
-                // "Ver RI",
-                // "Vamos conversar"
-              ]}
-              btnClick={printBtnLabel} />
+            <Button color="blue-sky-night">Nossa Energia</Button>
           </div>
         </div>
       </div>

@@ -25,7 +25,7 @@ export default function Footer() {
           />
 
           <h3 className="text-center text-green-light p-6 font-serif text-4xl md:text-5xl">Vamos conversar?</h3>
-          <Button color="green-light">Fale conosco</Button>
+          <Button href="/contato" color="green-light">Fale conosco</Button>
         </div>
 
         <nav className="xl:container mx-auto flex flex-col-reverse md:flex-row md:justify-between border-1 md:px-6 sm:py-2">
@@ -35,12 +35,12 @@ export default function Footer() {
           </ul>
           <ul className="flex-wrap md:flex-nowrap flex justify-center justify-self-center mx-auto md:mx-0 max-w-sm md:max-w-full py-10 md:py-0 text-sm md:text-base">
             <Link to="/quemsomos" className="mr-6 hover:border-b-2 hover:border-green-light"><a href="http://">Quem somos</a></Link>
-            <Link to="/" className="mr-6 "><a href="http://">Início</a></Link>
-            <Link to="/energia" className="mr-6"><a href="http://">Nossa energia</a></Link>
-            <Link to="/impacto" className="mr-6"><a href="http://">Nosso impacto</a></Link>
-            <Link to="/carreira" className="mr-6"><a href="http://">Carreira</a></Link>
-            <Link to="/investidores" className="mr-6"><a href="http://">Investidores</a></Link>
-            <Link to="/contato" className=""><a href="http://">Contato</a></Link>
+            <Link to="/" className="mr-6 ">Início</Link>
+            <Link to="/energia" className="mr-6">Nossa energia</Link>
+            <Link to="/impacto" className="mr-6">Nosso impacto</Link>
+            <Link to="/carreira" className="mr-6">Carreira</Link>
+            <Link to="/investidores" className="mr-6">Investidores</Link>
+            <Link to="/contato" className="">Contato</Link>
           </ul>
         </nav>
 

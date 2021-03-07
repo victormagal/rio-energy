@@ -1,10 +1,6 @@
 import React from 'react'
 
-export default function BtnGroup ({ children, btnClick, color, newClasses = [], classes })  {
-  const handlerClick = (e) => {
-    btnClick(e)
-  }
-
+export default function BtnGroup ({ children, href, onClick, color, newClasses = [], classes })  {
   const defaultClasses = [
     'h-30',
     'w-60',
@@ -22,11 +18,19 @@ export default function BtnGroup ({ children, btnClick, color, newClasses = [], 
 
   classes = classes || [...defaultClasses, ...newClasses];
 
+  let element = React.createElement('button')
+  const props = {
+    className: classes.join(' '),
+    onClick,
+  }
+
+  if (href) {
+    props.href = href
+    element = React.createElement('a')
+  }
+
   return (
-    <button
-      className={classes.join(' ')}
-      onClick={handlerClick}
-    >
+    <element.type {...props}>
       {children}
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +41,7 @@ export default function BtnGroup ({ children, btnClick, color, newClasses = [], 
       >
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
       </svg>
-    </button>
+    </element.type>
   );
 };
 
