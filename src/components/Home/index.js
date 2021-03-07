@@ -19,8 +19,8 @@ export default function Home() {
   return (
     <>
       <Header
-        className="bg-green-power"
-        colorLogo="white"
+        className='bg-green-power'
+        colorLogo='white'
         image='bg_header_home.png'
       >
         <h2 className="text-blue-sky-night pt-36 pl-16 text-5xl font-bold">Rio Energy. <br />Por um futuro <br /> mais limpo</h2>
@@ -35,19 +35,10 @@ export default function Home() {
           <div className="">
             <h5 className=" text-green-light font-sans text-md">Quem somos</h5>
             <h1  className=" text-blue-sky-night font-serif text-6xl py-6">A gente respira energia.</h1>
-            <p  className="font-sans text-large">Com expertise em projetos renováveis, nosso time é reconhecido pelas entregas de qualidade dentro do orçamento. Somos experientes, engajados, com ampla capacidade de execução e sempre alinhados às melhores práticas ambientais, sociais e de governança.</p>
-            <Button className=" h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3 block hover:text-white"
-                btnButtons={[
-                  // "Ver Nosso Impacto",
-                  "Saiba mais",
-                  // "Fale conosco",
-                  // "Ver Nosso Impacto",
-                  // "Ver Nossa Energia",
-                  // "Ver oportunidades",
-                  // "Ver RI",
-                  // "Vamos conversar"
-                ]}
-                btnClick={printBtnLabel} />
+            <p  className="font-sans text-lg">Com expertise em projetos renováveis, nosso time é reconhecido pelas entregas de qualidade dentro do orçamento. Somos experientes, engajados, com ampla capacidade de execução e sempre alinhados às melhores práticas ambientais, sociais e de governança.</p>
+            <Button className="h-30 w-60 border-2 rounded-3xl ring-transparent ring-current font-sans border-green-light py-10 block hover:text-white">
+              Saiba mais
+            </Button>
 
           </div>
         </div>
@@ -62,19 +53,9 @@ export default function Home() {
           <div className="z-40 w-full h-full px-24 py-32 relative">
             <h3 className=" p-6 pb-0 font-serif text-4xl md:text-5xl">Nossa Energia</h3>
             <span className=" block mb-8"> Conheça nossas soluções e diferenciais para você</span>
-            <Button className="block h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3  hover:text-white"
-                btnButtons={[
-                  // "Ver Nosso Impacto",
-                  "Saiba mais",
-                  // "Fale conosco",
-                  // "Ver Nosso Impacto",
-                  // "Ver Nossa Energia",
-                  // "Ver oportunidades",
-                  // "Ver RI",
-                  // "Vamos conversar"
-                ]}
-                btnClick={printBtnLabel} />
-
+            <Button className="block h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3  hover:text-white">
+              Saiba mais
+            </Button>
           </div>
           <div className="bg-gray-mid blend-multiply absolute w-full h-full left-0 top-0 z-10  opacity-70"></div>
 
@@ -83,18 +64,9 @@ export default function Home() {
           <div className="z-40 w-full h-full  px-24 py-32 relative">
             <h3 className="p-6 pb-0 font-serif text-4xl md:text-5xl">Nosso impacto</h3>
             <span className="block mb-8"> Saiba como podemos construir o futuro que queremos</span>
-            <Button className=" h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3 block hover:text-white"
-                btnButtons={[
-                  // "Ver Nosso Impacto",
-                  "Saiba mais",
-                  // "Fale conosco",
-                  // "Ver Nosso Impacto",
-                  // "Ver Nossa Energia",
-                  // "Ver oportunidades",
-                  // "Ver RI",
-                  // "Vamos conversar"
-                ]}
-                btnClick={printBtnLabel} />
+            <Button className=" h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3 block hover:text-white">
+              Saiba mais
+            </Button>
             </div>
             <div className="bg-gray-mid blend-multiply absolute w-full h-full left-0 top-0 z-10 opacity-70"></div>
 

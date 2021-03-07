@@ -31,11 +31,7 @@ export default function Home() {
             <p>Do desenvolvimento à operação, a Rio Energy segue o padrão IFC (Performance Standards do IFC) para garantir maior eficiência e desempenho nos temas de impacto socioambiental em todas as fases dos projetos.</p>
             <p>As regiões onde os nossos projetos estão inseridos direciona nossa atenção aos padrões de desempenho 4 – Community, 6- Biodiversidade e 7- Comunidades Tradicionais. É por isso que aplicamos a avaliação de hierarquia para evitar impactos adversos; e a avaliação Habitas Críticos para ter um saldo líquido positivo na conservação da biodiversidade. </p>
             <p>E também elaboramos relatórios de progresso para atestar nosso avanço no impacto positivo. A Rio Energy tem orgulho de participar do Global Compact, comprometida com os 10 princípios associados aos temas de Direitos Humanos, Trabalho, Meio Ambiente e Anticorrupção.</p>
-            <Button color="blue-sky-night text-white mt-10"
-                btnButtons={[
-                  "Ver Nossa Energia",
-                ]}
-            btnClick={printBtnLabel} />
+            <Button color="blue-sky-night text-white mt-10">Ver Nossa Energia</Button>
           </div>
 
         </div>
