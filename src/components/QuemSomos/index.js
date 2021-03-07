@@ -39,7 +39,10 @@ export default function QuemSomos() {
         className='white'
         colorLogo='#00D35C'
       >
-        <h2 className="text-green-power text-5xl font-bold">Desde 2012<br />Construindo um<br />futuro mais limpo</h2>
+        <div className="pl-16">
+          <h2 className="text-green-power text-5xl font-bold">Desde 2012<br />Construindo um<br />futuro mais limpo</h2>
+          <h3 className="text-blue-sky-night w-96 mt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mauris augue, pulvinar eget cursus in, viverra ac massa. In ut hendrerit mi, a finibus dolor. Pellentesque porttitor cursus nisl elementum sodales. Morbi ultrices nunc ut neque congue dapibus. Nulla condimentum nulla quis tortor dapibus, id lobortis dolor laoreet. </h3>
+        </div>
       </Header>
       <div className="w-full bg-gradient-to-r bg-green-power from-green-400 to-green-500">
         <div className="xl:container mx-auto py-5 md:py-10 md:px-80 " >
