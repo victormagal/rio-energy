@@ -18,17 +18,19 @@ export default function Energia() {
           <div className="row-span-3">
             <h5 className="text-green-power">Track Record de<br /> sucesso nos<br /> números e no<br /> impacto</h5>
 
-            <SmallNumbersInfo
+            {/* <SmallNumbersInfo
               dollar="R$"
               value="3,1"
               rest={"bi"}
               desc="em financiamento"
+            /> */}
+
+            <SmallNumbersInfo
+              type="h1"
+              value="822"
+              rest={"MW total"}
+              desc="em implantação ou em operação"
             />
-          </div>
-          <div className="row-span-2 col-span-2">
-            <h6 className="">822</h6>
-            <p className="">MW total</p>
-            <p className="">em implantação ou em operação</p>
           </div>
         </div>
       </div>
