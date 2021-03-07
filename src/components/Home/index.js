@@ -28,9 +28,9 @@ export default function Home() {
       <Subheader />
       <Player />
 
-      <div className="quem-somos xl:container mx-auto border  border-green-power ">
-        <div className=" flex">
-          <div className="h-400 flex-shrink-0 object-cover bg-no-repeat w-1/2 bg-center py-40" style={{ backgroundImage: `url('${quemsomos}')` }} >
+      <div className="quem-somos xl:container mx-auto border border-green-power ">
+        <div className="flex">
+          <div className="image-disclaimer flex-shrink-0 object-cover bg-no-repeat w-1/2 bg-center py-40" style={{ backgroundImage: `url('${quemsomos}')` }} >
           </div>
           <div className="">
             <h5 className=" text-green-light font-sans text-md">Quem somos</h5>
@@ -52,7 +52,7 @@ export default function Home() {
         <div className="card object-cover bg-no-repeat bg-center w-full h-full mx-auto text-white font-sans text-center bg-cover " style={{ backgroundImage: `url('${energia}')` }} >
           <div className="z-40 w-full h-full px-24 py-32 relative">
             <h3 className=" p-6 pb-0 font-serif text-4xl md:text-5xl">Nossa Energia</h3>
-            <span className=" block mb-8"> Conheça nossas soluções e diferenciais para você</span>
+            <span className=" block mb-8">Conheça nossas soluções e diferenciais para você</span>
             <Button className="block h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3  hover:text-white">
               Saiba mais
             </Button>
@@ -63,14 +63,14 @@ export default function Home() {
         <div className="card object-cover bg-no-repeat bg-center w-full h-full mx-auto text-white font-sans text-center bg-cover" style={{ backgroundImage: `url('${impacto}')` }} >
           <div className="z-40 w-full h-full  px-24 py-32 relative">
             <h3 className="p-6 pb-0 font-serif text-4xl md:text-5xl">Nosso impacto</h3>
-            <span className="block mb-8"> Saiba como podemos construir o futuro que queremos</span>
-            <Button className=" h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3 block hover:text-white">
-              Saiba mais
-            </Button>
-            </div>
-            <div className="bg-gray-mid blend-multiply absolute w-full h-full left-0 top-0 z-10 opacity-70"></div>
-
+              <span className="block mb-8"> Saiba como podemos construir o futuro que queremos</span>
+              <Button className="h-30 w-60 border-2 rounded-3xl mb-32 ring-transparent ring-current font-sans border-green-light p-3 block hover:text-white">
+                Saiba mais
+              </Button>
           </div>
+          <div className="bg-gray-mid blend-multiply absolute w-full h-full left-0 top-0 z-10 opacity-70"></div>
+
+        </div>
       </div>
       <Subfooter />
       <Footer />
