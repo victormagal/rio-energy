@@ -10,6 +10,34 @@ import subestacao from '../../assets/images/subestacao.png'
 import circuloFogo from '../../assets/images/circulo_logo.svg'
 import Header from '../Shared/Header'
 
+import imageCardOne from '../../assets/images/ilustracao_1.png'
+import imageCardTwo from '../../assets/images/ilustracao_2.png'
+import imageCardThree from '../../assets/images/ilustracao_3.png'
+import imageCardFour from '../../assets/images/ilustracao_4.png'
+
+const cards = [
+  {
+    img: imageCardOne,
+    title: 'Incansáveis na entrega de excelência',
+    description: 'Apaixonados pelo que fazemos, damos o nosso melhor.',
+  },
+  {
+    img: imageCardTwo,
+    title: 'Parceria para dentro e para fora',
+    description: 'Criamos conexões valiosas com todos que caminham ao nosso lado.',
+  },
+  {
+    img: imageCardThree,
+    title: 'Fazemos com responsabilidade social, econômica e ambiental',
+    description: 'Miramos sempre no futuro sustentável.',
+  },
+  {
+    img: imageCardFour,
+    title: 'Energia para inovar e ir além',
+    description: 'Nosso mindset é voltado para construir o futuro que desejamos.',
+  },
+]
+
 const profileImages = [
   {
     name: 'Marcos Meireles',
@@ -78,7 +106,16 @@ export default function QuemSomos() {
 
       <h2 className="title text-xl font-bold pt-16 pb-7 text-blue-sky-night text-center">Nossos líderes em energia</h2>
       <ListImageProfile list={profileImages} />
-      <CardList />
+
+      <div className="pt-12 xl:container flex justify-center">
+        <div>
+          <h2 className="text-blue-sky-night text-3xl w-44 text-center">Jeito <span className="text-green-power">Rio Energy</span> de ser</h2>
+        </div>
+        <div className="pl-10">
+          <CardList data={cards} />
+        </div>
+      </div>
+
       <ClientsPartners imgs={imgs} />
       <Footer />
     </>
