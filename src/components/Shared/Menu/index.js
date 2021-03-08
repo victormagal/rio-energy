@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Menu() {
   return (
-    <div className=" h-screen w-screen bg-green-power px-32 py-32">
+    <div className=" h-screen fixed w-screen z-10 bg-green-power px-32 py-32">
       <div className="logo-container">
         {/* <a href="#">
           logo

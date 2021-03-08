@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import SvgLogo from '../Logo'
 import Menu from './Menu'
+import MenuComponent from '../Menu'
 
 export default function Header({ image, className, children, colorLogo }) {
   const style = {};
+
+  const [openMenu, setOpenMenu] = useState(false)
+
+  const handleToggleMenu = () => setOpenMenu((previous) => !previous)
 
   if (image) {
     style.backgroundImage = `url('${image}')`
@@ -13,6 +18,7 @@ export default function Header({ image, className, children, colorLogo }) {
 
   return (
     <>
+      {openMenu && <MenuComponent />}
       <div style={{ height: '695px' }} className={`header ${className || ''}`}>
         <div style={style} className="cover md:container mx-auto md:pl-10 h-48 min-h-full">
           <div className="relative">
@@ -24,16 +30,11 @@ export default function Header({ image, className, children, colorLogo }) {
               viewBox="0 0 500 500"
               className="inline-block fill-current"
             />
-            <Menu />
+            <Menu openMenu={handleToggleMenu} />
           </div>
           <div>
             {children}
           </div>
-        </div>
-
-        <div className="menu absolute">
-          <button className="menu">X</button>
-          <button className="fale-conosco">...</button>
         </div>
       </div>
 
