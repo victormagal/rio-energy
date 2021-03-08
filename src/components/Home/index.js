@@ -27,7 +27,7 @@ export default function Home() {
 
       <div className="quem-somos xl:container mx-auto ">
         <div className="grid grid-rows-1 md:grid-cols-12 md:mb-12">
-          <div className="image-disclaimer h-full col-span-7 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url('${quemsomos}')` }} >
+          <div className="image-disclaimer col-span-7 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url('${quemsomos}')` }} >
           </div>
           <div className="col-span-5">
             <h5 className=" text-green-light font-sans text-md">Quem somos</h5>
