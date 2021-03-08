@@ -25,18 +25,21 @@ export default function Home() {
       <Subheader />
       <Player />
 
-      <div className="quem-somos xl:container mx-auto ">
+      <div className="quem-somos w-full mx-auto ">
         <div className="grid grid-rows-1 md:grid-cols-12 md:mb-12">
-          <div className="image-disclaimer col-span-7 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url('${quemsomos}')` }} >
+          <div className="image-disclaimer col-span-7 bg-contain bg-no-repeat bg-left" style={{ backgroundImage: `url('${quemsomos}')`, height:`650px` }} >
           </div>
-          <div className="col-span-5">
-            <h5 className=" text-green-light font-sans text-md">Quem somos</h5>
-            <h1  className=" text-blue-sky-night font-serif text-6xl py-6">A gente respira energia.</h1>
-            <p  className="font-sans text-lg">Com expertise em projetos renováveis, nosso time é reconhecido pelas entregas de qualidade dentro do orçamento. Somos experientes, engajados, com ampla capacidade de execução e sempre alinhados às melhores práticas ambientais, sociais e de governança.</p>
-            {/* <Button className="h-30 w-60 border-2 rounded-3xl ring-transparent ring-current font-sans border-green-light py-10 block hover:text-white">
-              Saiba mais
-            </Button> */}
-            <Button href="/impacto" color="green-power" colorSvg='green-power' newClasses={['text-dark', 'text-center', 'mt-3']}>Saiba mais</Button>
+          <div className="col-span-5 flex items-center">
+            <div className=" mr-12">
+              <h5 className=" text-green-light font-sans text-md">Quem somos</h5>
+              <h1  className=" text-blue-sky-night font-serif text-6xl py-6">A gente respira energia.</h1>
+              <p  className="font-sans text-lg">Com expertise em projetos renováveis, nosso time é reconhecido pelas entregas de qualidade dentro do orçamento. Somos experientes, engajados, com ampla capacidade de execução e sempre alinhados às melhores práticas ambientais, sociais e de governança.</p>
+              {/* <Button className="h-30 w-60 border-2 rounded-3xl ring-transparent ring-current font-sans border-green-light py-10 block hover:text-white">
+                Saiba mais
+              </Button> */}
+              <Button href="/impacto" color="green-power" colorSvg='green-power' newClasses={['text-dark', 'text-center', 'mt-3']}>Saiba mais</Button>
+
+            </div>
           </div>
         </div>
 
