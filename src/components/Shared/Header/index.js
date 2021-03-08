@@ -19,8 +19,8 @@ export default function Header({ image, className, children, colorLogo }) {
   return (
     <>
       {openMenu && <MenuComponent />}
-      <div style={{ height: '695px' }} className={`header ${className || ''}`}>
-        <div style={style} className="cover md:container mx-auto md:pl-10 h-48 min-h-full">
+      <div style={{ height: '695px', ...style }} className={`cover header ${className || ''}`}>
+        <div className="md:container mx-auto md:pl-10 h-48 min-h-full">
           <div className="relative">
             <SvgLogo
               withText={true}
