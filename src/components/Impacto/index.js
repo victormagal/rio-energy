@@ -20,18 +20,15 @@ export default function Home() {
       >
         <h2 className="text-white font-serif font-bold text-7xl text-center">Energia para um futuro sustentável</h2>
       </Header>
-      <main className="w-full  relative ">
+      <main className="w-full relative ">
         <div className="relative grid bg-green-power">
-          <div className="xl:container mx-auto">
-            <h1 className="font-serif text-white text-6xl m-6  md:ml-24 z-10 md:my-12">Atuação e gestão consciente e de alto padrão</h1>
-            <div className="grid grid-cols-1 px-6 md:px-auto md:grid-cols-2">
-              <div className=""></div>
-              <div className="md:mr-24">
+          <div className="xl:container mx-auto py-32">
+            <h1 className="font-serif text-white w-2/4 text-7xl ml-44">Atuação e gestão consciente e de alto padrão</h1>
+            <div className="w-2/4 pl-24 -mt-12 ml-96">
                 <p className="font-sans font-normal text-base text-dark">Por gerarmos energia renovável, nossas operações contribuem para a redução de emissão de carbono, auxiliando nosso país a cumprir as metas globais da ONU.</p>
-                <p className="font-sans font-normal text-base text-dark">Do desenvolvimento à operação, seguimos o Performance Standards do IFC (Padrões de Desempenho de Sustentabilidade Socioambiental) para garantir maior eficiência e desempenho nos temas de impacto socioambiental em todas as fases dos nossos projetos.</p>
-                <p className="font-sans font-normal text-base text-dark">Aplicamos avaliação de hierarquia para evitar impactos adversos, avaliação Habitats Críticos para ter um saldo líquido positivo na conservação da biodiversidade, geramos relatórios de progresso e somos signatários do Pacto Global.</p>
-                <Button href="/energia" color="blue-sky-night text-white" newClasses={['text-xl', 'font-sans', 'font-semibold']}>Ver Nossa Energia</Button>
-              </div>
+                <p className="font-sans font-normal text-base text-dark mt-4">Do desenvolvimento à operação, seguimos o Performance Standards do IFC (Padrões de Desempenho de Sustentabilidade Socioambiental) para garantir maior eficiência e desempenho nos temas de impacto socioambiental em todas as fases dos nossos projetos.</p>
+                <p className="font-sans font-normal text-base text-dark mt-4">Aplicamos avaliação de hierarquia para evitar impactos adversos, avaliação Habitats Críticos para ter um saldo líquido positivo na conservação da biodiversidade, geramos relatórios de progresso e somos signatários do Pacto Global.</p>
+                <Button href="/energia" color="blue-sky-night text-white mt-4" newClasses={['text-xl', 'font-sans', 'font-semibold']}>Ver Nossa Energia</Button>
             </div>
         </div>
 
@@ -47,7 +44,7 @@ export default function Home() {
       </div>
       <div className="xl:container mx-auto relative ">
 
-        <h2 className="text-blue-sky-night font-serif text-4xl w-80 m-6 md:ml-24 md:mt-12">Chamada para ODS e Resultados Limpos</h2>
+        <h2 className="text-blue-sky-night font-serif font-bold text-7xl w-80">Desenvolvimento sustentável, resultados limpos</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="component flex flex-col flex-wrap justify-center mx-auto ">
@@ -65,11 +62,11 @@ export default function Home() {
 
           </div>
           <div className="px-6 md:px-auto">
-            <p>
-              Comprometida com o futuro do planeta e das próximas gerações, a Rio Energy adota os Objetivos de Desenvolvimento Sustentável (ODS) no seu modelo de negócios e busca construir projetos de geração de valor compartilhado com as comunidades onde seus projetos estão inseridos.
-              Nossos projetos sociais voluntários são construídos de forma participativa com as comunidades locais e demais parceiros sempre com a preocupação de deixar um legado seja por meio de melhorias na infraestrutura básica, na educação, saúde e geração de renda.
-
-              Veja como alguns de nossos projetos contribuem para o alcance dos ODSs
+            <p className="font-sans font-normal text-dark text-base">
+            Comprometidos com o futuro do planeta e das próximas gerações, adotamos os Objetivos de Desenvolvimento Sustentável (ODS) no nosso modelo de negócio para construir projetos que gerem valor compartilhado com as comunidades onde estamos inseridos.
+            </p>
+            <p className="font-sans font-normal text-dark text-base mt-4">
+            Nossos projetos são idealizados de forma participativa com as comunidades locais e parceiros visando melhorias em infraestrutura, educação, saúde e geração de renda.
             </p>
             <div className="tqb border h-44 my-12">
               <TabComponent />
