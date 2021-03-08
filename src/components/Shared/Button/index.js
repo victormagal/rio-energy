@@ -10,6 +10,7 @@ export default function BtnGroup ({ children, colorSvg = 'green-light', href, on
     'ring-transparent',
     'ring-current',
     'font-sans',
+    'font-semibold',
     `border-${color}`,
     'p-3',
     'inline-block',

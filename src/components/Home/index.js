@@ -37,7 +37,7 @@ export default function Home() {
               {/* <Button className="h-30 w-60 border-2 rounded-3xl ring-transparent ring-current font-sans border-green-light py-10 block hover:text-white">
                 Saiba mais
               </Button> */}
-              <Button href="/impacto" color="green-power" colorSvg='green-power' newClasses={['text-dark', 'text-center', 'mt-3']}>Saiba mais</Button>
+              <Button href="/quemsomos" color="green-power" colorSvg='green-power' newClasses={['text-dark', 'text-center', 'mt-3']}>Saiba mais</Button>
 
             </div>
           </div>
