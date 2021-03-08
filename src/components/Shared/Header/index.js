@@ -14,6 +14,7 @@ export default function Header({ image, className, children, colorLogo }) {
     style.backgroundImage = `url('${image}')`
     style.backgroundPosition = 'center center'
     style.backgroundRepeat = 'no-repeat'
+    style.backgroundSize = 'cover'
   }
 
   return (
