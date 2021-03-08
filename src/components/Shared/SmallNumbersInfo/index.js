@@ -6,11 +6,11 @@ export default function SmallNumbersInfo({ value, dollar, rest, desc, type = 'h2
   let infoBigNumber = "block text-gray-mid text-md ml-14 -mt-3.5"
   if (type === 'h1') {
     classPrimary = "text-blue-sky-night text-9xl -ml-0 font-serif z-0"
-    classSecondary = "text-green-power text-4xl bg-red  inline-block -ml-40 font-serif z-2"
-    infoBigNumber = "block text-left text-gray-mid text-sm ml-8 -mt-3.5"
+    classSecondary = "text-green-power text-4xl -ml-40 font-serif z-2"
+    infoBigNumber = "block text-gray-mid text-sm ml-8 -mt-3.5"
   }
   return (
-    <div className="container">
+    <div className="">
       {dollar && <span className="text-green-light text-md text-5xl relative font-serif z-10"> {dollar} </span>}
       {value && <span className={classPrimary}> {value} </span>}
       {rest && <span className={classSecondary}> {rest} </span>}
