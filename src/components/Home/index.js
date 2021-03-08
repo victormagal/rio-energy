@@ -25,18 +25,18 @@ export default function Home() {
       <Subheader />
       <Player />
 
-      <div className="quem-somos xl:container mx-auto border border-green-power ">
-        <div className="flex">
-          <div className="image-disclaimer flex-shrink-0 object-cover bg-no-repeat w-1/2 bg-center py-40" style={{ backgroundImage: `url('${quemsomos}')` }} >
+      <div className="quem-somos xl:container mx-auto ">
+        <div className="grid grid-rows-1 md:grid-cols-12 md:mb-12">
+          <div className="image-disclaimer h-full col-span-7 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url('${quemsomos}')` }} >
           </div>
-          <div className="">
+          <div className="col-span-5">
             <h5 className=" text-green-light font-sans text-md">Quem somos</h5>
             <h1  className=" text-blue-sky-night font-serif text-6xl py-6">A gente respira energia.</h1>
             <p  className="font-sans text-lg">Com expertise em projetos renováveis, nosso time é reconhecido pelas entregas de qualidade dentro do orçamento. Somos experientes, engajados, com ampla capacidade de execução e sempre alinhados às melhores práticas ambientais, sociais e de governança.</p>
-            <Button className="h-30 w-60 border-2 rounded-3xl ring-transparent ring-current font-sans border-green-light py-10 block hover:text-white">
+            {/* <Button className="h-30 w-60 border-2 rounded-3xl ring-transparent ring-current font-sans border-green-light py-10 block hover:text-white">
               Saiba mais
-            </Button>
-
+            </Button> */}
+            <Button href="/impacto" color="green-power" colorSvg='green-power' newClasses={['text-dark', 'text-center', 'mt-3']}>Saiba mais</Button>
           </div>
         </div>
 
@@ -50,9 +50,8 @@ export default function Home() {
           <div className="z-40 w-full h-full px-24 py-32 relative">
             <h3 className=" p-6 pb-0 font-serif text-4xl md:text-5xl">Nossa Energia</h3>
             <span className=" block mb-8">Conheça nossas soluções e diferenciais para você</span>
-            <Button href="/energia" className="block h-30 w-60 border-2 rounded-3xl mb-7 ring-transparent ring-current font-sans border-green-light p-3  hover:text-white">
-              Saiba mais
-            </Button>
+            <Button href="/energia" color="white" colorSvg='green-light' newClasses={['', 'text-center', 'mt-3']}>Saiba mais</Button>
+
           </div>
           <div className="bg-gray-mid blend-multiply absolute w-full h-full left-0 top-0 z-10  opacity-70"></div>
 
@@ -61,9 +60,7 @@ export default function Home() {
           <div className="z-40 w-full h-full  px-24 py-32 relative">
             <h3 className="p-6 pb-0 font-serif text-4xl md:text-5xl">Nosso impacto</h3>
               <span className="block mb-8"> Saiba como podemos construir o futuro que queremos</span>
-              <Button href="/impacto" className="h-30 w-60 border-2 rounded-3xl mb-32 ring-transparent ring-current font-sans border-green-light p-3 block hover:text-white">
-                Saiba mais
-              </Button>
+              <Button href="/impacto" color="white" colorSvg='green-light' newClasses={['', 'text-center', 'mt-3']}>Saiba mais</Button>
           </div>
           <div className="bg-gray-mid blend-multiply absolute w-full h-full left-0 top-0 z-10 opacity-70"></div>
 

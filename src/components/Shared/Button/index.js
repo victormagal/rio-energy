@@ -13,7 +13,7 @@ export default function BtnGroup ({ children, colorSvg = 'green-light', href, on
     `border-${color}`,
     'p-3',
     'inline-block',
-    'hover:text-white',
+    'text-center',
   ]
 
   classes = classes || [...defaultClasses, ...newClasses];
