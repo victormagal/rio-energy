@@ -51,19 +51,19 @@ export default function Home() {
 </svg> */}
         <div className="card object-cover bg-no-repeat bg-center w-full h-full mx-auto text-white font-sans text-center bg-cover " style={{ backgroundImage: `url('${energia}')` }} >
           <div className="z-40 w-full h-full px-24 py-32 relative">
-            <h3 className=" p-6 pb-0 font-serif text-4xl md:text-5xl">Nossa Energia</h3>
-            <span className=" block mb-8">Conheça nossas soluções e diferenciais para você</span>
-            <Button href="/energia" color="white" colorSvg='green-light' newClasses={['', 'text-center', 'mt-3']}>Saiba mais</Button>
+            <h3 className="p-5 pb-0 font-serif font-bold text-4xl md:text-5xl">Nossa Energia</h3>
+            <p className="font-sans font-semibold block mb-8">Conheça nossas soluções e diferenciais para você</p>
+            <Button href="/energia" color="blue-sky-night" colorSvg='green-light' newClasses={['', 'text-center', 'mt-3']}>Saiba mais</Button>
 
           </div>
           <div className="bg-gray-mid blend-multiply absolute w-full h-full left-0 top-0 z-10  opacity-70"></div>
 
         </div>
         <div className="card object-cover bg-no-repeat bg-center w-full h-full mx-auto text-white font-sans text-center bg-cover" style={{ backgroundImage: `url('${impacto}')` }} >
-          <div className="z-40 w-full h-full  px-24 py-32 relative">
-            <h3 className="p-6 pb-0 font-serif text-4xl md:text-5xl">Nosso impacto</h3>
-              <span className="block mb-8"> Saiba como podemos construir o futuro que queremos</span>
-              <Button href="/impacto" color="white" colorSvg='green-light' newClasses={['', 'text-center', 'mt-3']}>Saiba mais</Button>
+          <div className="z-40 w-full h-full px-24 py-32 relative">
+            <h3 className="p-5 pb-0 font-serif font-bold text-4xl md:text-5xl">Nosso impacto</h3>
+            <p className="font-sans font-semibold block mb-8"> Saiba como podemos construir o futuro que queremos</p>
+            <Button href="/impacto" color="blue-sky-night" colorSvg='green-light' newClasses={['', 'text-center', 'mt-3']}>Saiba mais</Button>
           </div>
           <div className="bg-gray-mid blend-multiply absolute w-full h-full left-0 top-0 z-10 opacity-70"></div>
 
