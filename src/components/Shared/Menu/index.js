@@ -27,12 +27,12 @@ export default function Menu() {
           <li className="mb-10">
             <a href="/impacto">Nosso impacto</a>
           </li>
-          <li className="mb-10">
+          {/* <li className="mb-10">
             <a href="/carreira">Carreira</a>
           </li>
           <li className="mb-10">
             <a href="/investidores">Investidores</a>
-          </li>
+          </li> */}
           <li className="mb-10">
             <a href="/contato">Contato</a>
           </li>
