@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <>
       <Header className=""
-      colorLogo="#191B87"
-      image='bg_header_impacto.jpeg'>
+        colorLogo="#191B87"
+        image='bg_header_impacto.jpeg'>
         <h1 className="text-white font-serif text-3xl md:text-6xl text-center absolute -inset-x-6 -bottom-6 h-16">Energia para um futuro sustentável</h1>
       </Header>
       <main className="w-full  relative ">
@@ -51,17 +51,17 @@ export default function Home() {
         <h2 className="text-blue-sky-night font-serif text-4xl w-80 m-6 md:ml-24 md:mt-12">Chamada para ODS e Resultados Limpos</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="component flex flex-wrap content-center mx-auto ">
+          <div className="component flex flex-col flex-wrap justify-center mx-auto ">
             <SmallNumbersInfo
-            dollar='R$'
-            value='3,1'
-            rest='bi'
-            desc='lorem ipsum dolor color'
+              dollar='R$'
+              value='3,1'
+              rest='bi'
+              desc='lorem ipsum dolor color'
             />
             <SmallNumbersInfo
-            value='391'
-            rest='MW'
-            desc='lorem ipsum dolor color'
+              value='391'
+              rest='MW'
+              desc='lorem ipsum dolor color'
             />
 
           </div>
@@ -88,17 +88,17 @@ export default function Home() {
               Além de tudo, por sermos uma empresa de geração de energia renovável, nossas operações contribuem para a redução da emissão de carbono para a atmosfera, auxiliando o nosso país a cumprir as metas de redução globais definidas pela ONU
             </p>
           </div>
-          <div className="component flex flex-wrap content-center mx-auto">
-          <SmallNumbersInfo
-            dollar='R$'
-            value='3,1'
-            rest='desc'
-            desc='lorem ipsum dolor color'
+          <div className="component pt-10 flex flex-col flex-wrap justify-center mx-auto">
+            <SmallNumbersInfo
+              dollar='R$'
+              value='3,1'
+              rest='desc'
+              desc='lorem ipsum dolor color'
             />
-           <SmallNumbersInfo
-            value='391'
-            rest='MW'
-            desc='lorem ipsum dolor color'
+            <SmallNumbersInfo
+              value='391'
+              rest='MW'
+              desc='lorem ipsum dolor color'
             />
           </div>
         </div>
