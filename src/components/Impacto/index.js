@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <Header className=""
         colorLogo="#191B87"
-        image='bg_header_impacto.jpeg'>
+        image='bg_header_impacto.png'>
         <h1 className="text-white font-serif text-3xl md:text-6xl text-center absolute -inset-x-6 -bottom-6 h-16">Energia para um futuro sustentável</h1>
       </Header>
       <main className="w-full  relative ">
