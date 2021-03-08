@@ -29,8 +29,8 @@ export default function Footer() {
             <li className="pr-6 "><a href="http://">Facebook</a></li>
           </ul>
           <ul className="flex-wrap md:flex-nowrap flex justify-center justify-self-center mx-auto md:mx-0 max-w-sm md:max-w-full py-10 md:py-0 text-sm md:text-base">
-            <Link to="/quemsomos" className="mr-6 hover:border-b-2 hover:border-green-light"><a href="http://">Quem somos</a></Link>
             <Link to="/" className="mr-6 ">Início</Link>
+            <Link to="/quemsomos" className="mr-6 hover:border-b-2 hover:border-green-light"><a href="http://">Quem somos</a></Link>
             <Link to="/energia" className="mr-6">Nossa energia</Link>
             <Link to="/impacto" className="mr-6">Nosso impacto</Link>
             <Link to="/carreira" className="mr-6">Carreira</Link>

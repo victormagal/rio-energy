@@ -30,7 +30,7 @@ module.exports = {
     fontFamily: {
       sans: ['Source Sans Pro','sans'],
       serif: ['Degular', 'serif'],
-    },
+    }
   },
   variants: {
     extend: {},
@@ -41,7 +41,6 @@ module.exports = {
     require('@tailwindcss/line-clamp'),
     require('@tailwindcss/aspect-ratio'),
     require('tailwindcss-blend-mode')(), // no options to configure
-
   ],
   corePlugins: {
     ringColor: false,
