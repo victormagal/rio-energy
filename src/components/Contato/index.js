@@ -12,8 +12,8 @@ export default function Contato() {
             // image='bg_header_home.png'
     >
       <div className="mt-48 text-center">
-        <h2 className="font-serif text-blue-sky-night text-3xl md:text-4xl relative text-center">Vamos juntos tornar sua operação mais limpa?</h2>
-        <Button href="/impacto" color="green-power" newClasses={['text-white', 'mt-5', 'bg-green-power']}>Ver Nosso Impacto</Button>
+        <h2 className="font-serif font-bold text-blue-sky-night text-7xl px-32 relative text-center">Vamos juntos tornar sua operação mais limpa?</h2>
+        <Button href="/impacto" color="green-power" newClasses={['text-white', 'mt-5', 'bg-green-power', 'text-xl', 'font-sans', 'font-semibold']}>Ver Nosso Impacto</Button>
 
       </div>
       <svg  className=" hidden md:block h-5/6 absolute inset-1/2 -ml-24 -top-40 h-80 stroke-current stroke-1 text-green-power transform -rotate-90"  width="265" height="436" viewBox="0 0 265 436" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,19 +54,19 @@ export default function Contato() {
         <div className="xl:container mx-auto text-center">
           <div className="md:container grid grid-rows-1 md:grid-cols-3 gap-4 md:gap-24 text-left mx-auto py-20 px-10" >
             <div className="w-64 md:w-auto">
-              <h4 className="text-4xl font-black font-serif">Lorem ipsum</h4>
-              <p className="py-2">Delectus voluptatem ipsam quibusdam nostrum ab cupiditate officiis quia, deleniti sunt nihil</p>
-              <a href="/" className="text-green-power underline">emporibus dolorum</a>
+              <h4 className="text-4xl font-black font-serif">Sobre vagas</h4>
+              <p className="py-2">Para sua operação mais limpa, já entramos em contato.</p>
+              <a href="/" className="text-green-power underline">Veja no Compleo</a>
             </div>
             <div className="w-64 md:w-auto">
-              <h4 className="text-4xl font-black font-serif">Lorem ipsum</h4>
-              <p className="py-2">Delectus voluptatem ipsam quibusdam nostrum ab cupiditate officiis quia, deleniti sunt nihil</p>
-              <a href="/" className="text-green-power underline">emporibus dolorum</a>
+              <h4 className="text-4xl font-black font-serif">Sobre pautas</h4>
+              <p className="py-2">Para informações e pedidos de entrevista, mande mensagem pro e-mail.</p>
+              <a href="/" className="text-green-power underline">press@rioenergy.com.br</a>
             </div>
             <div className="w-64 md:w-auto">
-              <h4 className="text-4xl font-black font-serif">Lorem ipsum</h4>
-              <p className="py-2">Delectus voluptatem ipsam quibusdam nostrum ab cupiditate officiis quia, deleniti sunt nihil</p>
-              <a href="/" className="text-green-power underline">emporibus dolorum</a>
+              <h4 className="text-4xl font-black font-serif">Sobre denúncias</h4>
+              <p className="py-2">Envie sua denúncia de forma anônima e segura.</p>
+              <a href="/" className="text-green-power underline">Link para Denúncias</a>
             </div>
 
           </div>
