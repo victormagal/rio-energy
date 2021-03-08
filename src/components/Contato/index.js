@@ -11,11 +11,10 @@ export default function Contato() {
             colorLogo='#00D35C'
             // image='bg_header_home.png'
     >
-      <div className="mt-48">
-          <h2 className="font-serif text-blue-sky-night text-3xl md:text-4xl relative text-center">Vamos juntos tornar sua operação mais limpa?</h2>
-          <Button href="/impacto" className="h-30 w-60 border-2 rounded-3xl mb-32 ring-transparent ring-current font-sans border-green-light p-3 block hover:text-white mx-auto text-center">
-            Vamos Conversar
-          </Button>
+      <div className="mt-48 text-center">
+        <h2 className="font-serif text-blue-sky-night text-3xl md:text-4xl relative text-center">Vamos juntos tornar sua operação mais limpa?</h2>
+        <Button href="/impacto" color="green-power" newClasses={['text-white', 'mt-5', 'bg-green-power']}>Ver Nosso Impacto</Button>
+
       </div>
       <svg  className=" hidden md:block h-5/6 absolute inset-1/2 -ml-24 -top-40 h-80 stroke-current stroke-1 text-green-power transform -rotate-90"  width="265" height="436" viewBox="0 0 265 436" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M334.888 72.8075L334.885 72.8069L30.0529 1.23318C30.0524 1.23305 30.0518 1.23291 30.0512 1.23278C25.2702 0.124592 20.495 3.07993 19.3891 7.88005C7.94766 60.8742 1.81787 115.102 1.00003 168.918C1.00366 174.153 5.08578 178.194 9.81888 178.195C9.8193 178.195 9.81976 178.195 9.82019 178.195L322.837 177.784H322.839C327.601 177.784 331.659 173.712 331.659 168.911L331.659 168.904L331.659 168.897C332.069 140.035 335.35 111.586 341.502 83.1398L341.505 83.1247L341.509 83.1098C342.595 78.7398 339.688 73.9211 334.888 72.8075Z" stroke="#00D35C" stroke-width="2"/>
