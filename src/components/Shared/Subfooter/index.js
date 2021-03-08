@@ -36,7 +36,7 @@ export default function SubFooter({ collection }) {
         <h3 className="text-4xl	text-blue-sky-night font-bold font-serif my-20 break-words">#energiaquenosmove</h3>
         <Scroll className="gap-4 px-6 pr-6 mx-auto mb-20">
           {collection.map((value, index) => (
-            <div key={index} className="w-4/4 border border-green-light rounded-2xl px-4 py-12 mx-2">
+            <div key={index} className="border border-green-light rounded-2xl px-4 py-12 mx-2">
               <h4 className="text-blue-sky-night text-sm font-sans font-semibold">{value.date}</h4>
               <p className="text-gray-mid text-lg font-sans font-normal mb-10">{value.description}</p>
               <a className="text-blue-sky-night text-base font-sans font-normal" href={value.link} target="_blank" rel="noreferrer">Linkedin</a>
