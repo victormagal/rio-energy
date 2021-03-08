@@ -14,24 +14,23 @@ import bg_sub from '../../assets/images/bg_sub_impacto.jpeg'
 export default function Home() {
   return (
     <>
-      <Header className=""
+      <Header 
         colorLogo="#191B87"
-        image='bg_header_impacto.png'>
-        <h1 className="text-white font-serif text-3xl md:text-6xl text-center absolute -inset-x-6 -bottom-6 h-16">Energia para um futuro sustentável</h1>
+        image='bg_header_impacto.png'
+      >
+        <h2 className="text-white font-serif font-bold text-7xl text-center">Energia para um futuro sustentável</h2>
       </Header>
       <main className="w-full  relative ">
         <div className="relative grid bg-green-power">
           <div className="xl:container mx-auto">
-            <h1 className="font-serif text-white text-6xl m-6  md:ml-24 z-10 md:my-12">Atuação e gestão <br/>100% ESG</h1>
+            <h1 className="font-serif text-white text-6xl m-6  md:ml-24 z-10 md:my-12">Atuação e gestão consciente e de alto padrão</h1>
             <div className="grid grid-cols-1 px-6 md:px-auto md:grid-cols-2">
-              <div className="">
-
-              </div>
+              <div className=""></div>
               <div className="md:mr-24">
-                <p>Do desenvolvimento à operação, a Rio Energy segue o padrão IFC (Performance Standards do IFC) para garantir maior eficiência e desempenho nos temas de impacto socioambiental em todas as fases dos projetos.</p>
-                <p>As regiões onde os nossos projetos estão inseridos direciona nossa atenção aos padrões de desempenho 4 – Community, 6- Biodiversidade e 7- Comunidades Tradicionais. É por isso que aplicamos a avaliação de hierarquia para evitar impactos adversos; e a avaliação Habitas Críticos para ter um saldo líquido positivo na conservação da biodiversidade. </p>
-                <p>E também elaboramos relatórios de progresso para atestar nosso avanço no impacto positivo. A Rio Energy tem orgulho de participar do Global Compact, comprometida com os 10 princípios associados aos temas de Direitos Humanos, Trabalho, Meio Ambiente e Anticorrupção.</p>
-                <Button color="blue-sky-night text-white">Ver Nossa Energia</Button>
+                <p className="font-sans font-normal text-base text-dark">Por gerarmos energia renovável, nossas operações contribuem para a redução de emissão de carbono, auxiliando nosso país a cumprir as metas globais da ONU.</p>
+                <p className="font-sans font-normal text-base text-dark">Do desenvolvimento à operação, seguimos o Performance Standards do IFC (Padrões de Desempenho de Sustentabilidade Socioambiental) para garantir maior eficiência e desempenho nos temas de impacto socioambiental em todas as fases dos nossos projetos.</p>
+                <p className="font-sans font-normal text-base text-dark">Aplicamos avaliação de hierarquia para evitar impactos adversos, avaliação Habitats Críticos para ter um saldo líquido positivo na conservação da biodiversidade, geramos relatórios de progresso e somos signatários do Pacto Global.</p>
+                <Button href="/energia" color="blue-sky-night text-white" newClasses={['text-xl', 'font-sans', 'font-semibold']}>Ver Nossa Energia</Button>
               </div>
             </div>
         </div>
