@@ -3,27 +3,27 @@ import Scroll from '../Scroll'
 
 const mock = [
   {
-    date: 'Há 1 dia',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt ex vel massa consequat, eget dapibus risus sollicitudin volutpat.',
-    link: 'https://www.linkedin.com/company/rio-energy',
+    date: 'Há 2 semanas',
+    description: 'Temos o prazer de anunciar que amanhã, 20 de fevereiro, os 27 contemplados com a Bolsa de Estudos do Curso Técnico em Eletrotécnica iniciam suas inscrições, com uma aula...',
+    link: 'https://www.linkedin.com/posts/rio-energy_energiaquenosmove-activity-6768637368309207040-cAvE',
     account: '@rioenergy'
   },
   {
-    date: 'Há 1 dia',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt ex vel massa consequat, eget dapibus risus sollicitudin volutpat.',
-    link: 'https://www.linkedin.com/company/rio-energy',
+    date: 'Há 3 semanas',
+    description: '50 mil seguidores! Se fossem 50 mil Megawatts, seriam suficientes para atender às necessidades de consumo de mais de 24 mil residências durante um ano inteiro...',
+    link: 'https://www.linkedin.com/posts/rio-energy_energiaquenosmove-energiasrenovaerveis-porummundomelhor-activity-6765005028286611456-7oAU',
     account: '@rioenergy'
   },
   {
-    date: 'Há 1 dia',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt ex vel massa consequat, eget dapibus risus sollicitudin volutpat.',
-    link: 'https://www.linkedin.com/company/rio-energy',
+    date: 'Há 1 mês',
+    description: 'Tem gente nova e cheia de energia no nosso time! São os nossos #SuperEstags, que chegaram para contribuir com as suas ideias e competências...',
+    link: 'https://www.linkedin.com/posts/rio-energy_superestags-energiaquenosmove-activity-6762449034213933056-Cg5x',
     account: '@rioenergy'
   },
   {
-    date: 'Há 1 dia',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt ex vel massa consequat, eget dapibus risus sollicitudin volutpat.',
-    link: 'https://www.linkedin.com/company/rio-energy',
+    date: 'Há 1 mês',
+    description: 'Até 2050, a matriz energética brasileira será composta 45% de energias renováveis. #EnergiaQueNosMove #JuntosnaMeta #AcordodeParis...',
+    link: 'https://www.linkedin.com/posts/rio-energy_energiaquenosmove-juntosnameta-acordodeparis-activity-6758113137548935168-gFoT',
     account: '@rioenergy'
   }
 ];

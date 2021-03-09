@@ -3,18 +3,23 @@ import React from 'react'
 import Footer from '../Shared/Footer'
 import CardList from '../Shared/CardList'
 import ListImageProfile from '../Shared/ListImageProfile'
-// import ClientsPartners from '../Shared/ClientsPartners'
+import ClientsPartners from '../Shared/ClientsPartners'
 import Button from '../Shared/Button'
 import Header from '../Shared/Header'
 
 import subestacao from '../../assets/images/subestacao.png'
 import circuloFogo from '../../assets/images/circulo_logo.svg'
 
-// import logo_1 from '../../assets/images/logo_1.png'
-// import logo_2 from '../../assets/images/logo_2.png'
-// import logo_3 from '../../assets/images/logo_3.png'
-// import logo_4 from '../../assets/images/logo_4.png'
-// import logo_5 from '../../assets/images/logo_5.png'
+import logo_1 from '../../assets/images/logo_1.png'
+import logo_2 from '../../assets/images/logo_2.png'
+import logo_3 from '../../assets/images/logo_3.png'
+import logo_4 from '../../assets/images/logo_4.png'
+import logo_5 from '../../assets/images/logo_5.png'
+import logo_6 from '../../assets/images/logo_6.png'
+import logo_7 from '../../assets/images/logo_7.png'
+import logo_8 from '../../assets/images/logo_8.png'
+import logo_9 from '../../assets/images/logo_9.png'
+import logo_10 from '../../assets/images/logo_10.png'
 
 import imageCardOne from '../../assets/images/ilustracao_1.png'
 import imageCardTwo from '../../assets/images/ilustracao_2.png'
@@ -77,7 +82,7 @@ const profileImages = [
   }
 ];
 
-// const imgs = [logo_1, logo_2, logo_3, logo_4, logo_5];
+const imgs = [logo_1, logo_2, logo_3, logo_4, logo_5, logo_6, logo_7, logo_8, logo_9, logo_10];
 
 export default function QuemSomos() {
   return (
@@ -98,7 +103,7 @@ export default function QuemSomos() {
       <div className="relative">
         <div className="bg-green-power">
           <div className="xl:container pt-24">
-            <div className="w-1/2 absolute ml-32 mt-40">
+            <div className="w-1/2 absolute ml-20 mt-40">
               <h2 className="text-white text-4xl font-serif font-bold">Incansáveis na entrega de excelência, com energia para inovar e ir além.</h2>
             </div>
             <img src={circuloFogo} alt="logo" className="mx-auto" />
@@ -141,7 +146,7 @@ export default function QuemSomos() {
         </div>
       </div>
 
-      {/* <ClientsPartners imgs={imgs} /> */}
+      <ClientsPartners imgs={imgs} />
       <Footer />
     </>
   )
