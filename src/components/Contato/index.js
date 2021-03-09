@@ -123,14 +123,14 @@ export default function Contato() {
                   Rio de Janeiro, RJ – Brasil
                 </li>
               </ul>
-              <ul className="info-tel-email font-sans text-base font-bold ml-32 w-1/2 flex justify-end pr-8">
+              <ul className="info-tel-email font-sans text-base font-bold ml-32 w-1/2 flex justify-end pr-32">
                 <li>
                   +55 21 3733-2975
                 </li>
               </ul>
             </div>
           </div>
-          <ul className="info-sociais text-white flex justify-end text-lg font-serif font-bold pr-8 pb-4">
+          <ul className="info-sociais text-white flex justify-end text-lg font-serif font-bold pr-32 pb-4">
             <li className=""><a href="https://www.linkedin.com/company/rio-energy/" target="_blank" rel="noreferrer">LinkedIn</a></li>
             <li className="ml-9"><a href="https://www.facebook.com/rioenergyoficial" target="_blank" rel="noreferrer">Facebook</a></li>
           </ul>
