@@ -14,7 +14,7 @@ import bg_sub from '../../assets/images/bg_sub_impacto.jpeg'
 export default function Home() {
   return (
     <>
-      <Header 
+      <Header
         colorLogo="#191B87"
         image='bg_header_impacto.png'
       >
@@ -68,7 +68,7 @@ export default function Home() {
             <p className="font-sans font-normal text-dark text-base mt-4">
             Nossos projetos são idealizados de forma participativa com as comunidades locais e parceiros visando melhorias em infraestrutura, educação, saúde e geração de renda.
             </p>
-            <div className="tqb border h-44 my-12">
+            <div className="tab rounded-2xl p-3 bg-iris-10 my-12">
               <TabComponent />
             </div>
             <p>
