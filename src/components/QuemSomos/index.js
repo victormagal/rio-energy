@@ -3,7 +3,7 @@ import React from 'react'
 import Footer from '../Shared/Footer'
 import CardList from '../Shared/CardList'
 import ListImageProfile from '../Shared/ListImageProfile'
-import ClientsPartners from '../Shared/ClientsPartners'
+// import ClientsPartners from '../Shared/ClientsPartners'
 import Button from '../Shared/Button'
 import Header from '../Shared/Header'
 

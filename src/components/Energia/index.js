@@ -2,7 +2,7 @@ import React from 'react'
 
 // import Header from '../Shared/Header'
 import SmallNumbersInfo from '../Shared/SmallNumbersInfo'
-import ClientsPartners from '../Shared/ClientsPartners'
+// import ClientsPartners from '../Shared/ClientsPartners'
 import Footer from '../Shared/Footer'
 import Header from '../Shared/Header'
 import CardList from './list'
