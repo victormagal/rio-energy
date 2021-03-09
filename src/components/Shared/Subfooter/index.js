@@ -32,18 +32,20 @@ export default function SubFooter({ collection }) {
   collection = collection || mock
   return (
     <>
-      <div className="subfooter w-auto xl:container font-sans mx-auto text-center bg-gray-light" style={{ paddingBottom: '7.25rem' }}>
-        <h3 className="text-4xl	text-blue-sky-night font-bold mb-10 font-serif" style={{ paddingTop: '6.375rem' }}>#energiaquenosmove</h3>
-        <Scroll className="gap-4 px-6 pr-6 mx-auto">
-          {collection.map((value, index) => (
-            <div key={index} className="w-1/4 border border-green-light rounded-2xl px-4 py-12 mx-2">
-              <h4 className="text-blue-sky-night text-sm font-sans font-semibold">{value.date}</h4>
-              <p className="text-gray-mid text-lg font-sans font-normal mb-12">{value.description}</p>
-              <a className="text-blue-sky-night text-base font-sans font-normal" href={value.link} target="_blank" rel="noreferrer">Linkedin</a>
-              <p className="text-blue-sky-night text-lg font-serif font-bold mt-2">{value.account}</p>
-            </div>
-          ))}
-        </Scroll>
+      <div className="bg-gray-light">
+        <div className="subfooter w-auto xl:container font-sans mx-auto text-center" style={{ paddingBottom: '7.25rem' }}>
+          <h3 className="text-4xl	text-blue-sky-night font-bold mb-10 font-serif" style={{ paddingTop: '6.375rem' }}>#energiaquenosmove</h3>
+          <Scroll className="gap-4 px-6 pr-6 mx-auto">
+            {collection.map((value, index) => (
+              <div key={index} className="w-1/4 border border-green-light rounded-2xl px-4 py-12 mx-2">
+                <h4 className="text-blue-sky-night text-sm font-sans font-semibold">{value.date}</h4>
+                <p className="text-gray-mid text-lg font-sans font-normal mb-12">{value.description}</p>
+                <a className="text-blue-sky-night text-base font-sans font-normal" href={value.link} target="_blank" rel="noreferrer">Linkedin</a>
+                <p className="text-blue-sky-night text-lg font-serif font-bold mt-2">{value.account}</p>
+              </div>
+            ))}
+          </Scroll>
+        </div>
       </div>
     </>
   )
