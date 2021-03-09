@@ -1,19 +1,19 @@
 import React from 'react'
 import Header from '../Shared/Header'
-import Button from '../Shared/Button'
+// import Button from '../Shared/Button'
 
 
 export default function Contato() {
   return (
     <>
     <Header
-            className='bg-green-light w-full bg-green-light text-white h-auto relative overflow-hidden'
-            colorLogo='#00D35C'
-            // image='bg_header_home.png'
+      className='bg-green-light w-full bg-green-light text-white h-auto relative overflow-hidden'
+      colorLogo='#00D35C'
+      // image='bg_header_home.png'
     >
       <div className="mt-48 text-center">
         <h2 className="font-serif font-bold text-blue-sky-night text-7xl px-32 relative text-center">Vamos juntos tornar sua operação mais limpa?</h2>
-        <Button href="/impacto" color="green-power" newClasses={['text-white', 'mt-5', 'bg-green-power', 'text-xl', 'font-sans', 'font-semibold']}>Ver Nosso Impacto</Button>
+        {/* <Button href="/impacto" color="green-power" newClasses={['text-white', 'mt-5', 'bg-green-power', 'text-xl', 'font-sans', 'font-semibold']}>Ver Nosso Impacto</Button> */}
 
       </div>
       <svg  className=" hidden md:block h-5/6 absolute inset-1/2 -ml-24 -top-40 h-80 stroke-current stroke-1 text-green-power transform -rotate-90"  width="265" height="436" viewBox="0 0 265 436" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +56,7 @@ export default function Contato() {
             <div className="w-64 md:w-auto">
               <h4 className="text-4xl font-black font-serif">Sobre vagas</h4>
               <p className="py-2">Para sua operação mais limpa, já entramos em contato.</p>
-              <a href="https://rioenergy.compleo.com.br/" className="text-green-power underline">Veja no Compleo</a>
+              <a href="https://rioenergy.compleo.com.br/" target="_blank" rel="noreferrer" className="text-green-power underline">Veja no Compleo</a>
             </div>
             <div className="w-64 md:w-auto">
               <h4 className="text-4xl font-black font-serif">Sobre pautas</h4>
@@ -66,7 +66,7 @@ export default function Contato() {
             <div className="w-64 md:w-auto">
               <h4 className="text-4xl font-black font-serif">Sobre denúncias</h4>
               <p className="py-2">Envie sua denúncia de forma anônima e segura.</p>
-              <a href="https://canalconfidencial.com.br/rioenergy/" className="text-green-power underline">Link para Denúncias</a>
+              <a href="https://canalconfidencial.com.br/rioenergy/" target="_blank" rel="noreferrer" className="text-green-power underline">Link para Denúncias</a>
             </div>
 
           </div>
