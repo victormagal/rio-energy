@@ -110,23 +110,45 @@ export default function Energia() {
       <div className="xl:container mx-auto pt-40">
         <div className="grid grid-cols-1 gap-4 md:mx-64 md:my-12 justify-items-stretch">
           <div className="justify-self-center md:justify-self-start">
-          <h2 className="text-green-power font-serif text-4xl md:text-6xl">Track Record de<br />sucesso nos<br />números e no<br />impacto </h2>
+          <h2 className="text-green-power font-serif text-4xl md:text-6xl">Nossa energia<br />em números</h2>
 
           </div>
           <div className="justify-self-center md:justify-self-end">
             <SmallNumbersInfo
               type="h1"
-              value="822"
-              rest="MW total"
-              desc="em implantação ou em operação"
+              value="1GW"
+              desc="de projetos em operação e implantação"
+            />
+          </div>
+          <div className="justify-self-center md:justify-self-end" >
+            <SmallNumbersInfo
+              type="h1"
+              value="1.5GW"
+              desc="de projetos em desenvolvimento"
             />
           </div>
           <div className="justify-self-center md:justify-self-start" >
             <SmallNumbersInfo
-              type="h1"
-              value="2.2"
-              rest="GW total"
-              desc="em desenvolvimento"
+              dollar='+'
+              value='3,1'
+              rest='bi'
+              desc='de investimentos em ativos no país'
+            />
+          </div>
+          <div className="justify-self-center md:justify-self-start" >
+            <SmallNumbersInfo
+              dollar='+'
+              value='12,5'
+              rest='mi'
+              desc='destinados a programas sociais'
+            />
+          </div>
+          <div className="justify-self-center md:justify-self-start" >
+            <SmallNumbersInfo
+              dollar='+'
+              value='835,2'
+              rest='ton'
+              desc='de investimentos em ativos no país'
             />
           </div>
         </div>
