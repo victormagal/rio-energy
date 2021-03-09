@@ -70,7 +70,7 @@ export default function Contato() {
             </div>
 
           </div>
-          <div className="grid grid-rows-1 md:grid-cols-2 py-14">
+          <div className="grid grid-rows-1 md:grid-cols-2 pt-14">
             <div className=" text-left">
 
               <svg className="inline" width="135" height="135" viewBox="0 0 135 135" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -111,17 +111,30 @@ export default function Contato() {
               </svg>
 
             </div>
-            <div className=" text-left font-sans grid-cols-2">
-              <div>
-                <p className="leading-10">Rua Jardim Botânico 518, 5º andar <br/>
-                  Jardim Botânico<br/>
-                  Rio de Janeiro, RJ – Brasil</p>
-              </div>
-              <div>
-                <p className="">+55 21 3733-2975</p>
-              </div>
+            <div className="text-left font-sans flex flex-stretch">
+              <ul className="info-end font-sans text-base font-normal w-1/2">
+                <li>
+                  <p>Rua Jardim Botânico 518, 5º andar</p>
+                </li>
+                <li>
+                  <p>Jardim Botânico</p>
+                </li>
+                <li>
+                  <p>Rio de Janeiro, RJ – Brasil</p>
+                </li>
+              </ul>
+              <ul className="info-tel-email font-sans text-base font-bold ml-8 w-1/2 flex justify-end pr-8">
+                <li>
+                  <p>+55 21 3733-2975</p>
+                  <p>contato@rioenergy.com.br</p>
+                </li>
+              </ul>
             </div>
           </div>
+          <ul className="info-sociais text-white flex justify-end text-lg font-serif font-bold pr-8 pb-4">
+            <li className=""><a href="https://www.linkedin.com/company/rio-energy/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li className="ml-4"><a href="https://www.facebook.com/rioenergyoficial" target="_blank" rel="noreferrer">Facebook</a></li>
+          </ul>
         </div>
 
         {/* <nav className="xl:container mx-auto flex flex-col-reverse md:flex-row md:justify-between border-1 md:px-6 sm:py-2">
@@ -132,7 +145,7 @@ export default function Contato() {
         </nav> */}
 
         <div className=" bg-dark py-3 md:py-0 font-sans">
-          <div className="xl:container h-auto mx-auto flex justify-between text-gray-mid md:px-6 py-0.5">
+          <div className="xl:container h-auto mx-auto flex justify-between text-gray-mid md:px-6 py-2">
             <p className=""><span className="">Rio Energy®</span> Todos os direitos reservados</p>
             <p className="font-black">Desenvolvido pela AC</p>
           </div>

@@ -14,17 +14,17 @@ export default function Menu() {
         </a> */}
       </div>
       <nav className="grid grid-cols-1 md:grid-cols-2 justify-items-center">
-        <ul className=" text-5xl mb-20 text-blue-sky-night font-serif">
-          <li className="mb-10">
+        <ul className=" text-5xl mb-20 text-blue-sky-night font-serif font-bold">
+          <li className="mb-4">
             <a href="/">Início</a>
           </li>
-          <li className="mb-10">
+          <li className="mb-4">
             <a href="/quemsomos">Quem somos</a>
           </li>
-          <li className="mb-10">
+          <li className="mb-4">
             <a href="/energia">Nossa energia</a>
           </li>
-          <li className="mb-10">
+          <li className="mb-4">
             <a href="/impacto">Nosso impacto</a>
           </li>
           {/* <li className="mb-10">
@@ -33,34 +33,34 @@ export default function Menu() {
           <li className="mb-10">
             <a href="/investidores">Investidores</a>
           </li> */}
-          <li className="mb-10">
+          <li className="mb-4">
             <a href="/contato">Contato</a>
           </li>
         </ul>
-        <div className="grid grid-cols-1 md:grid-cols-2 self-end justify-self-end text-white">
-        <ul className="info-end">
-          <li>
-            <p>Rua Jardim Botânico 518, 5º andar</p>
-          </li>
-          <li>
-            <p>Jardim Botânico</p>
-          </li>
-          <li>
-            <p>Rio de Janeiro, RJ – Brasil</p>
-          </li>
-        </ul>
-        <ul className="info-tel-email">
-          <li>
-            <p>+55 21 3733-2975</p>
-            <p>contato@rioenergy.com.br</p>
-          </li>
-        </ul>
-      </div>
+        <div className="grid grid-cols-2 self-end justify-self-end text-white">
+          <ul className="info-end font-sans text-base font-normal">
+            <li>
+              <p>Rua Jardim Botânico 518, 5º andar</p>
+            </li>
+            <li>
+              <p>Jardim Botânico</p>
+            </li>
+            <li>
+              <p>Rio de Janeiro, RJ – Brasil</p>
+            </li>
+          </ul>
+          <ul className="info-tel-email font-sans text-base font-bold ml-8 flex justify-end">
+            <li>
+              <p>+55 21 3733-2975</p>
+              <p>contato@rioenergy.com.br</p>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <ul className="info-sociais text-white flex items-stretch">
-          <li className=""><a href="http://">LinkedIn</a></li>
-          <li className=""><a href="http://">Facebook</a></li>
-        </ul>
+      <ul className="info-sociais text-white flex justify-end text-lg font-serif font-bold">
+        <li className=""><a href="https://www.linkedin.com/company/rio-energy/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+        <li className="ml-4"><a href="https://www.facebook.com/rioenergyoficial" target="_blank" rel="noreferrer">Facebook</a></li>
+      </ul>
 
     </div>
   )
