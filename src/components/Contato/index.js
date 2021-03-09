@@ -54,19 +54,19 @@ export default function Contato() {
         <div className="xl:container mx-auto text-center">
           <div className="md:container grid grid-rows-1 md:grid-cols-3 gap-4 md:gap-24 text-left mx-auto py-20 px-10" >
             <div className="w-64 md:w-auto">
-              <h4 className="text-4xl font-black font-serif">Sobre vagas</h4>
-              <p className="py-2">Para sua operação mais limpa, já entramos em contato.</p>
-              <a href="https://rioenergy.compleo.com.br/" target="_blank" rel="noreferrer" className="text-green-power underline">Veja no Compleo</a>
+              <h4 className="text-4xl font-bold font-serif">Sobre vagas</h4>
+              <p className="py-2 text-lg font-sans font-semibold">Para sua operação mais limpa, já entramos em contato.</p>
+              <a href="https://rioenergy.compleo.com.br/" target="_blank" rel="noreferrer" className="text-green-power underline font-sans text-base font-bold">Veja no Compleo</a>
             </div>
             <div className="w-64 md:w-auto">
-              <h4 className="text-4xl font-black font-serif">Sobre pautas</h4>
-              <p className="py-2">Para informações e pedidos de entrevista, mande mensagem pro e-mail.</p>
-              <a href="mailto:press@rioenergy.com.br" className="text-green-power underline">press@rioenergy.com.br</a>
+              <h4 className="text-4xl font-bold font-serif">Sobre pautas</h4>
+              <p className="py-2 text-lg font-sans font-semibold">Para informações e pedidos de entrevista, mande mensagem pro e-mail.</p>
+              <a href="mailto:press@rioenergy.com.br" className="text-green-power underline font-sans text-base font-bold">press@rioenergy.com.br</a>
             </div>
             <div className="w-64 md:w-auto">
-              <h4 className="text-4xl font-black font-serif">Sobre denúncias</h4>
-              <p className="py-2">Envie sua denúncia de forma anônima e segura.</p>
-              <a href="https://canalconfidencial.com.br/rioenergy/" target="_blank" rel="noreferrer" className="text-green-power underline">Link para Denúncias</a>
+              <h4 className="text-4xl font-bold font-serif">Sobre denúncias</h4>
+              <p className="py-2 text-lg font-sans font-semibold">Envie sua denúncia de forma<br />anônima e segura.</p>
+              <a href="https://canalconfidencial.com.br/rioenergy/" target="_blank" rel="noreferrer" className="text-green-power underline font-sans text-base font-bold">Link para Denúncias</a>
             </div>
 
           </div>
@@ -111,29 +111,28 @@ export default function Contato() {
               </svg>
 
             </div>
-            <div className="text-left font-sans flex flex-stretch">
-              <ul className="info-end font-sans text-base font-normal w-1/2">
-                <li>
-                  <p>Rua Jardim Botânico 518, 5º andar</p>
+            <div className="flex flex-stretch mt-10">
+              <ul className="info-end font-sans text-base font-normal text-left w-1/2">
+                <li className="mb-5">
+                  Rua Jardim Botânico 518, 5º andar
+                </li>
+                <li className="mb-5">
+                  Jardim Botânico
                 </li>
                 <li>
-                  <p>Jardim Botânico</p>
-                </li>
-                <li>
-                  <p>Rio de Janeiro, RJ – Brasil</p>
+                  Rio de Janeiro, RJ – Brasil
                 </li>
               </ul>
-              <ul className="info-tel-email font-sans text-base font-bold ml-8 w-1/2 flex justify-end pr-8">
+              <ul className="info-tel-email font-sans text-base font-bold ml-32 w-1/2 flex justify-end pr-8">
                 <li>
-                  <p>+55 21 3733-2975</p>
-                  <p>contato@rioenergy.com.br</p>
+                  +55 21 3733-2975
                 </li>
               </ul>
             </div>
           </div>
           <ul className="info-sociais text-white flex justify-end text-lg font-serif font-bold pr-8 pb-4">
             <li className=""><a href="https://www.linkedin.com/company/rio-energy/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-            <li className="ml-4"><a href="https://www.facebook.com/rioenergyoficial" target="_blank" rel="noreferrer">Facebook</a></li>
+            <li className="ml-9"><a href="https://www.facebook.com/rioenergyoficial" target="_blank" rel="noreferrer">Facebook</a></li>
           </ul>
         </div>
 
