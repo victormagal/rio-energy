@@ -6,7 +6,7 @@ export default function ImageProfile({ image, cite, name, role, linkedin }) {
       width: '363px',
       height: '546px',
     }}>
-      <div className="w-full text-white text-center self-end pb-3">
+      <div className="w-full text-white text-center self-end pb-3 bg-gradient-to-t from-light-gray to-transparent">
         {cite && <cite>{cite}</cite>}
         <h3 className="font-serif font-bold text-4xl">{name}</h3>
         {role && <h4 className="font-sans font-bold font- text-lg">{role}</h4>}

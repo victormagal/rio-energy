@@ -20,7 +20,7 @@ export default function Header({ image, className, children, colorLogo }) {
   return (
     <>
       {openMenu && <MenuComponent />}
-      <div style={{ height: '695px', ...style }} className={`cover header ${className || ''}`}>
+      <div style={{ height: '653px', ...style }} className={`cover header ${className || ''}`}>
         <div className="md:container mx-auto md:pl-10 h-48 min-h-full">
           <div className="relative">
             <Link to="/">

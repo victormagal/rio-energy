@@ -100,13 +100,13 @@ export default function QuemSomos() {
           <Button href="/impacto" color="green-light" newClasses={['text-blue-sky-night', 'mt-5', 'ml-96', 'text-xl']}>Ver Nosso Impacto</Button>
         </div>
       </Header>
-      <div className="relative">
+      <div className="relative mt-8">
         <div className="bg-green-power">
-          <div className="xl:container pt-24">
-            <div className="w-1/2 absolute ml-20 mt-40">
-              <h2 className="text-white text-4xl font-serif font-bold">Incansáveis na entrega de excelência, com energia para inovar e ir além.</h2>
+          <div className="xl:container pt-16 pb-24">
+            <div className="w-3/4 mx-auto mt-40" style={{ backgroundImage: `url('${circuloFogo}')`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 70px top', height: 430 }}>
+              <h2 className="text-white text-4xl font-serif font-bold ml-32 mr-64 pt-40">Incansáveis na entrega de excelência, com energia para inovar e ir além.</h2>
             </div>
-            <img src={circuloFogo} alt="logo" className="mx-auto" />
+            {/* <img src={circuloFogo} alt="logo" className="mx-auto" /> */}
           </div>
         </div>
         <div className="w-full bg-gradient-to-b from-green-power to-transparent absolute">
