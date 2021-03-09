@@ -22,34 +22,6 @@ import logo_8 from '../../assets/images/logo_8.png'
 import logo_9 from '../../assets/images/logo_9.png'
 import logo_10 from '../../assets/images/logo_10.png'
 
-import imageCardOne from '../../assets/images/ilustracao_1.png'
-import imageCardTwo from '../../assets/images/ilustracao_2.png'
-import imageCardThree from '../../assets/images/ilustracao_3.png'
-import imageCardFour from '../../assets/images/ilustracao_4.png'
-
-const cards = [
-  {
-    img: imageCardOne,
-    title: 'Incansáveis na entrega de excelência',
-    description: 'Apaixonados pelo que fazemos, damos o nosso melhor.',
-  },
-  {
-    img: imageCardTwo,
-    title: 'Parceria para dentro e para fora',
-    description: 'Criamos conexões valiosas com todos que caminham ao nosso lado.',
-  },
-  {
-    img: imageCardThree,
-    title: 'Fazemos com responsabilidade social, econômica e ambiental',
-    description: 'Miramos sempre no futuro sustentável.',
-  },
-  {
-    img: imageCardFour,
-    title: 'Energia para inovar e ir além',
-    description: 'Nosso mindset é voltado para construir o futuro que desejamos.',
-  },
-]
-
 const profileImages = [
   {
     name: 'Marcos Meireles',
@@ -105,8 +77,6 @@ const cards = [
     description: 'Portfólio de projetos que aproveitam recursos do território brasileiro.',
   },
 ]
-
-console.log(cards)
 
 export default function Energia() {
   return (
