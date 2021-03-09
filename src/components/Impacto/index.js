@@ -18,7 +18,7 @@ export default function Home() {
         colorLogo="#191B87"
         image='bg_header_impacto.jpg'
       >
-        <h2 className="text-white font-serif font-bold text-7xl text-center">Energia para um futuro sustentável</h2>
+        <h2 className="text-white font-serif font-bold text-7xl text-center pt-96">Energia para um futuro sustentável</h2>
       </Header>
       <main className="w-full relative ">
         <div className="relative grid bg-green-power">
@@ -27,8 +27,8 @@ export default function Home() {
             <div className="w-2/4 pl-24 -mt-12 ml-96">
                 <p className="font-sans font-normal text-base text-dark">Por gerarmos energia renovável, nossas operações contribuem para a redução de emissão de carbono, auxiliando nosso país a cumprir as metas globais da ONU.</p>
                 <p className="font-sans font-normal text-base text-dark mt-4">Do desenvolvimento à operação, seguimos o Performance Standards do IFC (Padrões de Desempenho de Sustentabilidade Socioambiental) para garantir maior eficiência e desempenho nos temas de impacto socioambiental em todas as fases dos nossos projetos.</p>
-                <p className="font-sans font-normal text-base text-dark mt-4">Aplicamos avaliação de hierarquia para evitar impactos adversos, avaliação Habitats Críticos para ter um saldo líquido positivo na conservação da biodiversidade, geramos relatórios de progresso e somos signatários do Pacto Global.</p>
-                <Button href="/energia" color="blue-sky-night text-white mt-4" newClasses={['text-xl', 'font-sans', 'font-semibold']}>Ver Nossa Energia</Button>
+                <p className="font-sans font-normal text-base text-dark my-4">Aplicamos avaliação de hierarquia para evitar impactos adversos, avaliação Habitats Críticos para ter um saldo líquido positivo na conservação da biodiversidade, geramos relatórios de progresso e somos signatários do Pacto Global.</p>
+                <Button href="/energia" color="blue-sky-night text-white" newClasses={['text-xl', 'font-sans', 'font-semibold']}>Ver Nossa Energia</Button>
             </div>
         </div>
 
@@ -65,7 +65,7 @@ export default function Home() {
             <p className="font-sans font-normal text-dark text-base mt-4">
             Nossos projetos são idealizados de forma participativa com as comunidades locais e parceiros visando melhorias em infraestrutura, educação, saúde e geração de renda.
             </p>
-            <div className="tab rounded-2xl p-3 bg-iris-10 my-12">
+            <div className="tab p-7 bg-iris-10 my-12" style={{ height: 480 }}>
               <TabComponent />
             </div>
             {/* <p>
@@ -74,19 +74,26 @@ export default function Home() {
             {/* <h3 className="text-green-power font-serif text-2xl mt-6">Por isso, também, implementamos o ciclo PDCA, onde é verificada a performance das empresas contratadas por meio de auditorias.</h3> */}
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 px-6 md:px-auto">
-          <div className="">
-            <h5 className="text-blue-sky-night font-serif font-bold text-4xl mb-6">Avaliamos nossa performance ESG<br />por meio de um conjunto de<br />indicadores definidos pelos nossos<br />especialistas e monitorados constantemente.</h5>
+        <div className="grid grid-cols-1 px-6">
+          <div className="pl-40">
+            <span className="text-blue-sky-night font-serif font-bold text-4xl mb-6">Avaliamos nossa performance ESG<br />por meio de um conjunto de<br />indicadores definidos pelos nossos<br />especialistas e monitorados<br />constantemente.</span>
             {/* <p>
               Além de tudo, por sermos uma empresa de geração de energia renovável, nossas operações contribuem para a redução da emissão de carbono para a atmosfera, auxiliando o nosso país a cumprir as metas de redução globais definidas pela ONU
             </p> */}
-            <div className="w-2/5 ml-72 -mt-16">
+          </div>
+        </div>
+        <div className="-mt-24 grid grid-cols-3 px-6">
+          <div className=""></div>
+          <div className="">
+            <div className="text-right">
               <SmallNumbersInfo
                 dollar='+'
                 value='330'
                 rest='mil'
                 desc='pessoas impactadas diretamente por projetos sociais. Indiretos: 3.159.928'
               />
+            </div>
+            <div className="text-right">
               <SmallNumbersInfo
                 dollar='+'
                 value='9'
@@ -95,30 +102,35 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="component w-2/5 -ml-1 pt-40 flex flex-col flex-wrap justify-center mx-auto">
-            <SmallNumbersInfo
-              value='36'
-              desc='ações desenvolvidas'
-            />
-            <div className="mt-12">
+          <div className="ml-24">
+            <div className="">
+              <SmallNumbersInfo
+                value='36'
+                desc='ações desenvolvidas'
+              />
+            </div>
+            <div className="mt-10">
               <SmallNumbersInfo
                 value='2.9'
-                desc='toneladas de emissão de CO2 evitadas '
+                desc='toneladas de emissão de CO2 evitadas'
               />
             </div>
           </div>
+          <div className="mt-12">
+          </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 px-6 md:px-auto">
-          <div className="mt-20">
-            <h5 className="ml-64 text-green-power font-serif font-bold text-7xl mb-6">Pegada<br />ESG</h5>
+        <div className="w-full block"></div>
+        <div className="grid grid-cols-2 md:grid-cols-2 px-6 mb-20 md:px-auto">
+          <div className="flex justify-end">
+            <h5 className="text-green-power font-serif font-bold text-7xl">Pegada<br />ESG</h5>
             {/* <p>
               Além de tudo, por sermos uma empresa de geração de energia renovável, nossas operações contribuem para a redução da emissão de carbono para a atmosfera, auxiliando o nosso país a cumprir as metas de redução globais definidas pela ONU
             </p> */}
-            <div className="w-11/12 ml-96 -mt-24 pl-4">
-              <p className="text-xl">
-                Temos um Sistema de Gestão Integrado onde são publicadas e atualizadas as Políticas de Meio Ambiente e Responsabilidade Social, Saúde e Segurança Ocupacional, Investimentos Sociais, além de planos de gestão e procedimentos operacionais específicos. Esses documentos auxiliam não apenas nossos colaboradores, mas também são incluídos nas condições de contratação de parceiros para replicar nossas diretrizes para toda a cadeia de fornecedores.
-              </p>
-            </div>
+          </div>
+          <div className="pt-20 -ml-16">
+            <p className="text-xl text-dark font-serif -font-bold">
+              Temos um Sistema de Gestão Integrado onde são publicadas e<br />atualizadas as Políticas de Meio Ambiente e Responsabilidade Social,<br />Saúde e Segurança Ocupacional, Investimentos Sociais, além de planos<br />de gestão e procedimentos operacionais específicos. Esses documentos<br />auxiliam não apenas nossos colaboradores, mas também são incluídos<br />nas condições de contratação de parceiros para replicar nossas<br />diretrizes para toda a cadeia de fornecedores.
+            </p>
           </div>
         </div>
       </div>
