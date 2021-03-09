@@ -36,11 +36,11 @@ stage:
     - aws s3 sync build s3://$AWS_S3_BUCKET --delete
     - echo "DEPLOYED SUCCESSFULLY"
   environment: stage
+  when: manual
   artifacts:
     paths:
       - build
   only:
-    when: manual
     - stage
 
 prod:
