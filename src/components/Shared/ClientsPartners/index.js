@@ -4,7 +4,7 @@ export default function ClientsPartners({ imgs }) {
   return (
     <div className="flex h-60 bg-gray-light font-sans">
       <div className="w-full self-center">
-        <h3 className="text-4xl	text-blue-sky-night text-center font-serif font-bold break-words pb-7">Quem joga limpo com a gente</h3>
+        <h3 className="text-2xl	text-blue-sky-night text-center font-bold break-words pb-7">Quem joga limpo com a gente</h3>
         <div className="slider xl:container flex flex-nowrap justify-items-stretch gap-4">
           <div className="flex flex-row">
             {imgs.map((value, i) => (

@@ -31,7 +31,7 @@ export default function Home() {
           </div>
           <div className="col-span-5 flex items-center">
             <div className=" mr-12">
-              <h5 className=" text-green-light font-sans font-bold text-xl">Quem somos</h5>
+              <h5 className=" text-green-power font-sans font-bold text-sm uppercase">Quem somos</h5>
               <h1  className=" text-blue-sky-night font-serif font-bold text-7xl py-6">A gente respira energia.</h1>
               <p  className="font-sans font-normal text-lg">Com expertise em projetos renováveis, nosso time é reconhecido pelas entregas de qualidade dentro do orçamento. Somos experientes, engajados, com ampla capacidade de execução e sempre alinhados às melhores práticas ambientais, sociais e de governança.</p>
               {/* <Button className="h-30 w-60 border-2 rounded-3xl ring-transparent ring-current font-sans border-green-light py-10 block hover:text-white">
