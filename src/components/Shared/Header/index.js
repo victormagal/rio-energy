@@ -30,7 +30,7 @@ export default function Header({ image, className, children, colorLogo }) {
                 width={120}
                 height={120}
                 viewBox="0 0 500 500"
-                className="inline-block fill-current"
+                className="inline-block fill-current relative z-50"
               />
             </Link>
             <Menu openMenu={handleToggleMenu} />
