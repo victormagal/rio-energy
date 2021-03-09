@@ -2,12 +2,84 @@ import React from 'react'
 
 // import Header from '../Shared/Header'
 import SmallNumbersInfo from '../Shared/SmallNumbersInfo'
-import america from '../../assets/images/america.png'
 import ClientsPartners from '../Shared/ClientsPartners'
 import Footer from '../Shared/Footer'
 import Header from '../Shared/Header'
 
-const imgs = [america, america];
+import logo_1 from '../../assets/images/logo_1.png'
+import logo_2 from '../../assets/images/logo_2.png'
+import logo_3 from '../../assets/images/logo_3.png'
+import logo_4 from '../../assets/images/logo_4.png'
+import logo_5 from '../../assets/images/logo_5.png'
+import logo_6 from '../../assets/images/logo_6.png'
+import logo_7 from '../../assets/images/logo_7.png'
+import logo_8 from '../../assets/images/logo_8.png'
+import logo_9 from '../../assets/images/logo_9.png'
+import logo_10 from '../../assets/images/logo_10.png'
+
+import imageCardOne from '../../assets/images/ilustracao_1.png'
+import imageCardTwo from '../../assets/images/ilustracao_2.png'
+import imageCardThree from '../../assets/images/ilustracao_3.png'
+import imageCardFour from '../../assets/images/ilustracao_4.png'
+
+const cards = [
+  {
+    img: imageCardOne,
+    title: 'Incansáveis na entrega de excelência',
+    description: 'Apaixonados pelo que fazemos, damos o nosso melhor.',
+  },
+  {
+    img: imageCardTwo,
+    title: 'Parceria para dentro e para fora',
+    description: 'Criamos conexões valiosas com todos que caminham ao nosso lado.',
+  },
+  {
+    img: imageCardThree,
+    title: 'Fazemos com responsabilidade social, econômica e ambiental',
+    description: 'Miramos sempre no futuro sustentável.',
+  },
+  {
+    img: imageCardFour,
+    title: 'Energia para inovar e ir além',
+    description: 'Nosso mindset é voltado para construir o futuro que desejamos.',
+  },
+]
+
+const profileImages = [
+  {
+    name: 'Marcos Meireles',
+    role: 'CEO',
+    linkedin: 'marcos-meireles-b24519',
+    image: 'http://localhost:3000/lider_1.png'
+  },
+  {
+    name: 'Alexandre Nogueira',
+    role: 'DIRETOR CORPORATIVO',
+    linkedin: 'alexandrelnogueira',
+    image: 'http://localhost:3000/lider_2.png'
+  },
+  {
+    name: 'Roberto Colindres',
+    role: 'CFO, RI e M&A',
+    linkedin: 'roberto-colindres-091a1b',
+    image: 'http://localhost:3000/lider_3.png'
+  },
+  {
+    name: 'Jean Claude Fernand Robert',
+    role: 'COO',
+    linkedin: 'jean-claude-robert',
+    image: 'http://localhost:3000/lider_4.png'
+  },
+  {
+    name: 'Lucas Quevedo',
+    role: 'DIRETOR JURÍDICO, COMPLIANCE E DESENVOLVIMENTO',
+    linkedin: 'lucas-quevedo-b604bb89',
+    image: 'http://localhost:3000/lider_5.png'
+  }
+];
+
+const imgs = [logo_1, logo_2, logo_3, logo_4, logo_5, logo_6, logo_7, logo_8, logo_9, logo_10];
+
 
 export default function Energia() {
   return (
