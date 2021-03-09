@@ -22,41 +22,7 @@ import logo_8 from '../../assets/images/logo_8.png'
 import logo_9 from '../../assets/images/logo_9.png'
 import logo_10 from '../../assets/images/logo_10.png'
 
-const profileImages = [
-  {
-    name: 'Marcos Meireles',
-    role: 'CEO',
-    linkedin: 'marcos-meireles-b24519',
-    image: 'http://localhost:3000/lider_1.png'
-  },
-  {
-    name: 'Alexandre Nogueira',
-    role: 'DIRETOR CORPORATIVO',
-    linkedin: 'alexandrelnogueira',
-    image: 'http://localhost:3000/lider_2.png'
-  },
-  {
-    name: 'Roberto Colindres',
-    role: 'CFO, RI e M&A',
-    linkedin: 'roberto-colindres-091a1b',
-    image: 'http://localhost:3000/lider_3.png'
-  },
-  {
-    name: 'Jean Claude Fernand Robert',
-    role: 'COO',
-    linkedin: 'jean-claude-robert',
-    image: 'http://localhost:3000/lider_4.png'
-  },
-  {
-    name: 'Lucas Quevedo',
-    role: 'DIRETOR JURÍDICO, COMPLIANCE E DESENVOLVIMENTO',
-    linkedin: 'lucas-quevedo-b604bb89',
-    image: 'http://localhost:3000/lider_5.png'
-  }
-];
-
 const imgs = [logo_1, logo_2, logo_3, logo_4, logo_5, logo_6, logo_7, logo_8, logo_9, logo_10];
-
 
 const cards = [
   {
