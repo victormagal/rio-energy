@@ -6,8 +6,34 @@ import america from '../../assets/images/america.png'
 import ClientsPartners from '../Shared/ClientsPartners'
 import Footer from '../Shared/Footer'
 import Header from '../Shared/Header'
+import imageCardFive from '../../assets/images/ilustracao_5.png'
+import imageCardSix from '../../assets/images/ilustracao_6.png'
+import imageCardSeven from '../../assets/images/ilustracao_7.png'
+import imageCardEight from '../../assets/images/ilustracao_8.png'
 
 const imgs = [america, america];
+
+const cards = [
+  {
+    img: imageCardFive,
+    description: 'Geração de energia renovável, proveniente de recursos naturais.',
+  },
+  {
+    img: imageCardSix,
+    description: 'Eficiência do seu negócio na gestão financeira da compra de energia.',
+  },
+  {
+    img: imageCardSeven,
+    title: 'Fazemos com responsabilidade social, econômica e ambiental',
+    description: 'Valor agregado de ESG à sua matriz, alinhado com práticas internacionais.',
+  },
+  {
+    img: imageCardEight,
+    description: 'Portfólio de projetos que aproveitam recursos do território brasileiro.',
+  },
+]
+
+console.log(cards)
 
 export default function Energia() {
   return (
