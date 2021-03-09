@@ -43,12 +43,10 @@ export default function Home() {
         <img className="w-full h-auto z-0 relative" src={bg_sub} alt=""/>
       </div>
       <div className="xl:container mx-auto relative ">
-
-        <h2 className="text-blue-sky-night font-serif font-bold text-7xl w-80">Desenvolvimento sustentável, resultados limpos</h2>
-
+        <h2 className="text-blue-sky-night font-serif font-bold text-7xl mt-20 ml-40">Desenvolvimento<br />sustentável, resultados<br />limpos</h2>
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="component flex flex-col flex-wrap justify-center mx-auto ">
-            <SmallNumbersInfo
+            {/* <SmallNumbersInfo
               dollar='R$'
               value='3,1'
               rest='bi'
@@ -58,10 +56,9 @@ export default function Home() {
               value='391'
               rest='MW'
               desc='lorem ipsum dolor color'
-            />
-
+            /> */}
           </div>
-          <div className="px-6 md:px-auto">
+          <div className="px-6 md:px-auto -mt-12 -ml-28">
             <p className="font-sans font-normal text-dark text-base">
             Comprometidos com o futuro do planeta e das próximas gerações, adotamos os Objetivos de Desenvolvimento Sustentável (ODS) no nosso modelo de negócio para construir projetos que gerem valor compartilhado com as comunidades onde estamos inseridos.
             </p>
@@ -71,31 +68,57 @@ export default function Home() {
             <div className="tab rounded-2xl p-3 bg-iris-10 my-12">
               <TabComponent />
             </div>
-            <p>
+            {/* <p>
               Para garantir essa “pegada” ESG, a Rio Energy conta com um Sistema de Gestão Integrado onde são publicadas e atualizadas as Políticas de Meio Ambiente e Responsabilidade Social, Saúde e Segurança Ocupacional, Investimentos Sociais, além de planos de gestão e procedimentos operacionais específicos. Esses documentos de gestão auxiliam não apenas nossos funcionários, mas também são incluídos nas condições de contratação de terceiros de forma a replicar nossas diretrizes para toda a cadeia de fornecedores.
-            </p>
-            <h3 className="text-green-power font-serif text-2xl mt-6">Por isso, também, implementamos o ciclo PDCA, onde é verificada a performance das empresas contratadas por meio de auditorias.</h3>
+            </p> */}
+            {/* <h3 className="text-green-power font-serif text-2xl mt-6">Por isso, também, implementamos o ciclo PDCA, onde é verificada a performance das empresas contratadas por meio de auditorias.</h3> */}
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 px-6 md:px-auto">
-          <div className=" ">
-            <h5 className="font-serif text-xl mb-6">A performance ESG é avaliada ainda por meio de um conjunto de indicadores específicos (KPIs) definidos pelo nosso time de especialistas e monitorados frequentemente.</h5>
-            <p>
+          <div className="">
+            <h5 className="text-blue-sky-night font-serif font-bold text-4xl mb-6">Avaliamos nossa performance ESG<br />por meio de um conjunto de<br />indicadores definidos pelos nossos<br />especialistas e monitorados constantemente.</h5>
+            {/* <p>
               Além de tudo, por sermos uma empresa de geração de energia renovável, nossas operações contribuem para a redução da emissão de carbono para a atmosfera, auxiliando o nosso país a cumprir as metas de redução globais definidas pela ONU
-            </p>
+            </p> */}
+            <div className="w-2/5 ml-72 -mt-16">
+              <SmallNumbersInfo
+                dollar='+'
+                value='330'
+                rest='mil'
+                desc='pessoas impactadas diretamente por projetos sociais. Indiretos: 3.159.928'
+              />
+              <SmallNumbersInfo
+                dollar='+'
+                value='9'
+                rest='mi'
+                desc='investidos em ações sociais'
+              />
+            </div>
           </div>
-          <div className="component pt-10 flex flex-col flex-wrap justify-center mx-auto">
+          <div className="component w-2/5 -ml-1 pt-40 flex flex-col flex-wrap justify-center mx-auto">
             <SmallNumbersInfo
-              dollar='R$'
-              value='3,1'
-              rest='desc'
-              desc='lorem ipsum dolor color'
+              value='36'
+              desc='ações desenvolvidas'
             />
-            <SmallNumbersInfo
-              value='391'
-              rest='MW'
-              desc='lorem ipsum dolor color'
-            />
+            <div className="mt-12">
+              <SmallNumbersInfo
+                value='2.9'
+                desc='toneladas de emissão de CO2 evitadas '
+              />
+            </div>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 px-6 md:px-auto">
+          <div className="mt-20">
+            <h5 className="ml-64 text-green-power font-serif font-bold text-7xl mb-6">Pegada<br />ESG</h5>
+            {/* <p>
+              Além de tudo, por sermos uma empresa de geração de energia renovável, nossas operações contribuem para a redução da emissão de carbono para a atmosfera, auxiliando o nosso país a cumprir as metas de redução globais definidas pela ONU
+            </p> */}
+            <div className="w-11/12 ml-96 -mt-24 pl-4">
+              <p className="text-xl">
+                Temos um Sistema de Gestão Integrado onde são publicadas e atualizadas as Políticas de Meio Ambiente e Responsabilidade Social, Saúde e Segurança Ocupacional, Investimentos Sociais, além de planos de gestão e procedimentos operacionais específicos. Esses documentos auxiliam não apenas nossos colaboradores, mas também são incluídos nas condições de contratação de parceiros para replicar nossas diretrizes para toda a cadeia de fornecedores.
+              </p>
+            </div>
           </div>
         </div>
       </div>
