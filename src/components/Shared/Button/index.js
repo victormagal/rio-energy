@@ -15,6 +15,7 @@ export default function BtnGroup ({ children, colorSvg = 'green-light', href, on
     'p-3',
     'inline-block',
     'text-center',
+    'focus:outline-none'
   ]
 
   classes = classes || [...defaultClasses, ...newClasses];

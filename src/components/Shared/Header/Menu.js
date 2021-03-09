@@ -4,7 +4,7 @@ import './menu.style.css'
 export default function Menu({ color = '#00D35C', openMenu }) {
   return (
     <button
-      className="bg-white rounded-full border border-green-power cursor-pointer absolute z-20 menu top-0 right-0 mr-32 mt-10 pl-2"
+      className="bg-white rounded-full border border-green-power cursor-pointer absolute z-20 menu top-0 right-0 mr-32 mt-10 pl-2 focus:outline-none"
       onClick={openMenu}
     >
       <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
