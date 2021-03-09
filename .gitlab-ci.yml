@@ -24,6 +24,25 @@ dev:
   only:
     - dev
 
+stage:
+  stage: deploy
+  script:
+    - npm run build
+    - pip install awscli --upgrade --user
+    - export PATH=~/.local/bin:$PATH
+    - aws configure set region us-east-1 --profile default
+    - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID --profile default
+    - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY --profile default
+    - aws s3 sync build "s3://$AWS_S3_BUCKET" --delete
+    - echo "DEPLOYED SUCCESSFULLY"
+  environment: stage
+  when: manual
+  artifacts:
+    paths:
+      - build
+  only:
+    - stage
+
 prod:
   stage: deploy
   script:
@@ -42,4 +61,3 @@ prod:
       - build
   only:
     - master
- 
