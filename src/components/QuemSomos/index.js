@@ -10,16 +10,16 @@ import Header from '../Shared/Header'
 import subestacao from '../../assets/images/subestacao.png'
 import circuloFogo from '../../assets/images/circulo_logo.svg'
 
-import logo_1 from '../../assets/images/logo_1.png'
-import logo_2 from '../../assets/images/logo_2.png'
-import logo_3 from '../../assets/images/logo_3.png'
-import logo_4 from '../../assets/images/logo_4.png'
-import logo_5 from '../../assets/images/logo_5.png'
-import logo_6 from '../../assets/images/logo_6.png'
-import logo_7 from '../../assets/images/logo_7.png'
-import logo_8 from '../../assets/images/logo_8.png'
-import logo_9 from '../../assets/images/logo_9.png'
-import logo_10 from '../../assets/images/logo_10.png'
+// import logo_1 from '../../assets/images/logo_1.png'
+// import logo_2 from '../../assets/images/logo_2.png'
+// import logo_3 from '../../assets/images/logo_3.png'
+// import logo_4 from '../../assets/images/logo_4.png'
+// import logo_5 from '../../assets/images/logo_5.png'
+// import logo_6 from '../../assets/images/logo_6.png'
+// import logo_7 from '../../assets/images/logo_7.png'
+// import logo_8 from '../../assets/images/logo_8.png'
+// import logo_9 from '../../assets/images/logo_9.png'
+// import logo_10 from '../../assets/images/logo_10.png'
 
 import imageCardOne from '../../assets/images/ilustracao_1.png'
 import imageCardTwo from '../../assets/images/ilustracao_2.png'
@@ -82,7 +82,7 @@ const profileImages = [
   }
 ];
 
-const imgs = [logo_1, logo_2, logo_3, logo_4, logo_5, logo_6, logo_7, logo_8, logo_9, logo_10];
+// const imgs = [logo_1, logo_2, logo_3, logo_4, logo_5, logo_6, logo_7, logo_8, logo_9, logo_10];
 
 export default function QuemSomos() {
   return (
@@ -146,7 +146,7 @@ export default function QuemSomos() {
         </div>
       </div>
 
-      <ClientsPartners imgs={imgs} />
+      {/* <ClientsPartners imgs={imgs} /> */}
       <Footer />
     </>
   )

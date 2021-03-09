@@ -11,18 +11,18 @@ import imageCardSix from '../../assets/images/ilustracao_6.png'
 import imageCardSeven from '../../assets/images/ilustracao_7.png'
 import imageCardEight from '../../assets/images/ilustracao_8.png'
 
-import logo_1 from '../../assets/images/logo_1.png'
-import logo_2 from '../../assets/images/logo_2.png'
-import logo_3 from '../../assets/images/logo_3.png'
-import logo_4 from '../../assets/images/logo_4.png'
-import logo_5 from '../../assets/images/logo_5.png'
-import logo_6 from '../../assets/images/logo_6.png'
-import logo_7 from '../../assets/images/logo_7.png'
-import logo_8 from '../../assets/images/logo_8.png'
-import logo_9 from '../../assets/images/logo_9.png'
-import logo_10 from '../../assets/images/logo_10.png'
+// import logo_1 from '../../assets/images/logo_1.png'
+// import logo_2 from '../../assets/images/logo_2.png'
+// import logo_3 from '../../assets/images/logo_3.png'
+// import logo_4 from '../../assets/images/logo_4.png'
+// import logo_5 from '../../assets/images/logo_5.png'
+// import logo_6 from '../../assets/images/logo_6.png'
+// import logo_7 from '../../assets/images/logo_7.png'
+// import logo_8 from '../../assets/images/logo_8.png'
+// import logo_9 from '../../assets/images/logo_9.png'
+// import logo_10 from '../../assets/images/logo_10.png'
 
-const imgs = [logo_1, logo_2, logo_3, logo_4, logo_5, logo_6, logo_7, logo_8, logo_9, logo_10];
+// const imgs = [logo_1, logo_2, logo_3, logo_4, logo_5, logo_6, logo_7, logo_8, logo_9, logo_10];
 
 const cards = [
   {
@@ -157,7 +157,7 @@ export default function Energia() {
           </div>
         </div>
       </div>
-      <ClientsPartners imgs={imgs} />
+      {/* <ClientsPartners imgs={imgs} /> */}
       <Footer />
     </>
   )
