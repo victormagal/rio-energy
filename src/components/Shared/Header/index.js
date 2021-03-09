@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import SvgLogo from '../Logo'
 import Menu from './Menu'
 import MenuComponent from '../Menu'
+import { Link } from 'react-router-dom';
 
 export default function Header({ image, className, children, colorLogo }) {
   const style = {};
@@ -22,14 +23,16 @@ export default function Header({ image, className, children, colorLogo }) {
       <div style={{ height: '695px', ...style }} className={`cover header ${className || ''}`}>
         <div className="md:container mx-auto md:pl-10 h-48 min-h-full">
           <div className="relative">
-            <SvgLogo
-              withText={true}
-              color={colorLogo}
-              width={120}
-              height={120}
-              viewBox="0 0 500 500"
-              className="inline-block fill-current"
-            />
+            <Link to="/">
+              <SvgLogo
+                withText={true}
+                color={colorLogo}
+                width={120}
+                height={120}
+                viewBox="0 0 500 500"
+                className="inline-block fill-current"
+              />
+            </Link>
             <Menu openMenu={handleToggleMenu} />
           </div>
           <div>
