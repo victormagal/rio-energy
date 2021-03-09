@@ -56,17 +56,17 @@ export default function Contato() {
             <div className="w-64 md:w-auto">
               <h4 className="text-4xl font-black font-serif">Sobre vagas</h4>
               <p className="py-2">Para sua operação mais limpa, já entramos em contato.</p>
-              <a href="/" className="text-green-power underline">Veja no Compleo</a>
+              <a href="https://rioenergy.compleo.com.br/" className="text-green-power underline">Veja no Compleo</a>
             </div>
             <div className="w-64 md:w-auto">
               <h4 className="text-4xl font-black font-serif">Sobre pautas</h4>
               <p className="py-2">Para informações e pedidos de entrevista, mande mensagem pro e-mail.</p>
-              <a href="/" className="text-green-power underline">press@rioenergy.com.br</a>
+              <a href="mailto:press@rioenergy.com.br" className="text-green-power underline">press@rioenergy.com.br</a>
             </div>
             <div className="w-64 md:w-auto">
               <h4 className="text-4xl font-black font-serif">Sobre denúncias</h4>
               <p className="py-2">Envie sua denúncia de forma anônima e segura.</p>
-              <a href="/" className="text-green-power underline">Link para Denúncias</a>
+              <a href="https://canalconfidencial.com.br/rioenergy/" className="text-green-power underline">Link para Denúncias</a>
             </div>
 
           </div>
