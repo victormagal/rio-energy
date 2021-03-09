@@ -23,7 +23,7 @@ export default function Footer() {
           <Button href="/contato" color="green-light" newClasses={['text-xl']}>Fale conosco</Button>
         </div>
 
-        <nav className="xl:container mx-auto flex flex-col-reverse md:flex-row md:justify-between border-1 my-3 md:px-6 sm:py-2">
+        <nav className="xl:container mx-auto flex flex-col-reverse md:flex-row md:justify-between border-1 my-2 md:px-6 sm:py-2">
           <ul className="justify-center flex pb-6 md:pb-0 text-sm md:text-base font-serif">
             <li className="pr-6"><a className="text-lg" href="https://www.linkedin.com/company/rio-energy/" target="_blank" rel="noreferrer">LinkedIn</a></li>
             <li className="pr-6 "><a className="text-lg" href="https://www.facebook.com/rioenergyoficial" target="_blank" rel="noreferrer">Facebook</a></li>
@@ -39,8 +39,8 @@ export default function Footer() {
           </ul>
         </nav>
 
-        <div className="blend-screen bg-dark py-3 md:py-0 font-sans">
-          <div className="xl:container h-auto mx-auto flex justify-between text-gray-mid md:px-6 py-4 font-sans">
+        <div className="blend-screen bg-dark md:py-0 font-sans">
+          <div className="xl:container h-auto mx-auto flex justify-between text-gray-mid md:px-6 py-2 font-sans">
             <p className="font-semibold text-sm">Rio Energy® Todos os direitos reservados</p>
             <p className="font-semibold text-sm">Desenvolvido pela AC</p>
           </div>
