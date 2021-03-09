@@ -75,33 +75,34 @@ export default function TabComponent() {
 
   return (
     <>
-      <nav className="tab-navigation h-12">
-        <ul className="">
-          <li className="inline-block w-12 mr-6 cursor-pointer" onClick={() => handleSelect('saude')}>
+      <nav className="tab-navigation">
+        <span className="font-serif text-2xl font-bold text-dark">Veja algumas ODS alcançadas pelos nossos projetos:</span>
+        <ul className="mt-2">
+          <li className="inline-block mr-6 cursor-pointer" onClick={() => handleSelect('saude')}>
             {images.saude ?
               <img src={iconSaude} alt=""/> :
               <img src={iconSaudeDesactive} alt=""/>
             }
           </li>
-          <li className="inline-block w-12 mr-6 cursor-pointer" onClick={() => handleSelect('agua')}>
+          <li className="inline-block mr-6 cursor-pointer" onClick={() => handleSelect('agua')}>
             {images.agua ?
               <img src={iconAgua} alt=""/> :
               <img src={iconAguaDesactive} alt=""/>
             }
           </li>
-          <li className="inline-block w-12 mr-6 cursor-pointer" onClick={() => handleSelect('trabalho')}>
+          <li className="inline-block mr-6 cursor-pointer" onClick={() => handleSelect('trabalho')}>
             {images.trabalho ?
               <img src={iconTrabalho} alt=""/> :
               <img src={iconTrabalhoDesactive} alt=""/>
             }
           </li>
-          <li className="inline-block w-12 mr-6 cursor-pointer" onClick={() => handleSelect('cidade')}>
+          <li className="inline-block mr-6 cursor-pointer" onClick={() => handleSelect('cidade')}>
             {images.cidade ?
               <img src={iconCidades} alt=""/> :
               <img src={iconCidadesDesactive} alt=""/>
             }
           </li>
-          <li className="inline-block w-12 mr-6 cursor-pointer" onClick={() => handleSelect('vida')}>
+          <li className="inline-block mr-6 cursor-pointer" onClick={() => handleSelect('vida')}>
             {images.vida ?
               <img src={iconVida} alt=""/> :
               <img src={iconVidaDesactive} alt=""/>
@@ -112,7 +113,7 @@ export default function TabComponent() {
       <div>
         <ul className="list-disc list-inside">
         {content[contextIndex].map((c) => (
-          <li className="pt-3">{c}</li>
+          <li className="pt-3 font-sans text-xl text-gray">{c}</li>
         ))}
         </ul>
       </div>
