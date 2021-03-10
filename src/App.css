@@ -11,3 +11,11 @@
       src: url('assets/fonts/degular-bold.woff') format("woff");
     }
 }
+
+.big {
+  font-size: 10rem;
+}
+
+.huge {
+  font-size: 15rem;
+}

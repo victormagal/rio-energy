@@ -26,6 +26,12 @@ import imageCardTwo from '../../assets/images/ilustracao_2.png'
 import imageCardThree from '../../assets/images/ilustracao_3.png'
 import imageCardFour from '../../assets/images/ilustracao_4.png'
 
+import lider_1 from '../../assets/images/lider_1.png';
+import lider_2 from '../../assets/images/lider_2.png';
+import lider_3 from '../../assets/images/lider_3.png';
+import lider_4 from '../../assets/images/lider_4.png';
+import lider_5 from '../../assets/images/lider_5.png';
+
 const cards = [
   {
     img: imageCardOne,
@@ -54,31 +60,31 @@ const profileImages = [
     name: 'Marcos Meireles',
     role: 'CEO',
     linkedin: 'marcos-meireles-b24519',
-    image: 'http://localhost:3000/lider_1.png'
+    image: lider_1
   },
   {
     name: 'Alexandre Nogueira',
     role: 'DIRETOR CORPORATIVO',
     linkedin: 'alexandrelnogueira',
-    image: 'http://localhost:3000/lider_2.png'
+    image: lider_2
   },
   {
     name: 'Roberto Colindres',
     role: 'CFO, RI e M&A',
     linkedin: 'roberto-colindres-091a1b',
-    image: 'http://localhost:3000/lider_3.png'
+    image: lider_3
   },
   {
     name: 'Jean Claude Fernand Robert',
     role: 'COO',
     linkedin: 'jean-claude-robert',
-    image: 'http://localhost:3000/lider_4.png'
+    image: lider_4
   },
   {
     name: 'Lucas Quevedo',
     role: 'DIRETOR JURÍDICO, COMPLIANCE E DESENVOLVIMENTO',
     linkedin: 'lucas-quevedo-b604bb89',
-    image: 'http://localhost:3000/lider_5.png'
+    image: lider_5
   }
 ];
 
