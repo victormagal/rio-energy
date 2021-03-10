@@ -5,7 +5,7 @@ export default function ClientsPartners({ imgs, title = 'Same Energy, nossos cli
   return (
     <div className="flex bg-gray-light font-sans">
       <div className="w-full self-center">
-        <h3 className="text-2xl	text-blue-sky-night text-center font-bold break-word pt-32">{title}</h3>
+        <h3 className="text-4xl	text-blue-sky-night font-serif text-center font-bold break-word pt-24">{title}</h3>
 
         <Scroll className="py-24">
           <div className="flex flex-row">
