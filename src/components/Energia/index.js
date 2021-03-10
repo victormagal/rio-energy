@@ -54,7 +54,7 @@ export default function Energia() {
       >
         <div className=" w-3/4 md:ml-24 md:mt-12">
           <h2 className="text-white font-serif font-bold text-7xl ">Energia limpa, futuro sustentável</h2>
-          <p className="text-white font-sans text-xl w-1/2 mt-6">
+          <p className="text-white font-sans font-normal text-xl w-1/2 mt-6">
             Uma empresa de energia renovável preparada para levar altos padrões de qualidade e responsabilidade socioambiental ao entorno dos nossos projetos.
           </p>
         </div>
@@ -110,7 +110,7 @@ export default function Energia() {
       <div className="xl:container mx-auto pt-40">
         <div className="grid grid-cols-1 gap-4 md:mx-64 md:my-12 justify-items-stretch">
           <div className="justify-self-center md:justify-self-start">
-          <h2 className="text-green-power font-serif text-4xl md:text-6xl">Nossa energia<br />em números</h2>
+          <h2 className="text-green-power font-serif text-8xl">Nossa energia<br />em números</h2>
 
           </div>
           <div className="justify-self-center md:justify-self-end">
@@ -158,22 +158,22 @@ export default function Energia() {
         <div className="bg-green-power mb-12" >
           <div className="xl:container mx-auto py-5 px-10 md:py-10 md:px-20">
             <h4 className="text-blue-sky-night font-serif pb-8 text-2xl md:w-1/2 md:ml-14 text-center md:text-right md:text-6xl mt-8">Conheça nossos<br /> diferenciais</h4>
-            <div className="grid grid-cols-1 md:grid-cols-2 ml-10 md:ml-40">
+            <div className="grid grid-cols-2 ml-96">
               <div className="text-base text-green-light border-t-2 border-fuchsia-600 mr-6 mb-16">
-                <h5 className="text-white font-serif mt-3">Soluções que fazem sentido para o cliente</h5>
-                <p className="text-white text-sm font-family mt-1">Oferecemos soluções customizadas em energia eólica para grandes consumidores no mercado livre, principalmente para contratos de longo prazo.</p>
+                <h5 className="text-white font-serif text-2xl font-bold mt-3">Soluções que fazem sentido para o cliente</h5>
+                <p className="text-white text-lg font-sans font-normal mt-1">Oferecemos soluções customizadas em energia eólica para grandes consumidores no mercado livre, principalmente para contratos de longo prazo.</p>
               </div>
               <div className="text-base text-green-light border-t-2 border-fuchsia-600 mr-6">
-                <h5 className="text-white font-serif mt-3">Expertise em energia renovável</h5>
-                <p className="text-white text-sm font-family mt-1">Temos uma experiência sólida no setor e um histórico de desenvolvimento, construção e operação de projetos de energia renovável com altos padrões de qualidade.</p>
+                <h5 className="text-white font-serif text-2xl font-bold mt-3">Expertise em energia renovável</h5>
+                <p className="text-white text-lg font-sans font-normal mt-1">Temos uma experiência sólida no setor e um histórico de desenvolvimento, construção e operação de projetos de energia renovável com altos padrões de qualidade.</p>
               </div>
               <div className="text-base text-green-light border-t-2 border-fuchsia-600 mr-6 mb-16">
-                <h5 className="text-white font-serif mt-3">Melhores práticas de ESG</h5>
-                <p className="text-white text-sm font-family mt-1">Somos uma empresa signatária do Pacto Global, comprometida com as diretrizes de direitos humanos, trabalho, meio ambiente e anticorrupção.</p>
+                <h5 className="text-white font-serif text-2xl font-bold mt-3">Melhores práticas de ESG</h5>
+                <p className="text-white text-lg font-sans font-normal mt-1">Somos uma empresa signatária do Pacto Global, comprometida com as diretrizes de direitos humanos, trabalho, meio ambiente e anticorrupção.</p>
               </div>
               <div className="text-base text-green-light border-t-2 border-fuchsia-600 mr-6">
-                <h5 className="text-white font-serif mt-3">Time de especialistas</h5>
-                <p className="text-white text-sm font-family mt-1">Nosso time conta com profissionais reconhecidos no mercado e mais de 12GW de experiência combinada em projetos hidrelétricos, eólicos e solares.</p>
+                <h5 className="text-white font-serif text-2xl font-bold mt-3">Time de especialistas</h5>
+                <p className="text-white text-lg font-sans font-normal mt-1">Nosso time conta com profissionais reconhecidos no mercado e mais de 12GW de experiência combinada em projetos hidrelétricos, eólicos e solares.</p>
               </div>
             </div>
           </div>
