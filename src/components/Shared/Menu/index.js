@@ -1,8 +1,9 @@
 import React from 'react'
+import bgMenu from '../../../assets/images/bg_menu.png';
 
 export default function Menu() {
   return (
-    <div className=" h-screen fixed w-screen z-10 bg-green-power px-32 py-32">
+    <div className="h-screen fixed w-screen z-10 bg-green-power bg-center bg-cover px-32 py-32" style={{ backgroundImage: `url('${bgMenu}')` }}>
       <div className="logo-container">
         {/* <a href="#">
           logo
@@ -18,13 +19,13 @@ export default function Menu() {
           <li className="mb-4">
             <a href="/">Início</a>
           </li>
-          <li className="mb-4">
+          <li className="mb-8">
             <a href="/quemsomos">Quem somos</a>
           </li>
-          <li className="mb-4">
+          <li className="mb-8">
             <a href="/energia">Nossa energia</a>
           </li>
-          <li className="mb-4">
+          <li className="mb-8">
             <a href="/impacto">Nosso impacto</a>
           </li>
           {/* <li className="mb-10">
@@ -33,33 +34,32 @@ export default function Menu() {
           <li className="mb-10">
             <a href="/investidores">Investidores</a>
           </li> */}
-          <li className="mb-4">
+          <li className="mb-8">
             <a href="/contato">Contato</a>
           </li>
         </ul>
         <div className="grid grid-cols-2 self-end justify-self-end text-white">
-          <ul className="info-end font-sans text-base font-normal">
-            <li>
-              <p>Rua Jardim Botânico 518, 5º andar</p>
+          <ul className="info-end font-sans text-base font-normal text-left">
+            <li className="mb-5">
+              Rua Jardim Botânico 518, 5º andar
+            </li>
+            <li className="mb-5">
+              Jardim Botânico
             </li>
             <li>
-              <p>Jardim Botânico</p>
-            </li>
-            <li>
-              <p>Rio de Janeiro, RJ – Brasil</p>
+              Rio de Janeiro, RJ – Brasil
             </li>
           </ul>
           <ul className="info-tel-email font-sans text-base font-bold ml-8 flex justify-end">
-            <li>
-              <p>+55 21 3733-2975</p>
-              <p>contato@rioenergy.com.br</p>
+            <li className="mb-5">
+              +55 21 3733-2975
             </li>
           </ul>
         </div>
       </nav>
-      <ul className="info-sociais text-white flex justify-end text-lg font-serif font-bold">
+      <ul className="info-sociais text-white flex justify-end text-lg font-serif font-bold mt-14">
         <li className=""><a href="https://www.linkedin.com/company/rio-energy/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-        <li className="ml-4"><a href="https://www.facebook.com/rioenergyoficial" target="_blank" rel="noreferrer">Facebook</a></li>
+        <li className="ml-9"><a href="https://www.facebook.com/rioenergyoficial" target="_blank" rel="noreferrer">Facebook</a></li>
       </ul>
 
     </div>

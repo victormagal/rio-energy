@@ -2,7 +2,7 @@ import React from 'react'
 
 // import Header from '../Shared/Header'
 import SmallNumbersInfo from '../Shared/SmallNumbersInfo'
-// import ClientsPartners from '../Shared/ClientsPartners'
+import ClientsPartners from '../Shared/ClientsPartners'
 import Footer from '../Shared/Footer'
 import Header from '../Shared/Header'
 import CardList from './list'
@@ -10,37 +10,42 @@ import imageCardFive from '../../assets/images/ilustracao_5.png'
 import imageCardSix from '../../assets/images/ilustracao_6.png'
 import imageCardSeven from '../../assets/images/ilustracao_7.png'
 import imageCardEight from '../../assets/images/ilustracao_8.png'
+import imageCardNine from '../../assets/images/ilustracao_9.png'
 
-// import logo_1 from '../../assets/images/logo_1.png'
-// import logo_2 from '../../assets/images/logo_2.png'
-// import logo_3 from '../../assets/images/logo_3.png'
-// import logo_4 from '../../assets/images/logo_4.png'
-// import logo_5 from '../../assets/images/logo_5.png'
-// import logo_6 from '../../assets/images/logo_6.png'
-// import logo_7 from '../../assets/images/logo_7.png'
-// import logo_8 from '../../assets/images/logo_8.png'
-// import logo_9 from '../../assets/images/logo_9.png'
-// import logo_10 from '../../assets/images/logo_10.png'
+import logo_1 from '../../assets/images/logo_1.png'
+import logo_2 from '../../assets/images/logo_2.png'
+import logo_3 from '../../assets/images/logo_3.png'
+import logo_4 from '../../assets/images/logo_4.png'
+import logo_5 from '../../assets/images/logo_5.png'
+import logo_6 from '../../assets/images/logo_6.png'
+import logo_7 from '../../assets/images/logo_7.png'
+import logo_8 from '../../assets/images/logo_8.png'
+import logo_9 from '../../assets/images/logo_9.png'
+import logo_10 from '../../assets/images/logo_10.png'
 
-// const imgs = [logo_1, logo_2, logo_3, logo_4, logo_5, logo_6, logo_7, logo_8, logo_9, logo_10];
+const imgs = [logo_1, logo_2, logo_3, logo_4, logo_5, logo_6, logo_7, logo_8, logo_9, logo_10];
 
 const cards = [
   {
     img: imageCardFive,
-    description: 'Geração de energia renovável, proveniente de recursos naturais.',
+    description: 'Geração de energia renovável, proveniente de recursos naturais',
   },
   {
     img: imageCardSix,
-    description: 'Eficiência do seu negócio na gestão financeira da compra de energia.',
+    description: 'Eficiência do seu negócio na gestão financeira da compra de energia',
   },
   {
     img: imageCardSeven,
     title: 'Fazemos com responsabilidade social, econômica e ambiental',
-    description: 'Valor agregado de ESG à sua matriz, alinhado com práticas internacionais.',
+    description: 'Valor agregado de ESG à sua matriz, alinhado com práticas internacionais',
   },
   {
     img: imageCardEight,
-    description: 'Portfólio de projetos que aproveitam recursos do território brasileiro.',
+    description: 'Portfólio de projetos que aproveitam recursos do território brasileiro',
+  },
+  {
+    img: imageCardNine,
+    description: 'Soluções customizadas de energia eólica para consumidores no mercado livre, principalmente para contratos de longo prazo',
   },
 ]
 
@@ -101,8 +106,8 @@ export default function Energia() {
           </svg>
 
         </div>
-        <div className="-mt-80 absolute left-8 z-10">
-          <h2 className="text-blue-sky-night text-3xl font-serif pb-10">Tornamos sua<br/> operação mais limpa</h2>
+        <div className="-mt-80 relative left-16 z-10">
+          <h2 className="text-blue-sky-night text-4xl font-serif pb-10">Tornamos sua<br/> operação mais limpa</h2>
           <CardList data={cards} />
         </div>
       </div>
@@ -179,7 +184,7 @@ export default function Energia() {
           </div>
         </div>
       </div>
-      {/* <ClientsPartners imgs={imgs} /> */}
+      <ClientsPartners imgs={imgs} />
       <Footer />
     </>
   )
