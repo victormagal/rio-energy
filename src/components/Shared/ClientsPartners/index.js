@@ -10,9 +10,9 @@ export default function ClientsPartners({ imgs, title = 'Same Energy, nossos cli
         <Scroll className="py-24">
           <div className="flex flex-row">
             {imgs.map((value, i) => (
-              <div className="pr-10">
+              <div className="ml-20">
                 <div
-                  className="cover bg-no-repeat w-32 h-32"
+                  className="bg-no-repeat bg-center w-60 h-32"
                   style={{ backgroundImage: `url(${value})` }}
                 />
               </div>
