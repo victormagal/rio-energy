@@ -1,6 +1,8 @@
-export function Card({ img, description }) {
+import Scroll from '../Shared/Scroll';
+
+function Card({ img, description }) {
   return (
-    <div style={{ height: '300px' }} className="w-1/5 bg-white text-blue-sky-night mr-5 rounded-3xl flex flex-col items-center">
+    <div style={{ height: '300px' }} className="w-52 bg-white text-blue-sky-night mr-5 rounded-3xl flex flex-col items-center">
       <div>
         <img src={img} alt="" width="150" />
       </div>
@@ -13,10 +15,12 @@ export function Card({ img, description }) {
 
 export default function CardList({ data }) {
   return (
-    <div className="flex flex-row">
-      {data.map((value, key) => (
-        <Card {...value} key={key} />
-      ))}
-    </div>
+    <Scroll>
+      <div className="flex flex-row">
+        {data.map((value, key) => (
+          <Card {...value} key={key} />
+        ))}
+      </div>
+    </Scroll>
   )
 }

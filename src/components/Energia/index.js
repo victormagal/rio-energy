@@ -101,7 +101,7 @@ export default function Energia() {
           </svg>
 
         </div>
-        <div className="-mt-80 absolute left-8 z-10">
+        <div className="-mt-80 relative left-8 z-10">
           <h2 className="text-blue-sky-night text-3xl font-serif pb-10">Tornamos sua<br/> operação mais limpa</h2>
           <CardList data={cards} />
         </div>
