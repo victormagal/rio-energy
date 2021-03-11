@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Header
         className='bg-green-power'
-        colorLogo='white'
+        colorLogo='#191B87'
         image='bg_header_home.png'
       >
         <h2 className="text-blue-sky-night pt-24 pl-16 text-7xl font-serif font-bold">Rio Energy. <br />Por um futuro <br /> mais limpo</h2>
@@ -59,7 +59,7 @@ export default function Home() {
 
         </div>
         <div className="card object-cover bg-no-repeat bg-center w-full h-full mx-auto text-white font-sans text-center bg-cover" style={{ backgroundImage: `url('${impacto}')` }} >
-          <div className="z-40 w-full h-full px-24 py-32 relative">
+          <div className="z-40 w-full h-full px-16 py-32 relative">
             <h3 className="p-5 pb-0 font-serif font-bold text-7xl">Nosso impacto</h3>
             <p className="font-sans font-semibold block text-xl px-28 mb-8"> Saiba como podemos construir o futuro que queremos</p>
             <Button href="/impacto" color="blue-sky-night" colorSvg='green-light' newClasses={['text-xl', 'text-center', 'mt-3', 'font-semibold']}>Saiba mais</Button>

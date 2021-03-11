@@ -27,9 +27,9 @@ export default function Header({ image, className, children, colorLogo }) {
               <SvgLogo
                 withText={true}
                 color={colorLogo}
-                width={120}
-                height={120}
-                viewBox="0 0 500 500"
+                width={177}
+                height={68}
+                viewBox="-10 200 520 100"
                 className="inline-block fill-current relative z-50"
               />
             </Link>
