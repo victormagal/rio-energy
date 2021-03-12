@@ -98,18 +98,14 @@ export default function QuemSomos() {
         colorLogo='#191B87'
         image='bg_header_quemsomos.png'
       >
-        <div className="xl:container grid grid-cols-12 gap-4">
-          <div className="col-start-2 col-span-8">
-            <h2 className="text-green-power text-7xl font-serif font-bold">Desde 2012<br />construindo um futuro<br />mais limpo</h2>
-          </div>
+        <div className="col-start-2 col-span-8">
+          <h2 className="text-green-power text-7xl font-serif font-bold">Desde 2012<br />construindo um futuro<br />mais limpo</h2>
         </div>
-        <div className="xl:container grid grid-cols-12 gap-4">
-          <div className="col-start-6 col-span-7 text-blue-sky-night text-xl font-sans font-normal -mt-12">
-            <p>Chegamos no mercado comprometidos com um futuro mais sustentável para todos, trabalhando com desenvolvimento, construção, venda de energia e operação de projetos de energia renovável.</p>
-            <p className="mt-4">Atualmente, contamos com cerca de 1GW em projetos em implantação ou em operação comercial na Bahia e no Ceará, totalizando mais de R$ 3,2 bi investidos em ativos no país.</p>
-            <p className="mt-4">Vamos em frente, sendo uma das primeiras empresas brasileiras a emitir Green Bonds e assinar o Pacto Global, reforçando nosso jogo limpo com o futuro nos mais altos padrões de qualidade.</p>
-            <Button href="/impacto" color="green-light" newClasses={['text-blue-sky-night', 'mt-4', 'font-semibold']}>Ver Nosso Impacto</Button>
-          </div>
+        <div className="col-start-6 col-span-7 text-blue-sky-night text-xl font-sans font-normal -mt-16">
+          <p>Chegamos no mercado comprometidos com um futuro mais sustentável para todos, trabalhando com desenvolvimento, construção, venda de energia e operação de projetos de energia renovável.</p>
+          <p className="mt-4">Atualmente, contamos com cerca de 1GW em projetos em implantação ou em operação comercial na Bahia e no Ceará, totalizando mais de R$ 3,2 bi investidos em ativos no país.</p>
+          <p className="mt-4">Vamos em frente, sendo uma das primeiras empresas brasileiras a emitir Green Bonds e assinar o Pacto Global, reforçando nosso jogo limpo com o futuro nos mais altos padrões de qualidade.</p>
+          <Button href="/impacto" color="green-light" newClasses={['text-blue-sky-night', 'mt-4', 'font-semibold']}>Ver Nosso Impacto</Button>
         </div>
       </Header>
       
