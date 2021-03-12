@@ -112,27 +112,32 @@ export default function Energia() {
         </div>
       </div>
 
-      <div className="xl:container mx-auto pt-40">
-        <div className="grid grid-cols-1 gap-4 md:mx-64 md:my-12 justify-items-stretch">
-          <div className="justify-self-center md:justify-self-start">
-          <h2 className="text-green-power font-serif text-8xl">Nossa energia<br />em números</h2>
-
+      <div className="xl:container mx-auto pt-80 pb-40">
+        <div className="grid grid-cols-12 gap-4">
+          <div className="col-start-2 col-span-6">
+            <h2 className="text-green-power font-serif font-bold text-8xl">Nossa energia<br />em números</h2>
           </div>
-          <div className="justify-self-center md:justify-self-end">
+        </div>
+        <div className="grid grid-cols-12 gap-4 -mt-36 text-right">
+          <div className="col-start-7 col-span-6">
             <SmallNumbersInfo
               type="h1"
               value="1GW"
               desc="de projetos em operação e implantação"
             />
           </div>
-          <div className="justify-self-center md:justify-self-end" >
+        </div>
+        <div className="grid grid-cols-12 gap-4 text-right -mt-12">
+          <div className="col-start-6 col-span-7">
             <SmallNumbersInfo
               type="h1"
               value="1.5GW"
               desc="de projetos em desenvolvimento"
             />
           </div>
-          <div className="justify-self-center md:justify-self-start" >
+        </div>
+        <div className="grid grid-cols-12 gap-4 -mt-60">
+          <div className="col-start-2 col-span-4">
             <SmallNumbersInfo
               dollar='+'
               value='3,1'
@@ -140,7 +145,9 @@ export default function Energia() {
               desc='de investimentos em ativos no país'
             />
           </div>
-          <div className="justify-self-center md:justify-self-start" >
+        </div>
+        <div className="grid grid-cols-12 gap-4">
+          <div className="col-start-2 col-span-5">
             <SmallNumbersInfo
               dollar='+'
               value='12,5'
@@ -148,7 +155,9 @@ export default function Energia() {
               desc='destinados a programas sociais'
             />
           </div>
-          <div className="justify-self-center md:justify-self-start" >
+        </div>
+        <div className="grid grid-cols-12 gap-4">
+          <div className="col-start-2 col-span-6">
             <SmallNumbersInfo
               dollar='+'
               value='835,2'
@@ -157,29 +166,35 @@ export default function Energia() {
             />
           </div>
         </div>
-
       </div>
-      <div className="xl:container mx-auto">
-        <div className="bg-green-power mb-12" >
-          <div className="xl:container mx-auto py-5 px-10 md:py-10 md:px-20">
-            <h4 className="text-blue-sky-night font-serif pb-8 text-2xl md:w-1/2 md:ml-14 text-center md:text-right md:text-6xl mt-8">Conheça nossos<br /> diferenciais</h4>
-            <div className="grid grid-cols-2 ml-96">
-              <div className="text-base text-green-light border-t-2 border-fuchsia-600 mr-6 mb-16">
-                <h5 className="text-white font-serif text-2xl font-bold mt-3">Soluções que fazem sentido para o cliente</h5>
-                <p className="text-white text-lg font-sans font-normal mt-1">Oferecemos soluções customizadas em energia eólica para grandes consumidores no mercado livre, principalmente para contratos de longo prazo.</p>
-              </div>
-              <div className="text-base text-green-light border-t-2 border-fuchsia-600 mr-6">
-                <h5 className="text-white font-serif text-2xl font-bold mt-3">Expertise em energia renovável</h5>
-                <p className="text-white text-lg font-sans font-normal mt-1">Temos uma experiência sólida no setor e um histórico de desenvolvimento, construção e operação de projetos de energia renovável com altos padrões de qualidade.</p>
-              </div>
-              <div className="text-base text-green-light border-t-2 border-fuchsia-600 mr-6 mb-16">
-                <h5 className="text-white font-serif text-2xl font-bold mt-3">Melhores práticas de ESG</h5>
-                <p className="text-white text-lg font-sans font-normal mt-1">Somos uma empresa signatária do Pacto Global, comprometida com as diretrizes de direitos humanos, trabalho, meio ambiente e anticorrupção.</p>
-              </div>
-              <div className="text-base text-green-light border-t-2 border-fuchsia-600 mr-6">
-                <h5 className="text-white font-serif text-2xl font-bold mt-3">Time de especialistas</h5>
-                <p className="text-white text-lg font-sans font-normal mt-1">Nosso time conta com profissionais reconhecidos no mercado e mais de 12GW de experiência combinada em projetos hidrelétricos, eólicos e solares.</p>
-              </div>
+
+      <div className="w-full mb-20">
+        <div className="xl:container mx-auto bg-green-power grid grid-cols-12 gap-4 py-16">
+          <div className="col-start-2 col-span-6 text-right mb-8">
+            <h4 className="text-blue-sky-night font-serif font-bold text-7xl">Conheça nossos<br /> diferenciais</h4>
+          </div>
+          <div className="col-start-5 col-span-3 mb-12">
+            <div className="text-base text-green-light border-t-2 border-fuchsia-600">
+              <h5 className="text-white font-serif text-2xl font-bold mt-3">Soluções que fazem sentido para o cliente</h5>
+              <p className="text-white text-lg font-sans font-normal mt-1">Oferecemos soluções customizadas em energia eólica para grandes consumidores no mercado livre, principalmente para contratos de longo prazo.</p>
+            </div>
+          </div>
+          <div className="col-span-3 mb-12">
+            <div className="text-base text-green-light border-t-2 border-fuchsia-600">
+              <h5 className="text-white font-serif text-2xl font-bold mt-3">Expertise em energia renovável</h5>
+              <p className="text-white text-lg font-sans font-normal mt-1">Temos uma experiência sólida no setor e um histórico de desenvolvimento, construção e operação de projetos de energia renovável com altos padrões de qualidade.</p>
+            </div>
+          </div>
+          <div className="col-start-5 col-span-3">
+            <div className="text-base text-green-light border-t-2 border-fuchsia-600">
+              <h5 className="text-white font-serif text-2xl font-bold mt-3">Soluções que fazem sentido para o cliente</h5>
+              <p className="text-white text-lg font-sans font-normal mt-1">Oferecemos soluções customizadas em energia eólica para grandes consumidores no mercado livre, principalmente para contratos de longo prazo.</p>
+            </div>
+          </div>
+          <div className="col-span-3">
+            <div className="text-base text-green-light border-t-2 border-fuchsia-600">
+              <h5 className="text-white text-2xl font-serif font-bold mt-3">Expertise em energia renovável</h5>
+              <p className="text-white text-lg font-sans font-normal mt-1">Temos uma experiência sólida no setor e um histórico de desenvolvimento, construção e operação de projetos de energia renovável com altos padrões de qualidade.</p>
             </div>
           </div>
         </div>
