@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import SvgLogo from '../Logo'
 import Menu from './Menu'
 import MenuComponent from '../Menu'
@@ -9,7 +9,24 @@ export default function Header({ image, className, children, colorLogo }) {
 
   const [openMenu, setOpenMenu] = useState(false)
 
+  const [bgLogo, setBgLogo] = useState(colorLogo)
+
   const handleToggleMenu = () => setOpenMenu((previous) => !previous)
+
+  useEffect(() => {
+    openMenu ? setBgLogo('white') : setBgLogo(colorLogo)
+  }, [openMenu])
+
+  const renderCloseMenu = () => {
+    return (
+      <button
+        onClick={handleToggleMenu}
+        className="relative z-50 text-lg text-white font-bold"
+      >
+        X
+      </button>
+    )
+  }
 
   if (image) {
     style.backgroundImage = `url('${image}')`
@@ -22,11 +39,11 @@ export default function Header({ image, className, children, colorLogo }) {
       {openMenu && <MenuComponent />}
       <div style={{ height: '720px', ...style }} className={className || ''}>
         <div className={`cover header grid grid-cols-12 pt-8 xl:container mx-auto gap-4`}>
-          <div className="col-span-11">
+          <div className="col-span-11 relative z-50">
             <Link to="/">
               <SvgLogo
                 withText={true}
-                color={colorLogo}
+                color={bgLogo}
                 width={177}
                 height={68}
                 viewBox="-10 200 520 100"
@@ -35,7 +52,7 @@ export default function Header({ image, className, children, colorLogo }) {
             </Link>
           </div>
           <div className="justify-self-end">
-            <Menu openMenu={handleToggleMenu} />
+            {openMenu ? renderCloseMenu() : <Menu openMenu={handleToggleMenu} /> }
           </div>
         </div>
         <div className="grid grid-cols-12 xl:container mx-auto gap-4">

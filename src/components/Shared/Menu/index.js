@@ -3,7 +3,7 @@ import bgMenu from '../../../assets/images/bg_menu.png';
 
 export default function Menu() {
   return (
-    <div className="h-screen fixed w-screen z-50 bg-green-power bg-center bg-cover px-32 py-32" style={{ backgroundImage: `url('${bgMenu}')` }}>
+    <div className="h-screen w-screen fixed z-50 bg-green-power bg-center bg-cover px-32 py-32" style={{ backgroundImage: `url('${bgMenu}')` }}>
       <div className="logo-container">
         {/* <a href="#">
           logo
