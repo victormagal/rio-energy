@@ -45,7 +45,7 @@ const cards = [
   },
   {
     img: imageCardNine,
-    description: 'Soluções customizadas de energia eólica para consumidores no mercado livre, principalmente para contratos de longo prazo',
+    description: 'Soluções customizadas de energia eólica para consumidores no mercado livre.',
   },
 ]
 
@@ -106,8 +106,8 @@ export default function Energia() {
           </svg>
 
         </div>
-        <div className="-mt-80 relative left-16 z-10">
-          <h2 className="text-blue-sky-night text-4xl font-serif pb-10">Tornamos sua<br/> operação mais limpa</h2>
+        <div className="-mt-80 relative z-10">
+          <h2 className="pl-16 text-blue-sky-night text-4xl font-serif pb-10">Tornamos sua<br/> operação mais limpa</h2>
           <CardList data={cards} />
         </div>
       </div>
