@@ -38,7 +38,7 @@ export default function Header({ image, className, children, colorLogo }) {
     <>
       {openMenu && <MenuComponent />}
       <div style={{ height: '720px', ...style }} className={className || ''}>
-        <div className={`cover header grid grid-cols-12 pt-8 xl:container mx-auto gap-4`}>
+        <div className={`cover header xl:container mx-auto grid grid-cols-12 gap-4 pt-8`}>
           <div className="col-span-11 relative z-50">
             <Link to="/">
               <SvgLogo
@@ -51,7 +51,7 @@ export default function Header({ image, className, children, colorLogo }) {
               />
             </Link>
           </div>
-          <div className="justify-self-end">
+          <div className="col-span-1 flex justify-end py-4">
             {openMenu ? renderCloseMenu() : <Menu openMenu={handleToggleMenu} /> }
           </div>
         </div>
