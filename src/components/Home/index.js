@@ -29,7 +29,7 @@ export default function Home() {
       <Subheader />
       <Player />
 
-      <div className="quem-somos w-full mx-auto ">
+      <div className="quem-somos w-full mx-auto">
         <div className="grid grid-rows-1 md:grid-cols-12" style={{ marginTop: '3.75rem', marginBottom: '3.75rem' }}>
           <div className="image-disclaimer col-span-7 bg-contain bg-no-repeat bg-left" style={{ backgroundImage: `url('${quemsomos}')`, height:`572px` }} >
           </div>
