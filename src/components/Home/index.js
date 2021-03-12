@@ -36,9 +36,6 @@ export default function Home() {
               <h5 className=" text-green-power font-sans font-bold text-sm uppercase">Quem somos</h5>
               <h1  className=" text-blue-sky-night font-serif font-bold text-7xl">A gente respira energia.</h1>
               <p  className="font-sans font-normal text-dark text-lg">Com expertise em projetos renováveis, nosso time é reconhecido pelas entregas de qualidade dentro do orçamento. Somos experientes, engajados, com ampla capacidade de execução e sempre alinhados às melhores práticas ambientais, sociais e de governança.</p>
-              {/* <Button className="h-30 w-60 border-2 rounded-3xl ring-transparent ring-current font-sans border-green-light py-10 block hover:text-white">
-                Saiba mais
-              </Button> */}
               <Button href="/quemsomos" color="green-power" colorSvg='blue-sky-night' newClasses={['text-dark', 'text-center', 'mt-7', 'text-xl']}>Saiba mais</Button>
             </div>
           </div>
