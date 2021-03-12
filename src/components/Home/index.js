@@ -12,6 +12,8 @@ import energia from '../../assets/images/nossa_energia.png'
 import quemsomos from '../../assets/images/bg_quemsomos.png'
 import './style.css'
 
+// import { Link } from 'react-router-dom'
+
 export default function Home() {
   return (
     <>
@@ -37,6 +39,7 @@ export default function Home() {
               <h1  className=" text-blue-sky-night font-serif font-bold text-7xl">A gente respira energia.</h1>
               <p  className="font-sans font-normal text-dark text-lg">Com expertise em projetos renováveis, nosso time é reconhecido pelas entregas de qualidade dentro do orçamento. Somos experientes, engajados, com ampla capacidade de execução e sempre alinhados às melhores práticas ambientais, sociais e de governança.</p>
               <Button href="/quemsomos" color="green-power" colorSvg='blue-sky-night' newClasses={['text-dark', 'text-center', 'mt-7', 'text-xl']}>Saiba mais</Button>
+              {/* <Link to="/quemsomos" className="text-dark text-center mt-7 text-xl"> Saiba mais</Link> */}
             </div>
           </div>
         </div>

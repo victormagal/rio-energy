@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 export default function BtnGroup ({ children, colorSvg = 'green-light', href, onClick, color, newClasses = [], classes, removeClass = [] })  {
   const defaultClasses = [
@@ -27,19 +26,19 @@ export default function BtnGroup ({ children, colorSvg = 'green-light', href, on
     }
   }
 
-  let element = React.createElement('button').type
+  let element = React.createElement('button')
   const props = {
     className: classes.join(' '),
     onClick,
   }
 
   if (href) {
-    props.to = href
-    element = Link
+    props.href = href
+    element = React.createElement('a')
   }
 
   return (
-    <element {...props}>
+    <element.type {...props}>
       {children}
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +49,7 @@ export default function BtnGroup ({ children, colorSvg = 'green-light', href, on
       >
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
       </svg>
-    </element>
+    </element.type>
   );
 };
 
