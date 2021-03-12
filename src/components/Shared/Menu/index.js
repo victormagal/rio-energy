@@ -1,5 +1,6 @@
 import React from 'react'
 import bgMenu from '../../../assets/images/bg_menu.png';
+import { Link } from 'react-router-dom'
 
 export default function Menu() {
   return (
@@ -15,28 +16,14 @@ export default function Menu() {
         </a> */}
       </div>
       <nav className="grid grid-cols-1 md:grid-cols-2 justify-items-center">
-        <ul className=" text-5xl mb-20 text-blue-sky-night font-serif font-bold">
-          <li className="mb-4">
-            <a href="/">Início</a>
-          </li>
-          <li className="mb-8">
-            <a href="/quemsomos">Quem somos</a>
-          </li>
-          <li className="mb-8">
-            <a href="/energia">Nossa energia</a>
-          </li>
-          <li className="mb-8">
-            <a href="/impacto">Nosso impacto</a>
-          </li>
-          {/* <li className="mb-10">
-            <a href="/carreira">Carreira</a>
-          </li>
-          <li className="mb-10">
-            <a href="/investidores">Investidores</a>
-          </li> */}
-          <li className="mb-8">
-            <a href="/contato">Contato</a>
-          </li>
+        <ul className="text-5xl mb-20 text-blue-sky-night font-serif font-bold">
+          <Link to="/" className="block mb-8">Início</Link>
+          <Link to="/quemsomos" className="block mb-8">Quem somos</Link>
+          <Link to="/energia" className="block mb-8">Nossa energia</Link>
+          <Link to="/impacto" className="block mb-8">Nosso impacto</Link>
+          {/* <Link to="/carreira" className="mb-4">Carreira</Link>
+          <Link to="/investidores" className="mb-4">Investidores</Link> */}
+          <Link to="/contato" className="block">Contato</Link>
         </ul>
         <div className="grid grid-cols-2 self-end justify-self-end text-white">
           <ul className="info-end font-sans text-base font-normal text-left">

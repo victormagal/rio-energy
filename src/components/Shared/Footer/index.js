@@ -35,7 +35,7 @@ export default function Footer() {
           </ul>
           <ul className="col-span-10 font-serif font-bold text-sm text-right">
             <Link to="/" className="mr-7 inline-block align-middle">Início</Link>
-            <Link to="/quemsomos" className="mr-7 inline-block align-middle"><a href="http://">Quem somos</a></Link>
+            <Link to="/quemsomos" className="mr-7 inline-block align-middle">Quem somos</Link>
             <Link to="/energia" className="mr-7 inline-block align-middle">Nossa energia</Link>
             <Link to="/impacto" className="mr-7">Nosso impacto</Link>
             {/* <Link to="/carreira" className="mr-7 inline-block align-middle">Carreira</Link>
