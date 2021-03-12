@@ -17,6 +17,17 @@ export default function Header({ image, className, children, colorLogo }) {
     openMenu ? setBgLogo('white') : setBgLogo(colorLogo)
   }, [openMenu])
 
+  const renderCloseMenu = () => {
+    return (
+      <button
+        onClick={handleToggleMenu}
+        className="relative z-50 text-lg text-white font-bold"
+      >
+        X
+      </button>
+    )
+  }
+
   if (image) {
     style.backgroundImage = `url('${image}')`
     style.backgroundPosition = 'center center'
@@ -41,7 +52,7 @@ export default function Header({ image, className, children, colorLogo }) {
             </Link>
           </div>
           <div className="justify-self-end">
-            <Menu openMenu={handleToggleMenu} />
+            {openMenu ? renderCloseMenu() : <Menu openMenu={handleToggleMenu} /> }
           </div>
         </div>
         <div className="grid grid-cols-12 xl:container mx-auto gap-4">
