@@ -57,7 +57,7 @@ export default function Energia() {
         colorLogo="#00D35C"
         image='bg_header_energia.png'
       >
-        <div className=" w-3/4 md:ml-24 md:mt-12">
+        <div className="col-start-2 col-span-7 mt-16">
           <h2 className="text-white font-serif font-bold text-7xl ">Energia limpa, futuro sustentável</h2>
           <p className="text-white font-sans font-normal text-xl w-1/2 mt-6">
             Uma empresa de energia renovável preparada para levar altos padrões de qualidade e responsabilidade socioambiental ao entorno dos nossos projetos.

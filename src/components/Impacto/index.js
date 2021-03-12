@@ -16,9 +16,11 @@ export default function Home() {
     <>
       <Header
         colorLogo="#191B87"
-        image='bg_header_impacto.jpg'
+        image='bg_header_impacto.png'
       >
-        <h2 className="text-white font-serif font-bold text-7xl text-center pt-96">Energia para um futuro sustentável</h2>
+        <div className="col-span-12 text-center pt-32">
+          <h2 className="text-white font-serif font-bold text-7xl text-center pt-96">Energia para um futuro sustentável</h2>
+        </div>
       </Header>
       <main className="w-full relative ">
         <div className="relative grid bg-green-power">

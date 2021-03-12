@@ -34,13 +34,13 @@ export default function Footer() {
             </li>
           </ul>
           <ul className="col-span-10 font-serif font-bold text-sm text-right">
-            <Link to="/" className="mr-7">Início</Link>
-            <Link to="/quemsomos" className="mr-7"><a href="http://">Quem somos</a></Link>
-            <Link to="/energia" className="mr-7">Nossa energia</Link>
+            <Link to="/" className="mr-7 inline-block align-middle">Início</Link>
+            <Link to="/quemsomos" className="mr-7 inline-block align-middle"><a href="http://">Quem somos</a></Link>
+            <Link to="/energia" className="mr-7 inline-block align-middle">Nossa energia</Link>
             <Link to="/impacto" className="mr-7">Nosso impacto</Link>
-            {/* <Link to="/carreira" className="mr-7">Carreira</Link>
-            <Link to="/investidores" className="mr-7">Investidores</Link> */}
-            <Link to="/contato">Contato</Link>
+            {/* <Link to="/carreira" className="mr-7 inline-block align-middle">Carreira</Link>
+            <Link to="/investidores" className="mr-7 inline-block align-middle">Investidores</Link> */}
+            <Link to="/contato" className="inline-block align-middle">Contato</Link>
           </ul>
         </nav>
 
