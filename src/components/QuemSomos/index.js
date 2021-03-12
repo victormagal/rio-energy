@@ -98,27 +98,35 @@ export default function QuemSomos() {
         colorLogo='#191B87'
         image='bg_header_quemsomos.png'
       >
-        <div className="pl-16 mx-auto">
-          <h2 className="text-green-power text-7xl font-serif font-bold">Desde 2012<br />construindo um futuro<br />mais limpo</h2>
-          <p className="text-blue-sky-night text-xl ml-96 font-sans font-normal">Chegamos no mercado comprometidos com um futuro mais sustentável para todos, trabalhando com desenvolvimento, construção, venda de energia e operação de projetos de energia renovável.</p>
-          <p className="text-blue-sky-night text-xl ml-96 font-sans font-normal mt-4">Atualmente, contamos com cerca de 1GW em projetos em implantação ou em operação comercial na Bahia e no Ceará, totalizando mais de R$ 3,2 bi investidos em ativos no país.</p>
-          <p className="text-blue-sky-night text-xl ml-96 font-sans font-normal mt-4">Vamos em frente, sendo uma das primeiras empresas brasileiras a emitir Green Bonds e assinar o Pacto Global, reforçando nosso jogo limpo com o futuro nos mais altos padrões de qualidade.</p>
-          <Button href="/impacto" color="green-light" newClasses={['text-blue-sky-night', 'mt-5', 'ml-96', 'text-xl']}>Ver Nosso Impacto</Button>
-        </div>
-      </Header>
-      <div className="relative mt-8">
-        <div className="bg-green-power">
-          <div className="xl:container pt-16 pb-24">
-            <div className="w-3/4 mx-auto mt-40" style={{ backgroundImage: `url('${circuloFogo}')`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 30px top', height: 430 }}>
-              <h2 className="text-white text-4xl font-serif font-bold ml-56 mr-40 pt-40">Incansáveis na entrega de excelência, com energia para inovar e ir além.</h2>
-            </div>
-            {/* <img src={circuloFogo} alt="logo" className="mx-auto" /> */}
+        <div className="xl:container grid grid-cols-12 gap-4">
+          <div className="col-start-2 col-span-8">
+            <h2 className="text-green-power text-7xl font-serif font-bold">Desde 2012<br />construindo um futuro<br />mais limpo</h2>
           </div>
         </div>
-        <div className="w-full bg-gradient-to-b from-green-power to-transparent absolute">
-          <div className="xl:container mx-auto py-5 md:py-10 md:px-80 " >
-
-            <div className="text-white font-serif">
+        <div className="xl:container grid grid-cols-12 gap-4">
+          <div className="col-start-6 col-span-7 text-blue-sky-night text-xl font-sans font-normal -mt-12">
+            <p>Chegamos no mercado comprometidos com um futuro mais sustentável para todos, trabalhando com desenvolvimento, construção, venda de energia e operação de projetos de energia renovável.</p>
+            <p className="mt-4">Atualmente, contamos com cerca de 1GW em projetos em implantação ou em operação comercial na Bahia e no Ceará, totalizando mais de R$ 3,2 bi investidos em ativos no país.</p>
+            <p className="mt-4">Vamos em frente, sendo uma das primeiras empresas brasileiras a emitir Green Bonds e assinar o Pacto Global, reforçando nosso jogo limpo com o futuro nos mais altos padrões de qualidade.</p>
+            <Button href="/impacto" color="green-light" newClasses={['text-blue-sky-night', 'mt-4', 'font-semibold']}>Ver Nosso Impacto</Button>
+          </div>
+        </div>
+      </Header>
+      
+      <div className="bg-green-power pt-96">
+        <div className="xl:container mx-auto grid grid-cols-12 gap-4">
+          <div className="col-start-3 col-span-7">
+            <h2 className="text-white text-4xl font-serif font-bold">Incansáveis na entrega de excelência,<br />com energia para inovar e ir além.</h2>
+          </div>
+        </div>
+        <div className="xl:container mx-auto grid grid-cols-12 gap-4 -mt-60 mb-40">
+          <div className="mx-auto col-start-6 col-span-5">
+            <img src={circuloFogo} alt="logo" />
+          </div>
+        </div>
+        <div className="bg-gradient-to-b from-green-power to-transparent absolute w-full">
+          <div className="xl:container mx-auto grid grid-cols-12 gap-4 relative z-10">
+            <div className="col-start-4 col-span-6 text-white font-serif">
               <p className="font-sans text-xl font-semibold text-center">Apaixonados pelo que fazemos, entendemos o tamanho da<br /> responsabilidade. Por isso somos comprometidos e transparentes,<br /> sempre buscando gerar valor para todos à nossa volta.</p>
               <p className="font-sans text-xl text-center font-semibold mt-4 pb-5">Desenvolvemos soluções em conjunto, instigando todos a pensarem além<br /> e fora da caixa. Prezamos pelos altos padrões de eficiência e estamos<br /> atentos ao mercado para desenvolver novas e melhores soluções.</p>
               <div className="text-center">
@@ -138,20 +146,18 @@ export default function QuemSomos() {
       </div>
 
       <h2 className="title text-4xl font-serif font-bold pt-24 pb-12 text-blue-sky-night text-center">Nossos líderes em energia</h2>
-
       <div className="ml-20">
         <ListImageProfile list={profileImages} />
       </div>
 
-      <div className="pt-24 pb-24 grid grid-cols-2">
-        <div className="mx-auto">
-          <h2 className="text-blue-sky-night font-serif font-bold text-7xl w-64">Jeito <span className="text-green-power">Rio Energy</span> de ser</h2>
+      <div className="lg:container mx-auto grid grid-cols-12 mt-24 mb-14">
+        <div className="col-start-2 col-span-4">
+          <h2 className="text-blue-sky-night font-serif font-bold text-7xl">Jeito <span className="text-green-power">Rio<br />Energy</span> de<br />ser</h2>
         </div>
-        <div className="pl-10">
+        <div className="col-span-7">
           <CardList data={cards} />
         </div>
       </div>
-
       {/* <ClientsPartners imgs={imgs} /> */}
       <Footer />
     </>
