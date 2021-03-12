@@ -20,9 +20,9 @@ export default function Header({ image, className, children, colorLogo }) {
   return (
     <>
       {openMenu && <MenuComponent />}
-      <div style={{ height: '653px', ...style }} className={`cover header ${className || ''}`}>
-        <div className="md:container mx-auto md:pl-10 h-48 min-h-full">
-          <div className="relative">
+      <div style={{ height: '720px', ...style }} className={className || ''}>
+        <div className={`cover header grid grid-cols-12 pt-8 xl:container mx-auto gap-4`}>
+          <div className="col-span-11">
             <Link to="/">
               <SvgLogo
                 withText={true}
@@ -30,17 +30,18 @@ export default function Header({ image, className, children, colorLogo }) {
                 width={177}
                 height={68}
                 viewBox="-10 200 520 100"
-                className="inline-block fill-current relative z-50"
+                className="inline-block fill-current"
               />
             </Link>
+          </div>
+          <div className="justify-self-end">
             <Menu openMenu={handleToggleMenu} />
           </div>
-          <div>
-            {children}
-          </div>
+        </div>
+        <div className="grid grid-cols-12 xl:container mx-auto gap-4">
+          {children}
         </div>
       </div>
-
     </>
   )
 }

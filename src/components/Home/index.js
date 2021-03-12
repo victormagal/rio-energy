@@ -20,7 +20,9 @@ export default function Home() {
         colorLogo='#191B87'
         image='bg_header_home.png'
       >
-        <h2 className="text-blue-sky-night pt-24 pl-16 text-7xl font-serif font-bold">Rio Energy. <br />Por um futuro <br /> mais limpo</h2>
+        <div className="col-start-2 col-span-5 pt-24">
+          <h2 className="text-blue-sky-night text-7xl font-serif font-bold">Rio Energy.<br />Por um futuro <br /> mais limpo</h2>
+        </div>
       </Header>
       <Subheader />
       <Player />
