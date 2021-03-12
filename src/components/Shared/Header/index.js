@@ -15,7 +15,7 @@ export default function Header({ image, className, children, colorLogo }) {
 
   useEffect(() => {
     openMenu ? setBgLogo('white') : setBgLogo(colorLogo)
-  }, [openMenu])
+  }, [openMenu, colorLogo])
 
   const renderCloseMenu = () => {
     return (
